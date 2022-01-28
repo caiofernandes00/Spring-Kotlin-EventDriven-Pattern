@@ -1,4 +1,4 @@
-package com.example.eventdriven.domain.config.data
+package com.example.eventdriven.application.infrastructure.config.data
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.context.properties.ConstructorBinding

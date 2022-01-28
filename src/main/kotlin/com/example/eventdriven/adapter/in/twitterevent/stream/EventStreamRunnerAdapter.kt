@@ -1,8 +1,7 @@
 package com.example.eventdriven.adapter.`in`.twitterevent.stream
 
 import com.example.eventdriven.adapter.`in`.twitterevent.listener.TwitterEventStatusListener
-import com.example.eventdriven.domain.port.out.EventStreamRunnerOut
-import com.example.eventdriven.domain.config.data.TwitterEventData
+import com.example.eventdriven.application.infrastructure.config.data.TwitterEventData
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
 import org.springframework.stereotype.Service
@@ -20,14 +19,14 @@ import twitter4j.TwitterStreamFactory
 class EventStreamRunnerAdapter(
     private val twitterEventStatusListener: TwitterEventStatusListener,
     private val twitterEventData: TwitterEventData,
-) : EventStreamRunnerOut {
+) {
 
     private var logger =
         LoggerFactory.getLogger(EventStreamRunnerAdapter::class.java)
     private lateinit var twitterStream: TwitterStream
 
     @Throws(TwitterException::class)
-    override fun start() {
+    fun start() {
         twitterStream = TwitterStreamFactory().instance
         twitterStream.addListener(twitterEventStatusListener)
         addFilter()

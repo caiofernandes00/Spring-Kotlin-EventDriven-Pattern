@@ -1,12 +1,11 @@
-package com.example.eventdriven.application.config
+package com.example.eventdriven.application.infrastructure.config
 
-import com.example.eventdriven.domain.config.data.RetryConfigData
+import com.example.eventdriven.application.infrastructure.config.data.RetryConfigData
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.retry.backoff.ExponentialBackOffPolicy
 import org.springframework.retry.policy.SimpleRetryPolicy
 import org.springframework.retry.support.RetryTemplate
-
 
 @Configuration
 class RetryConfig {

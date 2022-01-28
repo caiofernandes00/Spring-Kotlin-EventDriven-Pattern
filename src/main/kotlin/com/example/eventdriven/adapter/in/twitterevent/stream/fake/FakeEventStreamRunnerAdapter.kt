@@ -1,9 +1,8 @@
 package com.example.eventdriven.adapter.`in`.twitterevent.stream.fake
 
 import com.example.eventdriven.adapter.`in`.twitterevent.listener.TwitterEventStatusListener
-import com.example.eventdriven.domain.config.data.TwitterEventData
-import com.example.eventdriven.domain.exception.TwitterEventException
-import com.example.eventdriven.domain.port.out.EventStreamRunnerOut
+import com.example.eventdriven.application.infrastructure.config.data.TwitterEventData
+import com.example.eventdriven.application.exception.TwitterEventException
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
 import org.springframework.stereotype.Service

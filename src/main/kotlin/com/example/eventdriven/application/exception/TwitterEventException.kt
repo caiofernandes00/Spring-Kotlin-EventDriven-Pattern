@@ -1,4 +1,4 @@
-package com.example.eventdriven.domain.exception
+package com.example.eventdriven.application.exception
 
 class TwitterEventException : RuntimeException {
     constructor(): super()
