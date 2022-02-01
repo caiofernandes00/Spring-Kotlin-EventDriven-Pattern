@@ -6,7 +6,7 @@ twitter-event-config:
     - Kafka
     - Elasticsearch
   welcome-message: Hello
-  enable-mock-tweets: true
+  enable-mock-tweets: false
   mock-min-tweet-length: 5
   mock-max-tweet-length: 6
   mock-sleep-ms: 10000

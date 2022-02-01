@@ -8,12 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class EventdrivenApplication(
+class EventDrivenApplication(
     private val twitterEventData: TwitterEventData,
     private val eventStreamRunnerAdapter: EventStreamRunnerAdapter,
 ) : CommandLineRunner {
 
-    private var logger = LoggerFactory.getLogger(EventdrivenApplication::class.java)
+    private var logger = LoggerFactory.getLogger(EventDrivenApplication::class.java)
 
     override fun run(vararg args: String?) {
         logger.info("App starts...")
@@ -24,5 +24,5 @@ class EventdrivenApplication(
 }
 
 fun main(args: Array<String>) {
-    runApplication<EventdrivenApplication>(*args)
+    runApplication<EventDrivenApplication>(*args)
 }
