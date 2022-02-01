@@ -12,5 +12,5 @@ data class KafkaConfigData(
     val topicName: String,
     val topicNameToCreate: List<String>,
     val numOfPartitions: Int,
-    val replicationFactor: Int,
+    val replicationFactor: Short,
 )

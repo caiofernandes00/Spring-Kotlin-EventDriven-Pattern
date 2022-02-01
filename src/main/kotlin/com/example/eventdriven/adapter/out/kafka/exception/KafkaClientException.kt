@@ -1,9 +1,10 @@
-package com.example.eventdriven.application.exception
+package com.example.eventdriven.adapter.out.kafka.exception
 
-class TwitterEventException : RuntimeException {
+class KafkaClientException : RuntimeException {
     constructor(): super()
 
     constructor(message: String): super(message)
 
     constructor(message: String, cause: Throwable): super(message, cause)
+
 }

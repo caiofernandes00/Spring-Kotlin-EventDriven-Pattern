@@ -20,7 +20,7 @@ import java.util.concurrent.ThreadLocalRandom
 class FakeEventStreamRunnerAdapter(
     private val twitterEventStatusListener: TwitterEventStatusListener,
     private val twitterEventData: TwitterEventData
-) : EventStreamRunnerOut {
+)  {
 
 
     private val logger = LoggerFactory.getLogger(FakeEventStreamRunnerAdapter::class.java)
@@ -44,7 +44,7 @@ class FakeEventStreamRunnerAdapter(
 
 
     @Throws(TwitterException::class)
-    override fun start() {
+    fun start() {
         val keywords = arrayOf(twitterEventData.twitterKeywords.toString())
         val minTweetsLength = twitterEventData.mockMinTweetLength
         val maxTweetsLength = twitterEventData.mockMaxTweetLength
