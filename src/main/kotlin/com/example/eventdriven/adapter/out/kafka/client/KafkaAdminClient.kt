@@ -8,9 +8,12 @@ import org.apache.kafka.clients.admin.CreateTopicsResult
 import org.apache.kafka.clients.admin.NewTopic
 import org.apache.kafka.clients.admin.TopicListing
 import org.slf4j.LoggerFactory
+import org.springframework.http.HttpMethod
+import org.springframework.http.HttpStatus
 import org.springframework.retry.RetryContext
 import org.springframework.retry.support.RetryTemplate
 import org.springframework.stereotype.Component
+import org.springframework.web.reactive.function.client.WebClient
 import java.util.concurrent.ExecutionException
 
 
@@ -19,7 +22,8 @@ class KafkaAdminClient(
     private val kafkaConfigData: KafkaConfigData,
     private val retryConfigData: RetryConfigData,
     private val adminClient: AdminClient,
-    private val retryTemplate: RetryTemplate
+    private val retryTemplate: RetryTemplate,
+    private val webClient: WebClient
 ) {
 
     private val logger = LoggerFactory.getLogger(KafkaAdminClient::class.java)
@@ -36,18 +40,33 @@ class KafkaAdminClient(
         checkTopicsCreated()
     }
 
-    private fun doCreateTopics(retryContext: RetryContext): CreateTopicsResult {
-        val topicNames = kafkaConfigData.topicNameToCreate
-        logger.info("Creating ${topicNames.size} topic(s), attempt #${retryContext.retryCount}")
-        val kafkaTopics = topicNames.map { topic ->
-            NewTopic(
-                topic.trim { it <= ' ' },
-                kafkaConfigData.numOfPartitions,
-                kafkaConfigData.replicationFactor
-            )
-        }
+    fun checkTopicsCreated() {
+        var topics = getTopics()
+        var retryCount = 1
+        val maxRetry = retryConfigData.maxAttempts
+        val multiplier = retryConfigData.multiplier
+        var sleepTimeMs = retryConfigData.sleepTimeMs
 
-        return adminClient.createTopics(kafkaTopics)
+        for (topic in kafkaConfigData.topicNameToCreate) {
+            while (!isTopicCreated(topics, topic)) {
+                checkMaxRetry(retryCount++, maxRetry)
+                sleep(sleepTimeMs)
+                sleepTimeMs *= multiplier.toLong()
+                topics = getTopics()
+            }
+        }
+    }
+
+    fun checkSchemaRegistry() {
+        var retryCount = 1
+        val maxRetry = retryConfigData.maxAttempts
+        val multiplier = retryConfigData.multiplier
+        var sleepTimeMs = retryConfigData.sleepTimeMs
+        while (!getSchemaRegistryStatus().is2xxSuccessful) {
+            checkMaxRetry(retryCount++, maxRetry)
+            sleep(sleepTimeMs)
+            sleepTimeMs *= multiplier.toLong()
+        }
     }
 
     private fun getTopics(): Collection<TopicListing> {
@@ -67,22 +86,18 @@ class KafkaAdminClient(
         return topics
     }
 
-    private fun checkTopicsCreated() {
-        var topics = getTopics()
-        var retryCount = 1
-        val maxRetry = retryConfigData.maxAttempts
-        val multiplier = retryConfigData.multiplier
-        var sleepTimeMs = retryConfigData.sleepTimeMs
-
-        for (topic in kafkaConfigData.topicNameToCreate) {
-            while (!isTopicCreated(topics, topic)) {
-                checkMaxRetry(retryCount++, maxRetry)
-                sleep(sleepTimeMs)
-                sleepTimeMs *= multiplier.toLong()
-                topics = getTopics()
-            }
+    private fun doCreateTopics(retryContext: RetryContext): CreateTopicsResult {
+        val topicNames = kafkaConfigData.topicNameToCreate
+        logger.info("Creating ${topicNames.size} topic(s), attempt #${retryContext.retryCount}")
+        val kafkaTopics = topicNames.map { topic ->
+            NewTopic(
+                topic.trim { it <= ' ' },
+                kafkaConfigData.numOfPartitions,
+                kafkaConfigData.replicationFactor
+            )
         }
 
+        return adminClient.createTopics(kafkaTopics)
     }
 
     @Throws(KafkaClientException::class)
@@ -104,4 +119,20 @@ class KafkaAdminClient(
     private fun isTopicCreated(topics: Collection<TopicListing>?, topicName: String): Boolean =
         topics?.stream()?.anyMatch { it.name().equals(topicName) } ?: false
 
+    private fun getSchemaRegistryStatus(): HttpStatus {
+        return try {
+            var httpStatus: HttpStatus = HttpStatus.SERVICE_UNAVAILABLE
+            webClient
+                .method(HttpMethod.GET)
+                .uri(kafkaConfigData.schemaRegistryUrl)
+                .exchangeToMono { e ->
+                    httpStatus = e.statusCode()
+                    e.bodyToMono(Any::class.java)
+                }.block()
+
+            httpStatus
+        } catch (e: Exception) {
+            HttpStatus.SERVICE_UNAVAILABLE
+        }
+    }
 }

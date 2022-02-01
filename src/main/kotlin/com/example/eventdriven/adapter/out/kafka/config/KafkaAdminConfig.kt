@@ -14,7 +14,7 @@ class KafkaAdminConfig(
 ) {
 
     @Bean
-    fun adminClient() = AdminClient.create(
+    fun adminClient(): AdminClient = AdminClient.create(
         mutableMapOf(
             Pair<String, Any>(CommonClientConfigs.BOOTSTRAP_SERVERS_CONFIG, kafkaConfigData.bootstrapServers),
         )
