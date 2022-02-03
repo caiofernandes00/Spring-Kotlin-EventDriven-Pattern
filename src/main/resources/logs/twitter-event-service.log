@@ -1,121 +1,10 @@
-2022-02-01 00:29:26 [main] INFO  c.e.e.EventdrivenApplicationKt - Starting EventdrivenApplicationKt using Java 17.0.1 on Azula with PID 7356 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
-2022-02-01 00:29:26 [main] INFO  c.e.e.EventdrivenApplicationKt - No active profile set, falling back to default profiles: default
-2022-02-01 00:29:26 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-2022-02-01 00:29:26 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-02-02 22:48:51 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 28092 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
+2022-02-02 22:48:51 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-02 22:48:53 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+2022-02-02 22:48:53 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-02-01 00:29:26 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.example.eventdriven.EventdrivenApplicationKt.main(EventdrivenApplication.kt:30)
-Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	... 15 common frames omitted
-Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	... 21 common frames omitted
-2022-02-01 00:31:05 [main] INFO  c.e.e.EventdrivenApplicationKt - Starting EventdrivenApplicationKt using Java 17.0.1 on Azula with PID 6904 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
-2022-02-01 00:31:05 [main] INFO  c.e.e.EventdrivenApplicationKt - No active profile set, falling back to default profiles: default
-2022-02-01 00:31:06 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-2022-02-01 00:31:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-02-01 00:31:06 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.example.eventdriven.EventdrivenApplicationKt.main(EventdrivenApplication.kt:30)
-Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	... 15 common frames omitted
-Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	... 21 common frames omitted
-2022-02-01 00:31:54 [main] INFO  c.e.e.EventdrivenApplicationKt - Starting EventdrivenApplicationKt using Java 17.0.1 on Azula with PID 23124 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
-2022-02-01 00:31:54 [main] INFO  c.e.e.EventdrivenApplicationKt - No active profile set, falling back to default profiles: default
-2022-02-01 00:31:54 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-2022-02-01 00:31:54 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-02-01 00:31:54 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.example.eventdriven.EventdrivenApplicationKt.main(EventdrivenApplication.kt:30)
-Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	... 15 common frames omitted
-Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	... 21 common frames omitted
-2022-02-01 00:34:39 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 14348 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
-2022-02-01 00:34:39 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
-2022-02-01 00:34:40 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-2022-02-01 00:34:40 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-02-01 00:34:40 [main] ERROR o.s.boot.SpringApplication - Application run failed
+2022-02-02 22:48:53 [main] ERROR o.s.boot.SpringApplication - Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -146,13 +35,134 @@ Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcu
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 21 common frames omitted
-2022-02-01 00:35:44 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 16.0.2 on Azula with PID 30268 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
-2022-02-01 00:35:44 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
-2022-02-01 00:35:45 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-2022-02-01 00:35:45 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-02-02 22:49:47 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 7700 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
+2022-02-02 22:49:47 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-02 22:49:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-02 22:49:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:49:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-02 22:49:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 22:49:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-02 22:49:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1514 ms
+2022-02-02 22:49:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:49:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-02 22:49:50 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 2.801 seconds (JVM running for 3.39)
+2022-02-02 22:49:50 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-02 22:49:50 [main] INFO  c.e.e.EventDrivenApplication - [Ljava.util.List;@594131f2
+2022-02-02 22:49:50 [main] INFO  c.e.e.EventDrivenApplication - Hello
+2022-02-02 22:49:50 [main] INFO  c.e.e.a.i.t.s.EventStreamRunnerAdapter - Started filtering stream for keywords [Ljava.lang.String;@1d7eb170
+2022-02-02 22:49:50 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-02-02 22:49:52 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-02-02 22:49:52 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-02-02 22:49:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @PaulRMonarch I feel you! With the pandemic backlog and all, it’s recommended to not start querying until the spring ???
+2022-02-02 22:49:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Exatamente! Isso fica muito claro em seus escritos em 1911. O verdadeiro trabalho para kafka era escrever; ele odiava o trabalho no escritório.
+2022-02-02 22:49:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @genbeaulee: My prediction is…Early Spring?
+2022-02-02 22:49:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?????????
+2022-02-02 22:49:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @SylviaLazos @CCSD_Trustees @IreneCepedaNV What and where did these scores come from?  Sbac was basically voluntary if parents wanted to send kids in last spring.  How many actually took this test?  Agreed, where is ELL and IEP?
+2022-02-02 22:49:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @BvlbanchaAccess: A group of dedicated Houma people are hosting the Houma Spring Gathering/Tasso Time. It's an event FOR Indigenous peop…
+2022-02-02 22:49:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @RenpougunFx: ???????????
+???????Silent Spring?
+?????????????
+
+????????????????
+??????????????????
+?????????? https://t.co/3Hbyb2k55y
+2022-02-02 22:49:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Just heard that @HolyPostPodcast is working on an episode about #populism. For the record, I have an episode about the same topic coming out in the spring. I promise I didn’t copy the idea! FYI- they keep scooping me.
+2022-02-02 22:49:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @KamabokoBun: I made a 3D model of the spring decidueye :) ? https://t.co/Bvm903G6u7
+2022-02-02 22:49:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @PainTrinaSolis: ‘Ill-founded & should be rejected as a pandemic policy instrument’ going forward.
+Economists did a meta-analysis that d…
+2022-02-02 22:49:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Bruno_J_Navarro: A protester who was forcefully shoved to the pavement by an NYPD officer during the spring 2020 protests has settled h…
+2022-02-02 22:49:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @freakin_dani: when you want to audition for the spring musical https://t.co/LsI3PjumHd
+2022-02-02 22:49:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08
+2022-02-02 22:49:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Bright future ahead.  Ready for spring!? https://t.co/Cv1ZluBgY0
+2022-02-02 22:49:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08
+2022-02-02 22:49:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @rodpedersen: Canadian Arena League ????
+2022-02-02 22:49:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Taught my first @PennMBDS class in person today since spring 2020..
+
+Challenging: talking with a mask on for 3h in a large room without a mic
+
+Upside: according to my Fitbit I burned over 2000 calories ?
+
+Never thought of teaching as part of my workout routine ? https://t.co/C4MGKjEgJ9
+2022-02-02 22:50:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @cultureCHN @Truth2Upeople ??????????????spring festival?????????????
+??????????
+2022-02-02 22:50:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text I’m having some serious excitement over this.
+2022-02-02 22:50:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08
+2022-02-02 22:50:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @armabianca_pr: ????????????
+HUNTER×HUNTER?Ani-Art ?????????4??????????
+???????????????????????????????????????????(????:N)
+2022-02-02 22:50:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @GEMCND11: ?| Canciones de MCND con más stream - enero 2022:
+
+ICE AGE — 266.2k
+Crush — 191.6k
+Spring — 80.3k 
+Movin' — 68.5k
+TOP GANG —…
+2022-02-02 22:50:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Pay for spring online class help 
+pay chem class
+pay chem hw
+pay hw
+pay math class
+pay math hw
+pay someone
+write this essay
+pay assignment
+pay essay
+research paper
+pay history
+pay biology
+someone write
+pay hw
+pay online class
+
+Kindly DM @EssaysTechnical
+2022-02-02 22:50:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @CoachDanCasey: Fascinating stuff from Kansas City Chiefs QB Coach Mike Kafka:
+
+? "Coach [Andy] Reid says it all the time - the NFL is 3…
+2022-02-02 22:50:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @RealEdgarM: A dream of mine comes true today to join the Houston Astros Org. as a bullpen catcher and asst coach apprentice with the CC…
+2022-02-02 22:50:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Happy National groundhog Day from Deli Delicious! To Spring or not to Spring?
+#groundhogday #nationalgroundhogday #groundhog #spring https://t.co/pKCIT6MeJX
+2022-02-02 22:50:32 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 11976 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
+2022-02-02 22:50:32 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-02 22:50:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-02 22:50:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:50:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-02 22:50:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 22:50:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-02 22:50:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1251 ms
+2022-02-02 22:50:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:50:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-02 22:50:34 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 2.416 seconds (JVM running for 2.944)
+2022-02-02 22:50:34 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-02 22:50:34 [main] INFO  c.e.e.EventDrivenApplication - [Ljava.util.List;@6ef2f7ad
+2022-02-02 22:50:34 [main] INFO  c.e.e.EventDrivenApplication - Hello
+2022-02-02 22:50:34 [main] INFO  c.e.e.a.i.t.s.EventStreamRunnerAdapter - Started filtering stream for keywords [Ljava.lang.String;@48cd319d
+2022-02-02 22:50:34 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-02-02 22:50:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-02-02 22:50:35 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-02-02 22:50:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @anno_eth: If winter comes , can spring be far behind ? 
+
+To enter?
+1. Follow 
+@anno_eth  @inBetweenersNFT  @justinbieber 
+2. RT + Like…
+2022-02-02 22:50:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @DailyKLK: Hope this release in the spring or summer ???? https://t.co/vYg7iwIxfG
+2022-02-02 22:50:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @Coach_Hoff_TSU @DustyBennett @EddieGeorge2727 @coachtheronaych @CoachPepPearson @CoryHarkey @CoachBFish25 @CoachMcNutt @coachbowdown58 @CoachKBurns44 @TSUTigersFB Check out this highlight! https://t.co/i1ioUGbZTy 
+AA earned in spring
+2022-02-02 22:50:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @KamabokoBun: I made a 3D model of the spring decidueye :) ? https://t.co/Bvm903G6u7
+2022-02-02 22:50:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08
+2022-02-02 22:50:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @comfortrebels: Bella Hadid for Self-Portrait Spring/Summer 2022. https://t.co/khVesJcIxE
+2022-02-02 22:50:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Qing11502143: #TartaLi spring~ https://t.co/7yrGFgYQdC
+2022-02-02 22:50:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @rodpedersen A Canadian arena football league in the spring would be so cool!
+2022-02-02 22:50:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Bohemienne6: congratulations to chrom and robin on their rustic cottagecore spring wedding, has anyone checked in on frederick to make…
+2022-02-02 22:50:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Tulips are known for their bold colors and beautiful shape, and most varieties are indeed almost perfectly symmetrical. The blooms have three petals and three sepals, b  #Plant #Flower #Tulip #Pink #Nature #Petals #Spring https://t.co/IKmk0bxx9N
+2022-02-02 22:50:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @EmilyLWehby I just wanted fresh spring rolls and dumplings
+2022-02-02 22:51:10 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 18272 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
+2022-02-02 22:51:10 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-02 22:51:11 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+2022-02-02 22:51:11 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-02-01 00:35:45 [main] ERROR o.s.boot.SpringApplication - Application run failed
+2022-02-02 22:51:11 [main] ERROR o.s.boot.SpringApplication - Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
@@ -179,216 +189,380 @@ Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
 	... 15 common frames omitted
 Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 21 common frames omitted
-2022-02-01 00:38:05 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.eventdriven.EventdrivenApplicationTests], using SpringBootContextLoader
-2022-02-01 00:38:05 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.eventdriven.EventdrivenApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-02-01 00:38:05 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.eventdriven.EventdrivenApplicationTests]: EventdrivenApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-02-01 00:38:05 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.eventdriven.EventDrivenApplication for test class com.example.eventdriven.EventdrivenApplicationTests
-2022-02-01 00:38:05 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2022-02-01 00:38:05 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4212a0c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e7aa82b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3b2c0e88, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5bd82fed, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c1bd0be, org.springframework.test.context.support.DirtiesContextTestExecutionListener@476b0ae6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1c6804cd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@655f7ea, org.springframework.test.context.event.EventPublishingTestExecutionListener@549949be, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b3a45f1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@17a87e37, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3eeb318f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@20a14b55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@39ad977d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6da00fb9]
-2022-02-01 00:38:05 [main] INFO  c.e.e.EventdrivenApplicationTests - Starting EventdrivenApplicationTests using Java 17.0.1 on Azula with PID 644 (started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
-2022-02-01 00:38:05 [main] INFO  c.e.e.EventdrivenApplicationTests - No active profile set, falling back to default profiles: default
-2022-02-01 00:38:06 [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-2022-02-01 00:38:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-02-02 22:53:07 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 15960 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
+2022-02-02 22:53:07 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-02 22:53:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-02 22:53:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:53:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-02 22:53:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 22:53:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-02 22:53:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2022-02-02 22:53:10 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-02-01 00:38:06 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
-	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
-	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
-	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
-	at java.base/java.util.Optional.orElseGet(Optional.java:364)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
-	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
-	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
-	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	... 81 common frames omitted
-Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	... 87 common frames omitted
-2022-02-01 00:38:06 [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4212a0c8] to prepare test instance [com.example.eventdriven.EventdrivenApplicationTests@536d97f8]
-java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
-	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
-	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
-	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
-	at java.base/java.util.Optional.orElseGet(Optional.java:364)
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
-	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
-	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
-	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
-	... 67 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
-	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
-	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	... 81 common frames omitted
-Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-	... 87 common frames omitted
+2022-02-02 22:53:10 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-02 22:53:10 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-02 22:53:10 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643853190188
+2022-02-02 22:53:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-02 22:53:11 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 3.851 seconds (JVM running for 4.52)
+2022-02-02 22:53:11 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-02 22:53:11 [main] INFO  c.e.e.EventDrivenApplication - [Ljava.util.List;@342beaf6
+2022-02-02 22:53:11 [main] INFO  c.e.e.EventDrivenApplication - Hello
+2022-02-02 22:53:11 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-02 22:53:11 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-02 22:53:11 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-02 22:53:11 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-02 22:56:40 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 20500 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
+2022-02-02 22:56:40 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-02 22:56:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-02 22:56:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:56:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-02 22:56:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 22:56:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-02 22:56:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
+2022-02-02 22:56:42 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-02 22:56:42 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-02 22:56:42 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-02 22:56:42 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643853402546
+2022-02-02 22:56:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:56:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-02 22:56:43 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 3.497 seconds (JVM running for 4.116)
+2022-02-02 22:56:43 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-02 22:56:43 [main] INFO  c.e.e.EventDrivenApplication - [Ljava.util.List;@727986ad
+2022-02-02 22:56:43 [main] INFO  c.e.e.EventDrivenApplication - Hello
+2022-02-02 22:56:43 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-02-02 22:56:43 [main] INFO  c.e.e.a.i.t.s.EventStreamRunnerAdapter - Started filtering stream for keywords [Ljava.lang.String;@7c901203
+2022-02-02 22:56:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-02-02 22:56:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-02-02 22:56:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @LiamHemsworth "Spring Is In Bloom" # 10 Original Painting By Julia Ann Novotny https://t.co/RYjm6Qkyf3
+2022-02-02 22:56:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @myselgo: Selena currently has 4 movies on Netflix USA!
+- Spring Breakers
+- The Fundamentals of Caring
+- Another Cinderella Story
+- In D…
+2022-02-02 22:56:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @johnnys: #JapanbyJ ?
+
+Today (Feb 3) is the festival of "Setsubun," presented by #TravisJapan! The guys are holding dried soybeans, whic…
+2022-02-02 22:56:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ptgwoojoo: a big kr account discovered pentagon’s daisy and do or not and tweeted about it and suddenly so many ppl are searching penta…
+2022-02-02 22:56:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @DrJohnNewsome1: Leslie Newsome 5’9 Tough Dynamic True PG 2022. Barclay College Signee Coach Huck. Spring Coach Glass. Leslie knocking d…
+2022-02-02 22:56:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @XingChannel: 220201 Art China 2022 Spring Festival   Special Program 
+
+Come Back Home Often Full version(1/3).
+
+@layzhang #??? #Zhangyi…
+2022-02-02 22:56:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Just a few minutes to game start! Tune in and support your UTA Rocket League CHAMPS!!
+
+https://t.co/8o4JVk4L73
+2022-02-02 22:56:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Keah_Maria: Yay the news is out! My YA Debut, The Secret Summer Promise has all my favorite things 
+-Virgos ??
+-cheesecake ??
+-lists ?…
+2022-02-02 22:56:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @BrianMillerIDEA: @JackPosobiec That’s frickin awesome!! Let it go towards the 1 million a day it is costing Ottawa. Then impound and ta…
+2022-02-02 22:56:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @krolljvar: When it comes to reactions to early screenings, I always take everything with a grain of salt. That said, after talking to a…
+2022-02-02 22:56:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Two Chinese female athletes born in America will make their Winter Olympic debuts in their motherland during the Spring Festival. #GLOBALink #BeijingWinterOlympics https://t.co/dzF2Sc3vYj
+2022-02-02 22:56:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text #LeeSeungGi has finished shooting a spring season pictorial for Parkland 2022 and is preparing for a new advertising campaign together. The advertising campaign will be released through various media.
+#??? 
+
+*Wow, excited much!??
+? https://t.co/PQpbMwCRj9
+2022-02-02 22:56:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text We are midway between winter solstice & spring equinox.. Happy Candlemas
+2022-02-02 22:56:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @LolaMotz: @JCochra50722415 @DailyJLee @DrLeanaWen Yes, except they are lying about "restrictions." There haven't been any restrictions…
+2022-02-02 22:56:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text My cousin Consuelo called us now. She really wants her flies to go fly fishing this Spring. I still have to call my cousin to exchange the information to get this order made and delivered. People find you one way or another when they want to do so.
+2022-02-02 22:56:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text the answer is very long. i'm going to spend my whole life answering. are you ready to listen?i still like you, like the spring leaves summer sunshine, are not as good as you. #3?????????????????
+2022-02-02 22:56:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Spring day
+
+I'm voting for #BTSARMY for #BestFanArmy at the #iHeartAwards
+2022-02-02 22:56:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @DhkBeau: In Ojibwe our word for groundhog is kookjiish. (pronounced cook-jeesh) Manitoulin’s Kaboni Kookjiish predicts an early spring.…
+2022-02-02 22:56:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @555LMAO555: @ploypuanggg ???????????????????????”Lunar new year” ???? “Spring Festival” ?????
+??????????????????????????lunar calendar?…
+2022-02-02 22:56:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Hate running in this shitty weather ready for spring https://t.co/kRfLLsyG7I
+2022-02-02 22:56:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @DrJohnNewsome1: Leslie Newsome National Signing Day!!! 5’9  Tough True PG 2022. Barclay College Signee. Spring Coach Glass. https://t.c…
+2022-02-02 22:56:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Riding back to her feet, Miyo would press herself again Arya, softly giggling. 
+
+“I guess that secret is out~ You don’t seem repulsed through. Or perhaps, you are more aroused now~?” The two shafts would be sandwiched between them, and each throb would be felt firmly.
+2022-02-02 22:56:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Yankees: 2022 Spring Training individual tickets are on sale now ?
+
+? https://t.co/EuuMbtfwwL https://t.co/LMZNfvnnjR
+2022-02-02 22:56:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Buru_standin: https://t.co/4rbId1cO5s poll winner Debonair Diamond, every spring a hot spring ? https://t.co/NiDfRi2zOO
+2022-02-02 22:56:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @johnnys: #JapanbyJ ?
+
+Today (Feb 3) is the festival of "Setsubun," presented by #TravisJapan! The guys are holding dried soybeans, whic…
+2022-02-02 22:57:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @CIVIX_Canada: ?Ontario teachers: #StudentVote registration is now open for the 2022 provincial election! ??
+
+??Bring this experiential…
+2022-02-02 22:57:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @dalton_kramer16: #1 of spring? https://t.co/nJAyD8vtxT
+2022-02-02 22:57:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @BluefinBrands: This is the way.
+
+The Mandalorian Beskar Armor (Silver Coating Ver.) 1/12 Scale Model Kit
+
+The model includes a detachab…
+2022-02-02 22:57:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @_bubblyabby_: Happy Year of the Tiger!?
+I was at the spring festival gala?
+so tired ?but satisfied.?
+Wish you a prosperous year ahead.?…
+2022-02-02 22:57:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @mirin_ha_osake: ???/?????????????????shuffle ??????????idol casual  Spring Autumn Winter
+
+??????????????????????????????
+
+??2?? ???????…
+2022-02-02 22:57:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @pekibuzz Hello, Peki... Here the Spring come in September... Now is Summer. Yes, I see the title... Hugs!?
+2022-02-02 22:57:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @AkiHabte: Happy Chinese Spring Festival to all Chinese friends of #Eritrea. This kind of celebration that reflects appreciation to natu…
+2022-02-02 22:57:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @angelmillk: Ulyana Sergeenko spring 2022 couture Art Deco inspired https://t.co/droCRGKkFm
+2022-02-02 22:57:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Buru_standin: https://t.co/4rbId1cO5s poll winner Debonair Diamond, every spring a hot spring ? https://t.co/NiDfRi2zOO
+2022-02-02 22:57:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @flumpool_STAFF: ?
+
+INTERROBANG NEWS
+
+?
+
+??????????A Spring Breath?3/16??????
+
+FC?? BOX SET???????
+????2/10???
+https://t.co/S5H6Hwxg6q…
+2022-02-02 22:57:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text #GetInvolved at Buttermilk Park Creek Clean Up with It's My Park Day - Spring https://t.co/gIjZ0hMWbU
+2022-02-02 22:57:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Dedication is your IALAS board debriefing from our conclave in the middle of a snowstorm en nuestro café favorito. We are listening to your feedback to make improvement toward our Spring Conference and all conferences to come! @NGBurgos @EAlvarezD91 @KassirMary @Curriculum735 https://t.co/GUSCM4605M
+2022-02-02 22:57:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text CAT QUEEN New Dresses!!!  CLICK THE LINK NOW.
+https://t.co/XCfAWpxNc2
+:
+#cats #CatsOfTwitter #CatsOnTwitter #CatsCountdown #Queens #Catwoman #CateArmy #catsofinstagram #CatsLover #tshirt #pets #Romania #Australia https://t.co/CmkHqk6wnO
+2022-02-02 22:57:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text its cute but not for me ?
+2022-02-02 22:57:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @johnnys: #JapanbyJ ?
+
+Today (Feb 3) is the festival of "Setsubun," presented by #TravisJapan! The guys are holding dried soybeans, whic…
+2022-02-02 22:57:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @happyplusstore: AEWEN MATOPH????? ????2022 Spring Summer Collection??https://t.co/ZA2kbwA4wT?#40? #??????? #?????? #??? #?????????? #???
+2022-02-02 22:57:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08
+2022-02-02 22:57:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @johnnys: #JapanbyJ ?
+
+Today (Feb 3) is the festival of "Setsubun," presented by #TravisJapan! The guys are holding dried soybeans, whic…
+2022-02-02 22:57:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Bellyestrela1: @BANGTANHIIT @BTS_twt Eu voto em #Butter  para #BestMusicVideo no #iHeartAwards 2022 @BTS_twt
+
+Spring day
+2022-02-02 22:57:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @EricBaileyTW: Brent Venables: Boy. That was a race. It's been a spring for the past couple of months. Our support staff and coaches did…
+2022-02-02 22:57:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @FutureFondness [ He starts chuckling a bit, finding it endearing she's being so sweet. ]
+
+Don't mention it. Don't forget I'm no stranger to these things. It took a while, but we both ended up being invited to the spring festival. And don't forget the dancing one I was in too! But just because+
+2022-02-02 22:57:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-02 22:57:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-02 22:57:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-02 22:57:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-02 22:57:34 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt using Java 17.0.1 on Azula with PID 27368 (C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\target\classes started by caiow in C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern)
+2022-02-02 22:57:34 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-02 22:57:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-02 22:57:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:57:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-02 22:57:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 22:57:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-02 22:57:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1415 ms
+2022-02-02 22:57:35 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-02 22:57:35 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-02 22:57:35 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-02 22:57:35 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643853455947
+2022-02-02 22:57:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-02 22:57:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-02 22:57:36 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 3.052 seconds (JVM running for 3.618)
+2022-02-02 22:57:36 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-02 22:57:36 [main] INFO  c.e.e.EventDrivenApplication - [Ljava.util.List;@17176b18
+2022-02-02 22:57:36 [main] INFO  c.e.e.EventDrivenApplication - Hello
+2022-02-02 22:57:36 [main] INFO  c.e.e.a.i.t.s.EventStreamRunnerAdapter - Started filtering stream for keywords [Ljava.lang.String;@9281d19
+2022-02-02 22:57:36 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-02-02 22:57:37 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-02-02 22:57:37 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-02-02 22:57:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08
+2022-02-02 22:57:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Can’t believe a groundhog tells me when spring will come
+2022-02-02 22:57:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?TikTok Weekly Top 20?????Blue Spring??3???1??TikTok????????????????????(Billboard JAPAN)
+#Yahoo????
+https://t.co/G97EWhFn5h
+2022-02-02 22:57:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @gecdsbpro: Wiarton Willie has predicted an early spring for Ontario! We hope he's right. ??? #GroundhogDay
+2022-02-02 22:57:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @MyChinaTrip: Spring Festival, Zhejiang Shenxianju in the snow.??? https://t.co/T7shoOgMu3
+2022-02-02 22:57:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text #GetInvolved at Gus Garcia Community Garden Improvement with It's My Park Day - Spring https://t.co/IB3U6NskBz
+2022-02-02 22:57:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text #Volunteer at PEAS Community Farm Spring Cleaning @ Cunningham School Park with It's My Park Day - Spring https://t.co/Wh3jSZX8dh
+2022-02-02 22:57:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text and, who has time for this,
+
+"i have another 2 wing chun,
+
+"gears",
+
+a telescopic spring baton,
+
+"for, boxing, and left hand excercise,
+
+and,
+
+"push up, bars"
+2022-02-02 22:57:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text y con spring day
+2022-02-02 22:57:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text when the camellia blooms
+2022-02-02 22:57:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text the way the spring semester just started but i already want it to be over….
+2022-02-02 22:57:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @manmithacreates: Omg go follow @itsnoemyg !?!?!? ??
+Her art deserves more and she does magic with her artworks! Your missing out if you…
+2022-02-02 22:57:41 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-02 22:57:41 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-02 22:57:41 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-02 22:57:41 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed

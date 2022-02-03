@@ -13,7 +13,7 @@ The goal of this project is to build an event driven application.
 To start the application, first you need the dependencies.
 ```bash
 cd docker-compose
-docker-compose -f common.yaml -f kafka_cluster.yaml up
+docker-compose -f common.yaml -f kafka_cluster.yaml up --build --force-recreate
 ```
 Now you can execute the application.
 ```bash
