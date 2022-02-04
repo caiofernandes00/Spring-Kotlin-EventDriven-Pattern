@@ -8,7 +8,8 @@ import org.springframework.context.annotation.Configuration
     value = [
         RetryConfigData::class,
         TwitterEventData::class,
-        KafkaConfigData::class
+        KafkaConfigData::class,
+        KafkaProducerData::class
     ]
 )
 class ConfigurationProperties

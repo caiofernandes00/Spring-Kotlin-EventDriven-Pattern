@@ -1,7 +1,7 @@
 package com.example.eventdriven.adapter.out.kafka.producer
 
 import com.example.eventdriven.adapter.out.kafka.avro.TwitterAvroModel
-import com.example.eventdriven.domain.port.out.MessagePublisherOut
+import com.example.eventdriven.domain.port.out.MessageProducerOut
 import org.slf4j.LoggerFactory
 import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.kafka.support.SendResult
@@ -12,11 +12,11 @@ import javax.annotation.PreDestroy
 
 
 @Service
-class KafkaMessagePublisherAdapter(
+class KafkaMessageProducerAdapter(
     private val kafkaTemplate: KafkaTemplate<Long, TwitterAvroModel>
-) : MessagePublisherOut<Long, TwitterAvroModel> {
+) : MessageProducerOut<Long, TwitterAvroModel> {
 
-    private val logger = LoggerFactory.getLogger(KafkaMessagePublisherAdapter::class.java)
+    private val logger = LoggerFactory.getLogger(KafkaMessageProducerAdapter::class.java)
 
     override fun send(topic: String, key: Long, value: TwitterAvroModel) {
         logger.info("Sending message: $value to topic: $topic")
@@ -26,10 +26,8 @@ class KafkaMessagePublisherAdapter(
 
     @PreDestroy
     fun close() {
-        if (kafkaTemplate != null) {
-            logger.info("Closing KafkaTemplate")
-            kafkaTemplate.destroy()
-        }
+        logger.info("Closing KafkaTemplate")
+        kafkaTemplate.destroy()
     }
 
     private fun addCallback(future: ListenableFuture<*>) {
