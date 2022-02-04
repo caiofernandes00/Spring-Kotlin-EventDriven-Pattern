@@ -3,6 +3,7 @@ package com.example.eventdriven.adapter.`in`.twitterevent.stream.fake
 import com.example.eventdriven.adapter.`in`.twitterevent.listener.TwitterEventStatusListener
 import com.example.eventdriven.application.infrastructure.config.data.TwitterEventData
 import com.example.eventdriven.application.exception.TwitterEventException
+import com.example.eventdriven.domain.port.`in`.TwitterStreamRunner
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
 import org.springframework.stereotype.Service
@@ -20,7 +21,7 @@ import java.util.concurrent.ThreadLocalRandom
 class FakeEventStreamRunnerAdapter(
     private val twitterEventStatusListener: TwitterEventStatusListener,
     private val twitterEventData: TwitterEventData
-)  {
+): TwitterStreamRunner {
 
 
     private val logger = LoggerFactory.getLogger(FakeEventStreamRunnerAdapter::class.java)
@@ -44,7 +45,7 @@ class FakeEventStreamRunnerAdapter(
 
 
     @Throws(TwitterException::class)
-    fun start() {
+    override fun start() {
         val keywords = arrayOf(twitterEventData.twitterKeywords.toString())
         val minTweetsLength = twitterEventData.mockMinTweetLength
         val maxTweetsLength = twitterEventData.mockMaxTweetLength

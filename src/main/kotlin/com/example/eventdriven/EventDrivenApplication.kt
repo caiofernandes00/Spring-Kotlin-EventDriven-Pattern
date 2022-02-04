@@ -1,7 +1,5 @@
 package com.example.eventdriven
 
-import com.example.eventdriven.adapter.`in`.twitterevent.stream.EventStreamRunnerAdapter
-import com.example.eventdriven.application.infrastructure.config.data.TwitterEventData
 import com.example.eventdriven.domain.port.`in`.BrokerStreamInitializer
 import com.example.eventdriven.domain.port.`in`.TwitterStreamRunner
 import org.slf4j.LoggerFactory

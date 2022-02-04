@@ -17,7 +17,7 @@ To start the application, first you need the dependencies.
 
 ```bash
 cd docker-compose
-docker-compose -f common.yaml -f kafka_cluster.yaml up --build --force-recreate
+docker-compose -f common.yaml -f kafka_cluster.yaml -f services.yaml up --build --force-recreate
 ```
 
 Now you can execute the application.

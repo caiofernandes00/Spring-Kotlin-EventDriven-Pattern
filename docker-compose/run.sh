@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-sudo docker compose -f common.yaml -f kafka_cluster.yaml up --force-recreate --build
+
+# shellcheck disable=SC2046
+sudo docker rm -f $(docker ps -qa)
+sudo docker compose -f common.yaml -f kafka_cluster.yaml -f services.yaml up --force-recreate --build
