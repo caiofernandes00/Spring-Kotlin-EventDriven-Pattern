@@ -37,4 +37,4 @@ kafka-producer-config:
   batch-size-boost-factor: 100
   linger-ms: 5
   request-timeout-ms: 60000
-  retry-cCount: 5
+  retry-count: 5
