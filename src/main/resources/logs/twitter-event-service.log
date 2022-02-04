@@ -3176,3 +3176,1011 @@ Manipur Man Spent 18 Years Growing a 300 Acre Forest
 The task at hand was tough. So he renounced his jo…
 2022-02-04 00:45:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 324177290, "id": 1489445064183283714, "text": "RT @ErikSolheim: Hero of India ??!\nManipur Man Spent 18 Years Growing a 300 Acre Forest\n\nThe task at hand was tough. So he renounced his jo\u2026", "createdAt": 1643946350000} to topic: twitter-topic
 2022-02-04 00:45:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 174 Timestamp: 1643946355672 At time 38587899822400
+2022-02-04 00:45:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be…
+2022-02-04 00:45:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2238402254, "id": 1489445066783748097, "text": "RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be\u2026", "createdAt": 1643946351000} to topic: twitter-topic
+2022-02-04 00:45:56 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 203 Timestamp: 1643946356268 At time 38588492462800
+2022-02-04 00:45:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @FashionweekNYC: Take a look at the Alexander McQueen Spring 2022 Collection https://t.co/bpvJil7ONJ
+2022-02-04 00:45:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 250759723, "id": 1489445074677436416, "text": "RT @FashionweekNYC: Take a look at the Alexander McQueen Spring 2022 Collection https://t.co/bpvJil7ONJ", "createdAt": 1643946353000} to topic: twitter-topic
+2022-02-04 00:45:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 198 Timestamp: 1643946358146 At time 38590366688700
+2022-02-04 00:45:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:45:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4756640010, "id": 1489445077135269889, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946353000} to topic: twitter-topic
+2022-02-04 00:45:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 175 Timestamp: 1643946358728 At time 38590945763700
+2022-02-04 00:46:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:46:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1320154270956769281, "id": 1489445086295478274, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946355000} to topic: twitter-topic
+2022-02-04 00:46:00 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 176 Timestamp: 1643946360917 At time 38593149148900
+2022-02-04 00:46:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @CGTNOfficial: Friday marks the "Start of Spring," or Lichun, on the Chinese traditional lunar calendar. As the first solar term of the…
+2022-02-04 00:46:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 81129246, "id": 1489445088874975236, "text": "RT @CGTNOfficial: Friday marks the \"Start of Spring,\" or Lichun, on the Chinese traditional lunar calendar. As the first solar term of the\u2026", "createdAt": 1643946356000} to topic: twitter-topic
+2022-02-04 00:46:01 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 204 Timestamp: 1643946361534 At time 38593751693800
+2022-02-04 00:46:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Kendall Jenner wore the ideal spring layering piece in everyone's closet:https://t.co/WoomyCfOlm
+2022-02-04 00:46:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 19212009, "id": 1489445093505474563, "text": "Kendall Jenner wore the ideal spring layering piece in everyone's closet:https://t.co/WoomyCfOlm", "createdAt": 1643946357000} to topic: twitter-topic
+2022-02-04 00:46:02 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 177 Timestamp: 1643946362700 At time 38594929985800
+2022-02-04 00:46:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/wcSiWtA6ou
+2022-02-04 00:46:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1295956719818797062, "id": 1489445095367921664, "text": "In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/wcSiWtA6ou", "createdAt": 1643946357000} to topic: twitter-topic
+2022-02-04 00:46:03 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 178 Timestamp: 1643946363211 At time 38595429385500
+2022-02-04 00:46:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be…
+2022-02-04 00:46:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 389641527, "id": 1489445098118991872, "text": "RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be\u2026", "createdAt": 1643946358000} to topic: twitter-topic
+2022-02-04 00:46:03 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 205 Timestamp: 1643946363754 At time 38595975263000
+2022-02-04 00:46:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @caseywagnerr In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50
+2022-02-04 00:46:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1443116697913757697, "id": 1489445099259850756, "text": "@caseywagnerr In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50", "createdAt": 1643946358000} to topic: twitter-topic
+2022-02-04 00:46:04 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 206 Timestamp: 1643946364033 At time 38596255919700
+2022-02-04 00:46:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @dragonfly_37: ?????
+I smile spring!? https://t.co/x33vMTtohd
+2022-02-04 00:46:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1452162884759396354, "id": 1489445099629125652, "text": "RT @dragonfly_37: ?????\nI smile spring!? https://t.co/x33vMTtohd", "createdAt": 1643946358000} to topic: twitter-topic
+2022-02-04 00:46:04 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 179 Timestamp: 1643946364092 At time 38596319752300
+2022-02-04 00:46:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SLUT4PRADAA: Jean Paul Gaultier Spring couture 2009 https://t.co/4347OOTria
+2022-02-04 00:46:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2317718322, "id": 1489445103299182592, "text": "RT @SLUT4PRADAA: Jean Paul Gaultier Spring couture 2009 https://t.co/4347OOTria", "createdAt": 1643946359000} to topic: twitter-topic
+2022-02-04 00:46:04 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 199 Timestamp: 1643946364982 At time 38597201466800
+2022-02-04 00:46:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Lirunqi_TH: Li_lee1031 Instagram Update 20220201
+
+Happy Spring Festival
+
+?????????????????: https://t.co/yhIYWJVWqz
+
+#?????????? #Lirun…
+2022-02-04 00:46:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1471853715380322304, "id": 1489445103722983426, "text": "RT @Lirunqi_TH: Li_lee1031 Instagram Update 20220201\n\nHappy Spring Festival\n\n?????????????????: https://t.co/yhIYWJVWqz\n\n#?????????? #Lirun\u2026", "createdAt": 1643946359000} to topic: twitter-topic
+2022-02-04 00:46:05 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 180 Timestamp: 1643946365067 At time 38597294646200
+2022-02-04 00:46:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @jonlevyBU: Path 2 acknowledges that there will be 1 million dead from #COVID19 in the US by this spring, that our health care workers a…
+2022-02-04 00:46:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1040304105657434112, "id": 1489445106948182020, "text": "RT @jonlevyBU: Path 2 acknowledges that there will be 1 million dead from #COVID19 in the US by this spring, that our health care workers a\u2026", "createdAt": 1643946360000} to topic: twitter-topic
+2022-02-04 00:46:05 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 200 Timestamp: 1643946365841 At time 38598060286700
+2022-02-04 00:46:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text #DevilWantsToHug I find it quite tear-inducing that the demon lord wears beads the same colors as the spring god on his clothes. 
+
+And the way he's getting rid of some of his demon features bcuz he hopes it'll please the spring god's reincarnation is ??? https://t.co/FsQbl0jLPT
+2022-02-04 00:46:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1058989032519032832, "id": 1489445107766276096, "text": "#DevilWantsToHug I find it quite tear-inducing that the demon lord wears beads the same colors as the spring god on his clothes. \n\nAnd the way he's getting rid of some of his demon features bcuz he hopes it'll please the spring god's reincarnation is ??? https://t.co/FsQbl0jLPT", "createdAt": 1643946360000} to topic: twitter-topic
+2022-02-04 00:46:06 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 201 Timestamp: 1643946366257 At time 38598480034900
+2022-02-04 00:46:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @multi_versicon: Hello, you’ve found ??M U L T I V E R S I C O N ??!
+
+The crossroads of multiverse where the fabric of spacetime was war…
+2022-02-04 00:46:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1066170298582499328, "id": 1489445110308020224, "text": "RT @multi_versicon: Hello, you\u2019ve found ??M U L T I V E R S I C O N ??!\n\nThe crossroads of multiverse where the fabric of spacetime was war\u2026", "createdAt": 1643946361000} to topic: twitter-topic
+2022-02-04 00:46:06 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 202 Timestamp: 1643946366666 At time 38598898440400
+2022-02-04 00:46:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @edmtrix: hear me out. how about a plot where we go on a spontaneous roadtrip together filled with good music and good weed and eventual…
+2022-02-04 00:46:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1480083986957352963, "id": 1489445115945000961, "text": "RT @edmtrix: hear me out. how about a plot where we go on a spontaneous roadtrip together filled with good music and good weed and eventual\u2026", "createdAt": 1643946362000} to topic: twitter-topic
+2022-02-04 00:46:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 203 Timestamp: 1643946367982 At time 38600202652600
+2022-02-04 00:46:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ? For tonight’s history viewing, I’m taking a trip with @bettanyhughes to Ancient China for the episode on Confucius in the series Genius of the Ancient World. Seems apropos with it being Lunar New Year or the Spring Festival, no?... https://t.co/OEFgSJ8DWB
+2022-02-04 00:46:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2591059793, "id": 1489445117396242434, "text": "? For tonight\u2019s history viewing, I\u2019m taking a trip with @bettanyhughes to Ancient China for the episode on Confucius in the series Genius of the Ancient World. Seems apropos with it being Lunar New Year or the Spring Festival, no?... https://t.co/OEFgSJ8DWB", "createdAt": 1643946363000} to topic: twitter-topic
+2022-02-04 00:46:08 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 181 Timestamp: 1643946368395 At time 38600627997900
+2022-02-04 00:46:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @DDIFreeman: @jeremycorbyn @UVWunion Remembering that the single largest strain on the NHS is staffing shortages caused by Brexit.
+
+Some…
+2022-02-04 00:46:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 551342421, "id": 1489445120386736130, "text": "RT @DDIFreeman: @jeremycorbyn @UVWunion Remembering that the single largest strain on the NHS is staffing shortages caused by Brexit.\n\nSome\u2026", "createdAt": 1643946363000} to topic: twitter-topic
+2022-02-04 00:46:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 182 Timestamp: 1643946369044 At time 38601268230900
+2022-02-04 00:46:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:46:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1086909461837406209, "id": 1489445121691045889, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946364000} to topic: twitter-topic
+2022-02-04 00:46:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 183 Timestamp: 1643946369356 At time 38601574314500
+2022-02-04 00:46:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report…
+2022-02-04 00:46:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1610440968, "id": 1489445125835141122, "text": "RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report\u2026", "createdAt": 1643946365000} to topic: twitter-topic
+2022-02-04 00:46:10 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 184 Timestamp: 1643946370342 At time 38602575073900
+2022-02-04 00:46:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1138044487106588672, "id": 1489445128528068609, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946365000} to topic: twitter-topic
+2022-02-04 00:46:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 204 Timestamp: 1643946371016 At time 38603250166900
+2022-02-04 00:46:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SLUT4PRADAA: Jean Paul Gaultier Spring couture 2009 https://t.co/4347OOTria
+2022-02-04 00:46:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1204943939674894337, "id": 1489445129198858242, "text": "RT @SLUT4PRADAA: Jean Paul Gaultier Spring couture 2009 https://t.co/4347OOTria", "createdAt": 1643946366000} to topic: twitter-topic
+2022-02-04 00:46:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 185 Timestamp: 1643946371148 At time 38603373634100
+2022-02-04 00:46:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @gdbeeart: Y’all! HoverGirls has just been acquired by Bloomsbury Publishing! ? It will be released in print with a bunch of new content…
+2022-02-04 00:46:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1301197976686284800, "id": 1489445129647796227, "text": "RT @gdbeeart: Y\u2019all! HoverGirls has just been acquired by Bloomsbury Publishing! ? It will be released in print with a bunch of new content\u2026", "createdAt": 1643946366000} to topic: twitter-topic
+2022-02-04 00:46:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 207 Timestamp: 1643946371265 At time 38603494715300
+2022-02-04 00:46:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @XiaoZhan_OFC: ?220204 Photo?
+
+#XiaoZhan1005NewsPort
+#XiaoZhan #?? #SeanXiao 
+
+Li-Ning Lifestyle Weibo updated:
+
+Today is the solar term…
+2022-02-04 00:46:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 552477035, "id": 1489445135503233024, "text": "RT @XiaoZhan_OFC: ?220204 Photo?\n\n#XiaoZhan1005NewsPort\n#XiaoZhan #?? #SeanXiao \n\nLi-Ning Lifestyle Weibo updated:\n\nToday is the solar term\u2026", "createdAt": 1643946367000} to topic: twitter-topic
+2022-02-04 00:46:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 186 Timestamp: 1643946372647 At time 38604879042900
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Husker247BC: 'Hey, what about this guy?' series: Important offseason for Noa Pola-Gates with jobs open and fresh faces on the scene. Th…
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1387916503983534088, "id": 1489445141593088000, "text": "RT @Husker247BC: 'Hey, what about this guy?' series: Important offseason for Noa Pola-Gates with jobs open and fresh faces on the scene. Th\u2026", "createdAt": 1643946368000} to topic: twitter-topic
+2022-02-04 00:46:14 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 208 Timestamp: 1643946374101 At time 38606325541800
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SavionWinter: @GR8FL @OccupyDemocrats https://t.co/cyHe4bwJ6L
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 619408052, "id": 1489445144231395331, "text": "RT @SavionWinter: @GR8FL @OccupyDemocrats https://t.co/cyHe4bwJ6L", "createdAt": 1643946369000} to topic: twitter-topic
+2022-02-04 00:46:14 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 187 Timestamp: 1643946374762 At time 38606990754100
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @allfor_tzuyu: Tzuyu Cut ? | zooc_official Instagram Update
+
+?? https://t.co/dlKa5X8emv
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#…
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 859972372564017152, "id": 1489445144944263169, "text": "RT @allfor_tzuyu: Tzuyu Cut ? | zooc_official Instagram Update\n\n?? https://t.co/dlKa5X8emv\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#\u2026", "createdAt": 1643946369000} to topic: twitter-topic
+2022-02-04 00:46:14 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 205 Timestamp: 1643946374901 At time 38607131707800
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @PhilAPerry: Navy LB Diego Fagot just laid out Iowa State QB Brock Purdy at the East-West Shrine Game. 
+
+Captain. Three-year starter. Li…
+2022-02-04 00:46:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 46253261, "id": 1489445145279967235, "text": "RT @PhilAPerry: Navy LB Diego Fagot just laid out Iowa State QB Brock Purdy at the East-West Shrine Game. \n\nCaptain. Three-year starter. Li\u2026", "createdAt": 1643946369000} to topic: twitter-topic
+2022-02-04 00:46:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 206 Timestamp: 1643946374983 At time 38607212931600
+2022-02-04 00:46:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @mike_e_kaye What about Kafka? I heard he may have been on his way to NYG.  Can Dougie steal him?
+2022-02-04 00:46:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 345981777, "id": 1489445146198347779, "text": "@mike_e_kaye What about Kafka? I heard he may have been on his way to NYG.  Can Dougie steal him?", "createdAt": 1643946370000} to topic: twitter-topic
+2022-02-04 00:46:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 188 Timestamp: 1643946375239 At time 38607464634700
+2022-02-04 00:46:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Look what I found! ?@UCBerkeleyExt @UCBerkeley Spring 2000 it isss ??? #TimeTravel ????#ZoMA #BayArea #California ? https://t.co/hoyOkqa6BT
+2022-02-04 00:46:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 190101631, "id": 1489445151898759170, "text": "Look what I found! ?@UCBerkeleyExt @UCBerkeley Spring 2000 it isss ??? #TimeTravel ????#ZoMA #BayArea #California ? https://t.co/hoyOkqa6BT", "createdAt": 1643946371000} to topic: twitter-topic
+2022-02-04 00:46:16 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 207 Timestamp: 1643946376829 At time 38609056219100
+2022-02-04 00:46:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @KokoJones79: Stefanson said she expects all restrictions to disappear by the spring.
+University of Manitoba virologist Jason Kindrachuk…
+2022-02-04 00:46:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1231381491520684032, "id": 1489445154901659649, "text": "RT @KokoJones79: Stefanson said she expects all restrictions to disappear by the spring.\nUniversity of Manitoba virologist Jason Kindrachuk\u2026", "createdAt": 1643946372000} to topic: twitter-topic
+2022-02-04 00:46:17 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 209 Timestamp: 1643946377293 At time 38609526671400
+2022-02-04 00:46:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @cz_binance In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50
+2022-02-04 00:46:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1443116697913757697, "id": 1489445158680551426, "text": "@cz_binance In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50", "createdAt": 1643946373000} to topic: twitter-topic
+2022-02-04 00:46:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 210 Timestamp: 1643946378202 At time 38610431826900
+2022-02-04 00:46:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text can’t wait for spring time?
+2022-02-04 00:46:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3033519072, "id": 1489445161306308609, "text": "can\u2019t wait for spring time?", "createdAt": 1643946373000} to topic: twitter-topic
+2022-02-04 00:46:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 189 Timestamp: 1643946378851 At time 38611073875800
+2022-02-04 00:46:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 756764127150821376, "id": 1489445161784705024, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946373000} to topic: twitter-topic
+2022-02-04 00:46:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 190 Timestamp: 1643946378915 At time 38611134739600
+2022-02-04 00:46:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text it's such a beautiful book. she wrote it phonetically in the way Cudjo/Oluale spoke. Reminded me of the way some elders in the South spoke and really made me emotional because I had lost one
+2022-02-04 00:46:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1371531013055250433, "id": 1489445165580365824, "text": "it's such a beautiful book. she wrote it phonetically in the way Cudjo/Oluale spoke. Reminded me of the way some elders in the South spoke and really made me emotional because I had lost one", "createdAt": 1643946374000} to topic: twitter-topic
+2022-02-04 00:46:19 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 191 Timestamp: 1643946379875 At time 38612103739600
+2022-02-04 00:46:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @CoinbaseExch In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/P1NtqOUfAp
+2022-02-04 00:46:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1381831920682627076, "id": 1489445168570769408, "text": "@CoinbaseExch In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/P1NtqOUfAp", "createdAt": 1643946375000} to topic: twitter-topic
+2022-02-04 00:46:20 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 208 Timestamp: 1643946380641 At time 38612871963600
+2022-02-04 00:46:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @moonphasetrade: Key dates for #BTC during spring 2022, as Saturn travels in Aquarius and greatly affect Bitcoin's value. Really excited…
+2022-02-04 00:46:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1433120158889828356, "id": 1489445169929719809, "text": "RT @moonphasetrade: Key dates for #BTC during spring 2022, as Saturn travels in Aquarius and greatly affect Bitcoin's value. Really excited\u2026", "createdAt": 1643946375000} to topic: twitter-topic
+2022-02-04 00:46:20 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 209 Timestamp: 1643946380852 At time 38613073407100
+2022-02-04 00:46:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:46:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1429017970911498240, "id": 1489445170621952002, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946375000} to topic: twitter-topic
+2022-02-04 00:46:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 210 Timestamp: 1643946381021 At time 38613250445300
+2022-02-04 00:46:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @avianpics @PeterMClayton Robins Rock?such beautiful birds...so look forward to their return in the Spring!
+2022-02-04 00:46:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1957508546, "id": 1489445172597465091, "text": "@avianpics @PeterMClayton Robins Rock?such beautiful birds...so look forward to their return in the Spring!", "createdAt": 1643946376000} to topic: twitter-topic
+2022-02-04 00:46:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 211 Timestamp: 1643946381503 At time 38613727655900
+2022-02-04 00:46:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @rose_updatesth: ‘???????????????????????????????????????????? ?????????????????????????????? ????????????????? ????????????????????????…
+2022-02-04 00:46:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 787281033016119297, "id": 1489445176200155138, "text": "RT @rose_updatesth: \u2018???????????????????????????????????????????? ?????????????????????????????? ????????????????? ????????????????????????\u2026", "createdAt": 1643946377000} to topic: twitter-topic
+2022-02-04 00:46:22 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 211 Timestamp: 1643946382365 At time 38614580900800
+2022-02-04 00:46:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Andy Reid’s legacy is absolutely mind-blowing. It’s amazing to see everyone he has worked for & with in the NFL.
+John Harbaugh
+Doug Pederson
+Ron Rivera 
+Sean McDermott
+Brad Childress
+Matt Nagy  
+Leslie Frazier 
+Todd Bowles 
+Pat Shurmur 
+Steve Spagnuolo
+Eric Bieniemy
+Mike Kafka
+2022-02-04 00:46:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 19688154, "id": 1489445178909892615, "text": "Andy Reid\u2019s legacy is absolutely mind-blowing. It\u2019s amazing to see everyone he has worked for & with in the NFL.\nJohn Harbaugh\nDoug Pederson\nRon Rivera \nSean McDermott\nBrad Childress\nMatt Nagy  \nLeslie Frazier \nTodd Bowles \nPat Shurmur \nSteve Spagnuolo\nEric Bieniemy\nMike Kafka", "createdAt": 1643946377000} to topic: twitter-topic
+2022-02-04 00:46:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 212 Timestamp: 1643946383044 At time 38615275480700
+2022-02-04 00:46:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @XiaoZhan_OFC: ?220204 Photo?
+
+#XiaoZhan1005NewsPort
+#XiaoZhan #?? #SeanXiao 
+
+Li-Ning Lifestyle Weibo updated:
+
+Today is the solar term…
+2022-02-04 00:46:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1360581008836362241, "id": 1489445181237522432, "text": "RT @XiaoZhan_OFC: ?220204 Photo?\n\n#XiaoZhan1005NewsPort\n#XiaoZhan #?? #SeanXiao \n\nLi-Ning Lifestyle Weibo updated:\n\nToday is the solar term\u2026", "createdAt": 1643946378000} to topic: twitter-topic
+2022-02-04 00:46:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 192 Timestamp: 1643946383557 At time 38615788620200
+2022-02-04 00:46:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?????????????Spring day?????? https://t.co/kW1EOFen2A
+2022-02-04 00:46:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1486192903219482628, "id": 1489445181904416771, "text": "?????????????Spring day?????? https://t.co/kW1EOFen2A", "createdAt": 1643946378000} to topic: twitter-topic
+2022-02-04 00:46:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 193 Timestamp: 1643946383904 At time 38616135448700
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @earthXX98: L’Officiel Hommes Thailand ???????????????????????????????????, ???????????????? ????? TRINITY ?????????????????????????????…
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1118215883392872449, "id": 1489445184824025092, "text": "RT @earthXX98: L\u2019Officiel Hommes Thailand ???????????????????????????????????, ???????????????? ????? TRINITY ?????????????????????????????\u2026", "createdAt": 1643946379000} to topic: twitter-topic
+2022-02-04 00:46:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 194 Timestamp: 1643946384414 At time 38616637587200
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @7_netshopping: ?#???? ????????
+
+??????????????
+
+?Gina 2022 Spring ????????????Snow Man???????
+? https://t.co/PQKl56O9nQ
+
+@Gina__officia…
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 450583270, "id": 1489445185235070978, "text": "RT @7_netshopping: ?#???? ????????\n\n??????????????\n\n?Gina 2022 Spring ????????????Snow Man???????\n? https://t.co/PQKl56O9nQ\n\n@Gina__officia\u2026", "createdAt": 1643946379000} to topic: twitter-topic
+2022-02-04 00:46:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 213 Timestamp: 1643946384555 At time 38616779173200
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SLUT4PRADAA: Jean Paul Gaultier Spring couture 2009 https://t.co/4347OOTria
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1064771222637080577, "id": 1489445186694438912, "text": "RT @SLUT4PRADAA: Jean Paul Gaultier Spring couture 2009 https://t.co/4347OOTria", "createdAt": 1643946379000} to topic: twitter-topic
+2022-02-04 00:46:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 214 Timestamp: 1643946384866 At time 38617084205100
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @MalvernPrep: Attention prospective parents! ? Our first Middle School Entrance Exam of the Spring will be held on Saturday, February 12…
+2022-02-04 00:46:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3047578170, "id": 1489445187185172482, "text": "RT @MalvernPrep: Attention prospective parents! ? Our first Middle School Entrance Exam of the Spring will be held on Saturday, February 12\u2026", "createdAt": 1643946379000} to topic: twitter-topic
+2022-02-04 00:46:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 215 Timestamp: 1643946384962 At time 38617191967100
+2022-02-04 00:46:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text spring is for blooming, and summer is for falling in love. autumn is the grieving, and winter is goodbye.
+2022-02-04 00:46:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1394131046862524417, "id": 1489445187432554496, "text": "spring is for blooming, and summer is for falling in love. autumn is the grieving, and winter is goodbye.", "createdAt": 1643946379000} to topic: twitter-topic
+2022-02-04 00:46:25 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 195 Timestamp: 1643946385032 At time 38617256670400
+2022-02-04 00:46:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ??????2/15 purizm vol.8
+??????3/1   mini 4??
+??????3/7   steady. 4??
+??????3/7   Gina 2022 Spring ???
+??????3/18 BARFOUT 4??
+??????2/26 Hanako 4??
+??????2/26 NYLON 4??
+2022-02-04 00:46:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1258815250788278272, "id": 1489445189680713730, "text": "??????2/15 purizm vol.8\n??????3/1   mini 4??\n??????3/7   steady. 4??\n??????3/7   Gina 2022 Spring ???\n??????3/18 BARFOUT 4??\n??????2/26 Hanako 4??\n??????2/26 NYLON 4??", "createdAt": 1643946380000} to topic: twitter-topic
+2022-02-04 00:46:25 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 216 Timestamp: 1643946385572 At time 38617802520400
+2022-02-04 00:46:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Thank you so much, mom. This is amazing. Holy shit! I have to go tell Toby! And dad!
+2022-02-04 00:46:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1144590897562226688, "id": 1489445190360305664, "text": "Thank you so much, mom. This is amazing. Holy shit! I have to go tell Toby! And dad!", "createdAt": 1643946380000} to topic: twitter-topic
+2022-02-04 00:46:25 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 196 Timestamp: 1643946385757 At time 38617978151800
+2022-02-04 00:46:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @YossyFPS: ??????????
+
+LIVE: NaVi vs Liquid - BLAST Premier Spring Groups 2022
+
+https://t.co/AoIl5DaAeB https://t.co/Z2ZIp9XKF3
+2022-02-04 00:46:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1081044004697825281, "id": 1489445201357979648, "text": "RT @YossyFPS: ??????????\n\nLIVE: NaVi vs Liquid - BLAST Premier Spring Groups 2022\n\nhttps://t.co/AoIl5DaAeB https://t.co/Z2ZIp9XKF3", "createdAt": 1643946383000} to topic: twitter-topic
+2022-02-04 00:46:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 197 Timestamp: 1643946388356 At time 38620577927000
+2022-02-04 00:46:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @loveswiftlee This is one of my FAVORITES!! It’s sooo good! I’ve read the three out now and am not so patiently waiting for the next one this spring.
+2022-02-04 00:46:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 42119224, "id": 1489445203815641092, "text": "@loveswiftlee This is one of my FAVORITES!! It\u2019s sooo good! I\u2019ve read the three out now and am not so patiently waiting for the next one this spring.", "createdAt": 1643946383000} to topic: twitter-topic
+2022-02-04 00:46:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 212 Timestamp: 1643946388953 At time 38621169360800
+2022-02-04 00:46:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @allfor_tzuyu: Tzuyu Cut ? | zooc_official Instagram Update
+
+?? https://t.co/dlKa5X8emv
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#…
+2022-02-04 00:46:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 820575921123926016, "id": 1489445209607864320, "text": "RT @allfor_tzuyu: Tzuyu Cut ? | zooc_official Instagram Update\n\n?? https://t.co/dlKa5X8emv\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#\u2026", "createdAt": 1643946385000} to topic: twitter-topic
+2022-02-04 00:46:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SherylCrow: Life has been one wild ride. I’m humbled to announce that the #SherylDoc will be premiering at the #SXSW Film Festival, ahe…
+2022-02-04 00:46:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1468589461097562116, "id": 1489445209750573059, "text": "RT @SherylCrow: Life has been one wild ride. I\u2019m humbled to announce that the #SherylDoc will be premiering at the #SXSW Film Festival, ahe\u2026", "createdAt": 1643946385000} to topic: twitter-topic
+2022-02-04 00:46:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 213 Timestamp: 1643946390342 At time 38622570362400
+2022-02-04 00:46:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 214 Timestamp: 1643946390347 At time 38622570465100
+2022-02-04 00:46:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @dropsdotgg: Supreme x Burberry
+
+I've made some mockups based on suggestions from what people would like to see in this upcoming collabo…
+2022-02-04 00:46:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2792226168, "id": 1489445210254094337, "text": "RT @dropsdotgg: Supreme x Burberry\n\nI've made some mockups based on suggestions from what people would like to see in this upcoming collabo\u2026", "createdAt": 1643946385000} to topic: twitter-topic
+2022-02-04 00:46:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 215 Timestamp: 1643946390486 At time 38622709308600
+2022-02-04 00:46:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @Rinanloo @zyxnix Sorry. Maybe I'll go for a drive at the break of dawn when the spring comes.
+2022-02-04 00:46:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3299258449, "id": 1489445215882686468, "text": "@Rinanloo @zyxnix Sorry. Maybe I'll go for a drive at the break of dawn when the spring comes.", "createdAt": 1643946386000} to topic: twitter-topic
+2022-02-04 00:46:31 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 216 Timestamp: 1643946391825 At time 38624051745500
+2022-02-04 00:46:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @saunieindiego So loud! Spring is comin'
+2022-02-04 00:46:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 935332760, "id": 1489445217866452996, "text": "@saunieindiego So loud! Spring is comin'", "createdAt": 1643946387000} to topic: twitter-topic
+2022-02-04 00:46:32 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 217 Timestamp: 1643946392349 At time 38624580951400
+2022-02-04 00:46:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @multi_versicon: Hello, you’ve found ??M U L T I V E R S I C O N ??!
+
+The crossroads of multiverse where the fabric of spacetime was war…
+2022-02-04 00:46:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1386536112953335809, "id": 1489445221767454725, "text": "RT @multi_versicon: Hello, you\u2019ve found ??M U L T I V E R S I C O N ??!\n\nThe crossroads of multiverse where the fabric of spacetime was war\u2026", "createdAt": 1643946388000} to topic: twitter-topic
+2022-02-04 00:46:33 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 217 Timestamp: 1643946393220 At time 38625450450400
+2022-02-04 00:46:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report…
+2022-02-04 00:46:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 363549180, "id": 1489445224350892033, "text": "RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report\u2026", "createdAt": 1643946388000} to topic: twitter-topic
+2022-02-04 00:46:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4840202959, "id": 1489445224598630401, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946388000} to topic: twitter-topic
+2022-02-04 00:46:33 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 218 Timestamp: 1643946393916 At time 38626136570700
+2022-02-04 00:46:33 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 219 Timestamp: 1643946393918 At time 38626137085600
+2022-02-04 00:46:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @rosekcharts: [???] 220203 5252byoioi instagram update with ROSÉ  
+
+"5252 BY O!Oi x ROSÉ
+22 SPRING 
+SIGNATURE • BASIC • HOME LINE
+TO BE…
+2022-02-04 00:46:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1026126890908639232, "id": 1489445227022917633, "text": "RT @rosekcharts: [???] 220203 5252byoioi instagram update with ROSÉ  \n\n\"5252 BY O!Oi x ROSÉ\n22 SPRING \nSIGNATURE \u2022 BASIC \u2022 HOME LINE\nTO BE\u2026", "createdAt": 1643946389000} to topic: twitter-topic
+2022-02-04 00:46:34 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 220 Timestamp: 1643946394461 At time 38626686937500
+2022-02-04 00:46:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text spring dayy te amo
+
+I vote for #BTSARMY for #BestFanArmy at the #iHeartAwards 2022 @BTS_twt
+2022-02-04 00:46:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1438510893701029898, "id": 1489445231586119685, "text": "spring dayy te amo\n\nI vote for #BTSARMY for #BestFanArmy at the #iHeartAwards 2022 @BTS_twt", "createdAt": 1643946390000} to topic: twitter-topic
+2022-02-04 00:46:35 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 221 Timestamp: 1643946395564 At time 38627790109500
+2022-02-04 00:46:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text North Dakota Outdoors previews spring turkey season https://t.co/rLyrV0elUf
+2022-02-04 00:46:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 15427899, "id": 1489445233901383687, "text": "North Dakota Outdoors previews spring turkey season https://t.co/rLyrV0elUf", "createdAt": 1643946390000} to topic: twitter-topic
+2022-02-04 00:46:36 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 198 Timestamp: 1643946396136 At time 38628354795400
+2022-02-04 00:46:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @LadyVelvet_HFQ Encouraging signs, but tomorrow is another day, it might escalate or vanish. Both are strong possibilities https://t.co/nBj9r0fEgE
+2022-02-04 00:46:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 222036996, "id": 1489445235327639553, "text": "@LadyVelvet_HFQ Encouraging signs, but tomorrow is another day, it might escalate or vanish. Both are strong possibilities https://t.co/nBj9r0fEgE", "createdAt": 1643946391000} to topic: twitter-topic
+2022-02-04 00:46:36 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 218 Timestamp: 1643946396622 At time 38628844313800
+2022-02-04 00:46:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @VitalikButerin In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/64dTg0aMqi
+2022-02-04 00:46:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1381831920682627076, "id": 1489445237688717316, "text": "@VitalikButerin In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/64dTg0aMqi", "createdAt": 1643946391000} to topic: twitter-topic
+2022-02-04 00:46:37 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 222 Timestamp: 1643946397144 At time 38629370733600
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1484099223352225793, "id": 1489445243510480896, "text": "RT @eliesaaabs: Details at Dior Spring 2016 https://t.co/geq2nzNf08", "createdAt": 1643946393000} to topic: twitter-topic
+2022-02-04 00:46:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 223 Timestamp: 1643946398412 At time 38630631721300
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text the weather ain’t the way it was before. ain’t no spring or fall at all anymore.
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1396226359366668304, "id": 1489445244139679745, "text": "the weather ain\u2019t the way it was before. ain\u2019t no spring or fall at all anymore.", "createdAt": 1643946393000} to topic: twitter-topic
+2022-02-04 00:46:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 224 Timestamp: 1643946398559 At time 38630787481000
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @patiencezalanga: Your friendly reminder that the conditions that led to a voracious response to George Floyd’s murder both locally and…
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 14123243, "id": 1489445244731068419, "text": "RT @patiencezalanga: Your friendly reminder that the conditions that led to a voracious response to George Floyd\u2019s murder both locally and\u2026", "createdAt": 1643946393000} to topic: twitter-topic
+2022-02-04 00:46:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 225 Timestamp: 1643946398727 At time 38630960169800
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text finding Kafka in the rain @Prague, Czech Republic https://t.co/sDbNy7gIX1
+2022-02-04 00:46:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 54750051, "id": 1489445245909667840, "text": "finding Kafka in the rain @Prague, Czech Republic https://t.co/sDbNy7gIX1", "createdAt": 1643946393000} to topic: twitter-topic
+2022-02-04 00:46:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 219 Timestamp: 1643946398981 At time 38631205455500
+2022-02-04 00:46:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @sneakyseunie: Jackson Wang at the CCTV Spring Festival Gala ?? https://t.co/pij2mgK1ie
+2022-02-04 00:46:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1304927555376623617, "id": 1489445246043926528, "text": "RT @sneakyseunie: Jackson Wang at the CCTV Spring Festival Gala ?? https://t.co/pij2mgK1ie", "createdAt": 1643946393000} to topic: twitter-topic
+2022-02-04 00:46:39 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 199 Timestamp: 1643946399026 At time 38631252306100
+2022-02-04 00:46:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:46:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1460971107167576065, "id": 1489445247977680898, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946394000} to topic: twitter-topic
+2022-02-04 00:46:39 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 226 Timestamp: 1643946399469 At time 38631691864500
+2022-02-04 00:46:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text “Best Spring Ever!” is coming early next week. #KenneyIsACoward
+2022-02-04 00:46:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 867966382700240896, "id": 1489445250942652416, "text": "\u201CBest Spring Ever!\u201D is coming early next week. #KenneyIsACoward", "createdAt": 1643946395000} to topic: twitter-topic
+2022-02-04 00:46:40 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 200 Timestamp: 1643946400174 At time 38632409238700
+2022-02-04 00:46:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:46:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1295914398930804736, "id": 1489445252092301313, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946395000} to topic: twitter-topic
+2022-02-04 00:46:40 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 220 Timestamp: 1643946400488 At time 38632714745500
+2022-02-04 00:46:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @japansources: Spring in Japan ? https://t.co/1chQxJDfxm
+2022-02-04 00:46:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1369331796924637193, "id": 1489445256085098497, "text": "RT @japansources: Spring in Japan ? https://t.co/1chQxJDfxm", "createdAt": 1643946396000} to topic: twitter-topic
+2022-02-04 00:46:41 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 201 Timestamp: 1643946401403 At time 38633619462200
+2022-02-04 00:46:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1114564121817567232, "id": 1489445259683586051, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946397000} to topic: twitter-topic
+2022-02-04 00:46:42 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 227 Timestamp: 1643946402265 At time 38634494276600
+2022-02-04 00:46:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ang ganda mo naman babi
+2022-02-04 00:46:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1298930204044189697, "id": 1489445260874817537, "text": "ang ganda mo naman babi", "createdAt": 1643946397000} to topic: twitter-topic
+2022-02-04 00:46:42 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 221 Timestamp: 1643946402567 At time 38634788632500
+2022-02-04 00:46:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @nytimes: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid coronavirus tests beginning in t…
+2022-02-04 00:46:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2711139514, "id": 1489445265060909059, "text": "RT @nytimes: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid coronavirus tests beginning in t\u2026", "createdAt": 1643946398000} to topic: twitter-topic
+2022-02-04 00:46:43 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 228 Timestamp: 1643946403580 At time 38635800758600
+2022-02-04 00:46:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @MattWi77iams: Straily stands a very good chance to make the DBacks Opening Day roster.
+2022-02-04 00:46:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1071265974773522432, "id": 1489445266352713728, "text": "RT @MattWi77iams: Straily stands a very good chance to make the DBacks Opening Day roster.", "createdAt": 1643946398000} to topic: twitter-topic
+2022-02-04 00:46:43 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 202 Timestamp: 1643946403875 At time 38636099185200
+2022-02-04 00:46:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:46:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4612436714, "id": 1489445269532188674, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946399000} to topic: twitter-topic
+2022-02-04 00:46:44 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 229 Timestamp: 1643946404636 At time 38636862913900
+2022-02-04 00:46:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @PBR_California: SEASON PREVIEW: MOUNTAIN HOUSE MUSTANGS
+
+@coachgatehouse looks to build upon his 2021 WAC North Division title team and…
+2022-02-04 00:46:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 746563041114755072, "id": 1489445271389949953, "text": "RT @PBR_California: SEASON PREVIEW: MOUNTAIN HOUSE MUSTANGS\n\n@coachgatehouse looks to build upon his 2021 WAC North Division title team and\u2026", "createdAt": 1643946399000} to topic: twitter-topic
+2022-02-04 00:46:45 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 230 Timestamp: 1643946405064 At time 38637284730800
+2022-02-04 00:46:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text We open for Spring tutoring on Monday 7 for in-person and online tutoring. Make an appt at https://t.co/5b73sYkXZx
+2022-02-04 00:46:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1231334190509154311, "id": 1489445271356547077, "text": "We open for Spring tutoring on Monday 7 for in-person and online tutoring. Make an appt at https://t.co/5b73sYkXZx", "createdAt": 1643946399000} to topic: twitter-topic
+2022-02-04 00:46:45 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 222 Timestamp: 1643946405089 At time 38637315069400
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @irclvfoy258: ??????????????????Spring????????????????????????????????????……#gina #???? https://t.co/L0jdSS6dQJ
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1319246995580620800, "id": 1489445276108849152, "text": "RT @irclvfoy258: ??????????????????Spring????????????????????????????????????\u2026\u2026#gina #???? https://t.co/L0jdSS6dQJ", "createdAt": 1643946401000} to topic: twitter-topic
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Mauricio Escudero - Spring Exposure Showcase
+https://t.co/wjUc3SDK66
+
+@coachmedina61 https://t.co/MT7HtLMf5x
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1255327549179285507, "id": 1489445275517145088, "text": "Mauricio Escudero - Spring Exposure Showcase\nhttps://t.co/wjUc3SDK66\n\n@coachmedina61 https://t.co/MT7HtLMf5x", "createdAt": 1643946400000} to topic: twitter-topic
+2022-02-04 00:46:46 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 231 Timestamp: 1643946406180 At time 38638395328900
+2022-02-04 00:46:46 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 203 Timestamp: 1643946406182 At time 38638398659000
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @VitalikButerin In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/oYY7D5XHv6
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1381831920682627076, "id": 1489445275693301766, "text": "@VitalikButerin In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/oYY7D5XHv6", "createdAt": 1643946400000} to topic: twitter-topic
+2022-02-04 00:46:46 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 232 Timestamp: 1643946406192 At time 38638413673900
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kathy_husser: Getting closer…Happy Thursday! #spring #tulips #Flowers #joy #thursdayvibes ?????? https://t.co/R6jDz3bUcG
+2022-02-04 00:46:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 24106706, "id": 1489445278474113028, "text": "RT @kathy_husser: Getting closer\u2026Happy Thursday! #spring #tulips #Flowers #joy #thursdayvibes ?????? https://t.co/R6jDz3bUcG", "createdAt": 1643946401000} to topic: twitter-topic
+2022-02-04 00:46:46 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 233 Timestamp: 1643946406733 At time 38638956249000
+2022-02-04 00:46:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @PixarTurningRed: Turning Red takes over “Disney twenty-three” in the Spring 2022 issue. Read all about it at @DisneyD23!
+
+#TurningRed s…
+2022-02-04 00:46:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1076658108125069312, "id": 1489445280223219713, "text": "RT @PixarTurningRed: Turning Red takes over \u201CDisney twenty-three\u201D in the Spring 2022 issue. Read all about it at @DisneyD23!\n\n#TurningRed s\u2026", "createdAt": 1643946402000} to topic: twitter-topic
+2022-02-04 00:46:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 00:46:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1262974656140607490, "id": 1489445280286011392, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643946402000} to topic: twitter-topic
+2022-02-04 00:46:47 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 223 Timestamp: 1643946407188 At time 38639405436900
+2022-02-04 00:46:47 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 234 Timestamp: 1643946407185 At time 38639405659500
+2022-02-04 00:46:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 759371555277185025, "id": 1489445281397493762, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946402000} to topic: twitter-topic
+2022-02-04 00:46:47 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 235 Timestamp: 1643946407453 At time 38639670900500
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @arrivee_et_d_j: ??????Hello Spring??
+@kimiko_art
+
+????3????????????????????
+?????????????????????????????
+
+https://t.co/arCG4sZO9B
+
+???…
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 985854614707646464, "id": 1489445284396830723, "text": "RT @arrivee_et_d_j: ??????Hello Spring??\n@kimiko_art\n\n????3????????????????????\n?????????????????????????????\n\nhttps://t.co/arCG4sZO9B\n\n???\u2026", "createdAt": 1643946403000} to topic: twitter-topic
+2022-02-04 00:46:48 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 224 Timestamp: 1643946408160 At time 38640379108500
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text GoGo!!#????  ?????????2/13(?)?????????????????JCB??????3000???????????https://t.co/rUt83NrdO6 ????????????????#????
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1196961568937795585, "id": 1489445285986447363, "text": "GoGo!!#????  ?????????2/13(?)?????????????????JCB??????3000???????????https://t.co/rUt83NrdO6 ????????????????#????", "createdAt": 1643946403000} to topic: twitter-topic
+2022-02-04 00:46:48 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 225 Timestamp: 1643946408533 At time 38640751001700
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text https://t.co/9A3ejIQh9N https://t.co/L04X92kYPi
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 38856110, "id": 1489445286044909572, "text": "https://t.co/9A3ejIQh9N https://t.co/L04X92kYPi", "createdAt": 1643946403000} to topic: twitter-topic
+2022-02-04 00:46:48 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 226 Timestamp: 1643946408717 At time 38640940904700
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @WatcherGuru In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/GDTYrO2zSX
+2022-02-04 00:46:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1481273537126039554, "id": 1489445286619451394, "text": "@WatcherGuru In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/GDTYrO2zSX", "createdAt": 1643946403000} to topic: twitter-topic
+2022-02-04 00:46:48 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 204 Timestamp: 1643946408786 At time 38641015440700
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 525182822, "id": 1489445289543237633, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946404000} to topic: twitter-topic
+2022-02-04 00:46:49 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 205 Timestamp: 1643946409370 At time 38641593052800
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1312305042666520576, "id": 1489445290956374017, "text": "you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946404000} to topic: twitter-topic
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @YoongiMexico: [INFO] @BTS_twt #BTS #?????
+
+“Spring Day” de BTS ha superado los 7.5 millones de oyentes únicos en Melon, uniéndose a “Ch…
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1441590502822842373, "id": 1489445290960732166, "text": "RT @YoongiMexico: [INFO] @BTS_twt #BTS #?????\n\n\u201CSpring Day\u201D de BTS ha superado los 7.5 millones de oyentes únicos en Melon, uniéndose a \u201CCh\u2026", "createdAt": 1643946404000} to topic: twitter-topic
+2022-02-04 00:46:49 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 236 Timestamp: 1643946409709 At time 38641938634700
+2022-02-04 00:46:49 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 206 Timestamp: 1643946409727 At time 38641955425500
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @keifer66 Love having this every year. Kills off some insects and weeds.  Sets the plants cycles for renewed growth and vigor in the spring. Wimpy winters are no good.
+2022-02-04 00:46:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4637888180, "id": 1489445291258531841, "text": "@keifer66 Love having this every year. Kills off some insects and weeds.  Sets the plants cycles for renewed growth and vigor in the spring. Wimpy winters are no good.", "createdAt": 1643946404000} to topic: twitter-topic
+2022-02-04 00:46:49 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 207 Timestamp: 1643946409798 At time 38642018748500
+2022-02-04 00:46:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @dragonfly_37: ?????
+I smile spring!? https://t.co/x33vMTtohd
+2022-02-04 00:46:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 144366326, "id": 1489445293519093763, "text": "RT @dragonfly_37: ?????\nI smile spring!? https://t.co/x33vMTtohd", "createdAt": 1643946405000} to topic: twitter-topic
+2022-02-04 00:46:50 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 227 Timestamp: 1643946410345 At time 38642576412000
+2022-02-04 00:46:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @neblaruz: @dianadep1 @1Atsuhimerose2 @ejlazar @marmelyr @angelicadisogno @ampomata @BrindusaB1 @Spiros209 @peac4love @djolavarrieta @vv…
+2022-02-04 00:46:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 600234980, "id": 1489445294433607684, "text": "RT @neblaruz: @dianadep1 @1Atsuhimerose2 @ejlazar @marmelyr @angelicadisogno @ampomata @BrindusaB1 @Spiros209 @peac4love @djolavarrieta @vv\u2026", "createdAt": 1643946405000} to topic: twitter-topic
+2022-02-04 00:46:50 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 208 Timestamp: 1643946410551 At time 38642778292400
+2022-02-04 00:46:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @XiaoZhan_OFC: ?220204 Photo?
+
+#XiaoZhan1005NewsPort
+#XiaoZhan #?? #SeanXiao 
+
+Li-Ning Lifestyle Weibo updated:
+
+Today is the solar term…
+2022-02-04 00:46:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 587984810, "id": 1489445298724573184, "text": "RT @XiaoZhan_OFC: ?220204 Photo?\n\n#XiaoZhan1005NewsPort\n#XiaoZhan #?? #SeanXiao \n\nLi-Ning Lifestyle Weibo updated:\n\nToday is the solar term\u2026", "createdAt": 1643946406000} to topic: twitter-topic
+2022-02-04 00:46:51 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 209 Timestamp: 1643946411567 At time 38643790734000
+2022-02-04 00:46:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text #culture/#calendar
+#K_Culture
+| "#Ipchun"(#?? ??: Beginning of #Spring)
+: "Entrance of #Spring" in #Korean, is the 1st of 24 #solarterms that make up the #LunarCalendar.
+Koreans on this day used to perform many rituals to wish for good luck and a good harvest during the year.
+2022-02-04 00:46:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1044812038462197761, "id": 1489445298690686978, "text": "#culture/#calendar\n#K_Culture\n| \"#Ipchun\"(#?? ??: Beginning of #Spring)\n: \"Entrance of #Spring\" in #Korean, is the 1st of 24 #solarterms that make up the #LunarCalendar.\nKoreans on this day used to perform many rituals to wish for good luck and a good harvest during the year.", "createdAt": 1643946406000} to topic: twitter-topic
+2022-02-04 00:46:51 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 237 Timestamp: 1643946411609 At time 38643837397000
+2022-02-04 00:46:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NewGenKicking: Mauricio Escudero - Spring Exposure Showcase
+https://t.co/wjUc3SDK66
+
+@coachmedina61 https://t.co/MT7HtLMf5x
+2022-02-04 00:46:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 864082597, "id": 1489445299865194501, "text": "RT @NewGenKicking: Mauricio Escudero - Spring Exposure Showcase\nhttps://t.co/wjUc3SDK66\n\n@coachmedina61 https://t.co/MT7HtLMf5x", "createdAt": 1643946406000} to topic: twitter-topic
+2022-02-04 00:46:51 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 210 Timestamp: 1643946411836 At time 38644053575800
+2022-02-04 00:46:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2154855294, "id": 1489445302432309248, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946407000} to topic: twitter-topic
+2022-02-04 00:46:52 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 238 Timestamp: 1643946412443 At time 38644668065500
+2022-02-04 00:46:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Prospective partners. like spring cleaning for
+https://t.co/BLX0EHC2LC
+This feeling, drink!
+https://t.co/ayATGcRoJU
+2022-02-04 00:46:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2550350047, "id": 1489445303736545280, "text": "Prospective partners. like spring cleaning for\nhttps://t.co/BLX0EHC2LC\nThis feeling, drink!\nhttps://t.co/ayATGcRoJU", "createdAt": 1643946407000} to topic: twitter-topic
+2022-02-04 00:46:52 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 211 Timestamp: 1643946412807 At time 38645027573400
+2022-02-04 00:46:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Starting to think if Daboll does well in his first year with the Giants,  we’ll see Mike Kafka get a HC job before Eric Bienemy. That’s not a good look.
+2022-02-04 00:46:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2975853312, "id": 1489445307612266497, "text": "Starting to think if Daboll does well in his first year with the Giants,  we\u2019ll see Mike Kafka get a HC job before Eric Bienemy. That\u2019s not a good look.", "createdAt": 1643946408000} to topic: twitter-topic
+2022-02-04 00:46:53 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 239 Timestamp: 1643946413721 At time 38645943444800
+2022-02-04 00:46:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be…
+2022-02-04 00:46:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 17888709, "id": 1489445313777586177, "text": "RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be\u2026", "createdAt": 1643946410000} to topic: twitter-topic
+2022-02-04 00:46:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 228 Timestamp: 1643946415152 At time 38647377340300
+2022-02-04 00:46:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:46:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1403302645687750664, "id": 1489445320199081988, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946411000} to topic: twitter-topic
+2022-02-04 00:46:56 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 229 Timestamp: 1643946416694 At time 38648920817500
+2022-02-04 00:46:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @7_netshopping: ?#???? ????????
+
+??????????????
+
+?Gina 2022 Spring ????????????Snow Man???????
+? https://t.co/PQKl56O9nQ
+
+@Gina__officia…
+2022-02-04 00:46:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3181795842, "id": 1489445322728550406, "text": "RT @7_netshopping: ?#???? ????????\n\n??????????????\n\n?Gina 2022 Spring ????????????Snow Man???????\n? https://t.co/PQKl56O9nQ\n\n@Gina__officia\u2026", "createdAt": 1643946412000} to topic: twitter-topic
+2022-02-04 00:46:57 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 212 Timestamp: 1643946417284 At time 38649504337000
+2022-02-04 00:46:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @LeeJohn_BNS @Patrickqueen_ We out there this spring pull up https://t.co/TYVMOLuUcD
+2022-02-04 00:46:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 63266888, "id": 1489445321499369473, "text": "@LeeJohn_BNS @Patrickqueen_ We out there this spring pull up https://t.co/TYVMOLuUcD", "createdAt": 1643946411000} to topic: twitter-topic
+2022-02-04 00:46:57 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 240 Timestamp: 1643946417530 At time 38649750915600
+2022-02-04 00:46:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:46:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2487991400, "id": 1489445328659304450, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946413000} to topic: twitter-topic
+2022-02-04 00:46:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 241 Timestamp: 1643946418697 At time 38650927147100
+2022-02-04 00:46:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @byjessicaelena: He's practicing for the spring dance!! https://t.co/2qG3ueumOv
+2022-02-04 00:46:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2305977542, "id": 1489445329485418496, "text": "RT @byjessicaelena: He's practicing for the spring dance!! https://t.co/2qG3ueumOv", "createdAt": 1643946413000} to topic: twitter-topic
+2022-02-04 00:46:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 242 Timestamp: 1643946418902 At time 38651133304400
+2022-02-04 00:46:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @justinscali19 @HAB_Baseball The pleasure was ours Coach! Thanks so much for your time. Hearing you speak about @PULionsBaseball made me wish that I had some eligibility left so that I could play for the Lions! Best of luck to you too. Looking forward to seeing some #milkjugmagic this spring!
+2022-02-04 00:46:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 924059660, "id": 1489445330789748736, "text": "@justinscali19 @HAB_Baseball The pleasure was ours Coach! Thanks so much for your time. Hearing you speak about @PULionsBaseball made me wish that I had some eligibility left so that I could play for the Lions! Best of luck to you too. Looking forward to seeing some #milkjugmagic this spring!", "createdAt": 1643946414000} to topic: twitter-topic
+2022-02-04 00:46:59 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 213 Timestamp: 1643946419237 At time 38651461202800
+2022-02-04 00:46:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @BinanceAfrica @CAF_Online In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/6KDSozsHuY
+2022-02-04 00:46:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1481409389571411969, "id": 1489445331615977476, "text": "@BinanceAfrica @CAF_Online In the Spring Festival Evening of 2022, Shen Teng personally brought this coin, and now it has spread all over the world. Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/6KDSozsHuY", "createdAt": 1643946414000} to topic: twitter-topic
+2022-02-04 00:46:59 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 230 Timestamp: 1643946419516 At time 38651745746400
+2022-02-04 00:47:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Phoenix21Photon: Sushant Brilliance Unmatched ?
+
+I would like to be the air that inhabits u for a moment only. I would like to be that…
+2022-02-04 00:47:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1329720730510999553, "id": 1489445337463164928, "text": "RT @Phoenix21Photon: Sushant Brilliance Unmatched ?\n\nI would like to be the air that inhabits u for a moment only. I would like to be that\u2026", "createdAt": 1643946415000} to topic: twitter-topic
+2022-02-04 00:47:00 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 231 Timestamp: 1643946420810 At time 38653026233400
+2022-02-04 00:47:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @ethereum @ethdotorg In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/AawBuDnD6n
+2022-02-04 00:47:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1381831920682627076, "id": 1489445344253333504, "text": "@ethereum @ethdotorg In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/AawBuDnD6n", "createdAt": 1643946417000} to topic: twitter-topic
+2022-02-04 00:47:02 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 243 Timestamp: 1643946422557 At time 38654778646200
+2022-02-04 00:47:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:47:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1300489678584344576, "id": 1489445348708093959, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946418000} to topic: twitter-topic
+2022-02-04 00:47:03 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 232 Timestamp: 1643946423482 At time 38655699987900
+2022-02-04 00:47:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ???? ??????????!!  ???? ?????????2021 SPRING? Casual Side
+
+(?)??????????????????????????HiMERU???
+
+(?) ??(Casual) ??
+
+?????? https://t.co/zgLvGJbF0p
+2022-02-04 00:47:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2346457747, "id": 1489445350025105409, "text": "???? ??????????!!  ???? ?????????2021 SPRING? Casual Side\n\n(?)??????????????????????????HiMERU???\n\n(?) ??(Casual) ??\n\n?????? https://t.co/zgLvGJbF0p", "createdAt": 1643946418000} to topic: twitter-topic
+2022-02-04 00:47:03 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 244 Timestamp: 1643946423977 At time 38656200222200
+2022-02-04 00:47:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @rhythmchyc: The way he moistened his lower lip. He was ready for the kiss. #Sprina #GH
+2022-02-04 00:47:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1455109030679023623, "id": 1489445353212502017, "text": "RT @rhythmchyc: The way he moistened his lower lip. He was ready for the kiss. #Sprina #GH", "createdAt": 1643946419000} to topic: twitter-topic
+2022-02-04 00:47:04 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 214 Timestamp: 1643946424584 At time 38656813535500
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 775254025025392640, "id": 1489445363882737664, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643946421000} to topic: twitter-topic
+2022-02-04 00:47:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 245 Timestamp: 1643946427134 At time 38659361704900
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1441590502822842373, "id": 1489445365984247809, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946422000} to topic: twitter-topic
+2022-02-04 00:47:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 215 Timestamp: 1643946427597 At time 38659815811400
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NewGenKicking: Mauricio Escudero - Spring Exposure Showcase
+https://t.co/wjUc3SDK66
+
+@coachmedina61 https://t.co/MT7HtLMf5x
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1226019051677208576, "id": 1489445366139273217, "text": "RT @NewGenKicking: Mauricio Escudero - Spring Exposure Showcase\nhttps://t.co/wjUc3SDK66\n\n@coachmedina61 https://t.co/MT7HtLMf5x", "createdAt": 1643946422000} to topic: twitter-topic
+2022-02-04 00:47:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 216 Timestamp: 1643946427634 At time 38659862881600
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:47:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1483763263381053444, "id": 1489445367037165569, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946422000} to topic: twitter-topic
+2022-02-04 00:47:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 233 Timestamp: 1643946427854 At time 38660078755600
+2022-02-04 00:47:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @7_netshopping: ?#???? ????????
+
+??????????????
+
+?Gina 2022 Spring ????????????Snow Man???????
+? https://t.co/PQKl56O9nQ
+
+@Gina__officia…
+2022-02-04 00:47:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1238502019909832707, "id": 1489445374599528449, "text": "RT @7_netshopping: ?#???? ????????\n\n??????????????\n\n?Gina 2022 Spring ????????????Snow Man???????\n? https://t.co/PQKl56O9nQ\n\n@Gina__officia\u2026", "createdAt": 1643946424000} to topic: twitter-topic
+2022-02-04 00:47:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 234 Timestamp: 1643946429655 At time 38661875303700
+2022-02-04 00:47:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:47:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1448467167515660291, "id": 1489445379343007749, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946425000} to topic: twitter-topic
+2022-02-04 00:47:10 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 246 Timestamp: 1643946430775 At time 38662995716400
+2022-02-04 00:47:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Okay I've had enough. It can be spring now thanks
+2022-02-04 00:47:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 255847486, "id": 1489445380173574144, "text": "Okay I've had enough. It can be spring now thanks", "createdAt": 1643946425000} to topic: twitter-topic
+2022-02-04 00:47:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 217 Timestamp: 1643946430975 At time 38663208152600
+2022-02-04 00:47:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @budlight @GuyFieri NXT LVL Hydrogen Spring Water - Pure Hydrogen Infused Drinking Water - Supports Your Body's Antioxidants - Energy - Hydration - Immunity & Cognition - Pre & Post Workout Recovery Hydration - 12 Count https://t.co/lwtDvN1phz
+2022-02-04 00:47:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4532208666, "id": 1489445381867855875, "text": "@budlight @GuyFieri NXT LVL Hydrogen Spring Water - Pure Hydrogen Infused Drinking Water - Supports Your Body's Antioxidants - Energy - Hydration - Immunity & Cognition - Pre & Post Workout Recovery Hydration - 12 Count https://t.co/lwtDvN1phz", "createdAt": 1643946426000} to topic: twitter-topic
+2022-02-04 00:47:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 247 Timestamp: 1643946431415 At time 38663634243900
+2022-02-04 00:47:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @earthXX98: L’Officiel Hommes Thailand ???????????????????????????????????, ???????????????? ????? TRINITY ?????????????????????????????…
+2022-02-04 00:47:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1171629510091005952, "id": 1489445382623227906, "text": "RT @earthXX98: L\u2019Officiel Hommes Thailand ???????????????????????????????????, ???????????????? ????? TRINITY ?????????????????????????????\u2026", "createdAt": 1643946426000} to topic: twitter-topic
+2022-02-04 00:47:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 218 Timestamp: 1643946431645 At time 38663869015700
+2022-02-04 00:47:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @badimo: Conquer the 2022 #Jailbreak Spring Map! 
+? Introducing the Badger, a fun 2-seat offroader made by @RallySubbie! All yours for $…
+2022-02-04 00:47:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1476958252394942465, "id": 1489445390046822402, "text": "RT @badimo: Conquer the 2022 #Jailbreak Spring Map! \n? Introducing the Badger, a fun 2-seat offroader made by @RallySubbie! All yours for $\u2026", "createdAt": 1643946428000} to topic: twitter-topic
+2022-02-04 00:47:13 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 235 Timestamp: 1643946433356 At time 38665592346700
+2022-02-04 00:47:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text I can't think of a single reason why I want to spring clean in the beginning of February, except maybe the Florida weather tricking my senses. Either way, boom, now I have weekend plans. https://t.co/cmuDWJ1b8H
+2022-02-04 00:47:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 364037238, "id": 1489445390751617026, "text": "I can't think of a single reason why I want to spring clean in the beginning of February, except maybe the Florida weather tricking my senses. Either way, boom, now I have weekend plans. https://t.co/cmuDWJ1b8H", "createdAt": 1643946428000} to topic: twitter-topic
+2022-02-04 00:47:13 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 236 Timestamp: 1643946433635 At time 38665865966100
+2022-02-04 00:47:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 00:47:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1294106304898674691, "id": 1489445396266905601, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643946429000} to topic: twitter-topic
+2022-02-04 00:47:14 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 248 Timestamp: 1643946434819 At time 38667050211200
+2022-02-04 00:47:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Yes, we GET it
+
+You moved to Austin from Wisconsin
+
+This weather is pretty much Spring there. You've told anyone who will spare you 15 seconds
+
+But nobody fucking cares and the Packers blow
+
+Goodnight
+2022-02-04 00:47:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 701785467079909376, "id": 1489445398947278848, "text": "Yes, we GET it\n\nYou moved to Austin from Wisconsin\n\nThis weather is pretty much Spring there. You've told anyone who will spare you 15 seconds\n\nBut nobody fucking cares and the Packers blow\n\nGoodnight", "createdAt": 1643946430000} to topic: twitter-topic
+2022-02-04 00:47:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 219 Timestamp: 1643946435483 At time 38667705965400
+2022-02-04 00:47:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @byjessicaelena: He's practicing for the spring dance!! https://t.co/2qG3ueumOv
+2022-02-04 00:47:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1141712922688786432, "id": 1489445401589657601, "text": "RT @byjessicaelena: He's practicing for the spring dance!! https://t.co/2qG3ueumOv", "createdAt": 1643946430000} to topic: twitter-topic
+2022-02-04 00:47:16 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 237 Timestamp: 1643946436121 At time 38668346702500
+2022-02-04 00:47:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @elonmusk In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/X4z6bITUI4
+2022-02-04 00:47:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1381831920682627076, "id": 1489445401446916099, "text": "@elonmusk In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! .!BSC:0x641ec142e67ab213539815f67e4276975c2f8d50 https://t.co/X4z6bITUI4", "createdAt": 1643946430000} to topic: twitter-topic
+2022-02-04 00:47:16 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 249 Timestamp: 1643946436185 At time 38668411047200
+2022-02-04 00:47:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text AU can’t be this dumb , can they ?? I mean in this day and age , if they do this , 25 kids hit the portal and that would put them 3 recruiting cycles behind . Spring Ball coming in 3 weeks.
+2022-02-04 00:47:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 279315993, "id": 1489445405708410881, "text": "AU can\u2019t be this dumb , can they ?? I mean in this day and age , if they do this , 25 kids hit the portal and that would put them 3 recruiting cycles behind . Spring Ball coming in 3 weeks.", "createdAt": 1643946431000} to topic: twitter-topic
+2022-02-04 00:47:17 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 238 Timestamp: 1643946437107 At time 38669325347000
+2022-02-04 00:47:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:47:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 801793456507002882, "id": 1489445407512227844, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946432000} to topic: twitter-topic
+2022-02-04 00:47:17 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 239 Timestamp: 1643946437526 At time 38669748524700
+2022-02-04 00:47:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @authorjoannaelm: Last day for Goodreads Giveaway for #FoolHerOnce at https://t.co/pm1pe2GN7s
+A "notable" mystery/thriller pick by @Publ…
+2022-02-04 00:47:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 301186447, "id": 1489445408036335618, "text": "RT @authorjoannaelm: Last day for Goodreads Giveaway for #FoolHerOnce at https://t.co/pm1pe2GN7s\nA \"notable\" mystery/thriller pick by @Publ\u2026", "createdAt": 1643946432000} to topic: twitter-topic
+2022-02-04 00:47:17 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 220 Timestamp: 1643946437644 At time 38669875626000
+2022-02-04 00:47:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ViewWillys: I am happy to tease in Spring 2022
+I will debut my Sprina 
+Spencer&Trina GH FanFic 
+
+There’s going to be Romance,Danger,Mor…
+2022-02-04 00:47:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1009567613641424898, "id": 1489445410339012611, "text": "RT @ViewWillys: I am happy to tease in Spring 2022\nI will debut my Sprina \nSpencer&Trina GH FanFic \n\nThere\u2019s going to be Romance,Danger,Mor\u2026", "createdAt": 1643946433000} to topic: twitter-topic
+2022-02-04 00:47:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 250 Timestamp: 1643946438176 At time 38670407352900
+2022-02-04 00:47:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:47:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4338525192, "id": 1489445412109013006, "text": "RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946433000} to topic: twitter-topic
+2022-02-04 00:47:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 221 Timestamp: 1643946438593 At time 38670809127800
+2022-02-04 00:47:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?Gina 2022 Spring ???
+3/7?????
+
+????????( SnowMan)
+
+#SnowMan  SnowMan
+???????????
+????
+
+?Amazon
+https://t.co/ShXqOWH4cN
+2022-02-04 00:47:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1373679388584075264, "id": 1489445414482825219, "text": "?Gina 2022 Spring ???\n3/7?????\n\n????????( SnowMan)\n\n#SnowMan  SnowMan\n???????????\n????\n\n?Amazon\nhttps://t.co/ShXqOWH4cN", "createdAt": 1643946434000} to topic: twitter-topic
+2022-02-04 00:47:19 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 240 Timestamp: 1643946439165 At time 38671387747700
+2022-02-04 00:47:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @quratakenji: MANKAI MOVIE?A3!?AUTUMN&WINTER
+??2?5?(?)?????????????
+
+A&W????????????????????????????????????????????????
+https://t.co/Q7…
+2022-02-04 00:47:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1056402574666944518, "id": 1489445416253161476, "text": "RT @quratakenji: MANKAI MOVIE?A3!?AUTUMN&WINTER\n??2?5?(?)?????????????\n\nA&W????????????????????????????????????????????????\nhttps://t.co/Q7\u2026", "createdAt": 1643946434000} to topic: twitter-topic
+2022-02-04 00:47:19 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 251 Timestamp: 1643946439581 At time 38671808204700
+2022-02-04 00:47:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @BuzzingPop: Fantasia Taylor, Colman Domingo, Danielle Brooks, Halle Bailey, Corey Hawkins, H.E.R., and Taraji P. Henson will star in th…
+2022-02-04 00:47:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1453081599411736579, "id": 1489445419151155201, "text": "RT @BuzzingPop: Fantasia Taylor, Colman Domingo, Danielle Brooks, Halle Bailey, Corey Hawkins, H.E.R., and Taraji P. Henson will star in th\u2026", "createdAt": 1643946435000} to topic: twitter-topic
+2022-02-04 00:47:20 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 222 Timestamp: 1643946440273 At time 38672493994000
+2022-02-04 00:47:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @texasvaquero1 We even have a name to all seasons in one day here, it's a normal day, except sping and fall, we don't have spring and fall, even know what they feels.
+2022-02-04 00:47:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1312933747524808704, "id": 1489445426138914817, "text": "@texasvaquero1 We even have a name to all seasons in one day here, it's a normal day, except sping and fall, we don't have spring and fall, even know what they feels.", "createdAt": 1643946436000} to topic: twitter-topic
+2022-02-04 00:47:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 241 Timestamp: 1643946441986 At time 38674204835400
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @yamazakipan_cp: ?#????????? ???????
+
+1???????????????28??????
+2??????????????
+3????????????????????
+
+??????????????????????????????
+
+#?…
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 820986920683438080, "id": 1489445427145756681, "text": "RT @yamazakipan_cp: ?#????????? ???????\n\n1\u20E3??????????????28??????\n2\u20E3?????????????\n3\u20E3???????????????????\n\n??????????????????????????????\n\n#?\u2026", "createdAt": 1643946437000} to topic: twitter-topic
+2022-02-04 00:47:22 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 223 Timestamp: 1643946442179 At time 38674408489900
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text New NFT
+Prices vary
+https://t.co/ogJowz9lXb
+TAGS
+#blockchain #raredigitalart #ethereum #cryptoartist #nft #nftcollector #pixelart #modernart #ETH #boredape #nftcollectors #cryptonft #nftcommunity  #nftartists #digitalart #nfts #nftnews #digitalillustration  #nftcreator #dragon https://t.co/1hGNZjgXDk
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1489441232334237696, "id": 1489445426806018048, "text": "New NFT\nPrices vary\nhttps://t.co/ogJowz9lXb\nTAGS\n#blockchain #raredigitalart #ethereum #cryptoartist #nft #nftcollector #pixelart #modernart #ETH #boredape #nftcollectors #cryptonft #nftcommunity  #nftartists #digitalart #nfts #nftnews #digitalillustration  #nftcreator #dragon https://t.co/1hGNZjgXDk", "createdAt": 1643946436000} to topic: twitter-topic
+2022-02-04 00:47:22 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 224 Timestamp: 1643946442345 At time 38674567517400
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @0xALINFT: ?Ali is an original animation IP born in China. Since the Chinese Spring Festival is already here, Ali hopes to launch a "Chi…
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1487055659250044934, "id": 1489445428840263680, "text": "RT @0xALINFT: ?Ali is an original animation IP born in China. Since the Chinese Spring Festival is already here, Ali hopes to launch a \"Chi\u2026", "createdAt": 1643946437000} to topic: twitter-topic
+2022-02-04 00:47:22 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 225 Timestamp: 1643946442581 At time 38674808738800
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ONCE_GLOBAL: [?] 220202 @/pearlygates_korea IG Update of NAYEON
+
+“PEARLY GATES x TWICE #/LET'S TWICE! 
+Pearly Gates' exciting ss stylin…
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 416568621, "id": 1489445429800357888, "text": "RT @ONCE_GLOBAL: [?] 220202 @/pearlygates_korea IG Update of NAYEON\n\n\u201CPEARLY GATES x TWICE #/LET'S TWICE! \nPearly Gates' exciting ss stylin\u2026", "createdAt": 1643946437000} to topic: twitter-topic
+2022-02-04 00:47:22 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 226 Timestamp: 1643946442818 At time 38675042087900
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:47:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 772982790258163712, "id": 1489445430492823553, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946437000} to topic: twitter-topic
+2022-02-04 00:47:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 227 Timestamp: 1643946442986 At time 38675211161300
+2022-02-04 00:47:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @patrickdextervc It’s such pure enjoyment to watch your clip. Today is also the start of spring of the lunar calendar, let’s all embrace this brand new beginning
+2022-02-04 00:47:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1219375168276979713, "id": 1489445430895288326, "text": "@patrickdextervc It\u2019s such pure enjoyment to watch your clip. Today is also the start of spring of the lunar calendar, let\u2019s all embrace this brand new beginning", "createdAt": 1643946437000} to topic: twitter-topic
+2022-02-04 00:47:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 252 Timestamp: 1643946443100 At time 38675320412000
+2022-02-04 00:47:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @flumpool_STAFF: ??????
+?????????????A Spring Breath?FC??BOX SET????
+???????T?????????????????????
+??????????????
+??????????????
+
+????2/…
+2022-02-04 00:47:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 104173299, "id": 1489445431792656392, "text": "RT @flumpool_STAFF: ??????\n?????????????A Spring Breath?FC??BOX SET????\n???????T??????????????????\u200D??\n????????????\u203C?\n??????????????\n\n????2/\u2026", "createdAt": 1643946438000} to topic: twitter-topic
+2022-02-04 00:47:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 253 Timestamp: 1643946443290 At time 38675507935800
+2022-02-04 00:47:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be…
+2022-02-04 00:47:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1235240662670376967, "id": 1489445432505913344, "text": "RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be\u2026", "createdAt": 1643946438000} to topic: twitter-topic
+2022-02-04 00:47:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 228 Timestamp: 1643946443459 At time 38675682681300
+2022-02-04 00:47:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 00:47:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1422727219089084416, "id": 1489445437363089408, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643946439000} to topic: twitter-topic
+2022-02-04 00:47:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 229 Timestamp: 1643946444626 At time 38676850188600
+2022-02-04 00:47:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @WyzeCam my wyze hand vac doesn't really suck well anymore. seems like the door and the spring aren't working well
+2022-02-04 00:47:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 29148660, "id": 1489445445696958477, "text": "@WyzeCam my wyze hand vac doesn't really suck well anymore. seems like the door and the spring aren't working well", "createdAt": 1643946441000} to topic: twitter-topic
+2022-02-04 00:47:26 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 230 Timestamp: 1643946446630 At time 38678860846000
+2022-02-04 00:47:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report…
+2022-02-04 00:47:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 425133057, "id": 1489445448859402240, "text": "RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report\u2026", "createdAt": 1643946442000} to topic: twitter-topic
+2022-02-04 00:47:27 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 242 Timestamp: 1643946447349 At time 38679574630200
+2022-02-04 00:47:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @WeTVOfficial: #HappyChineseNewYear ?
+
+When spring comes, blessings follow ?
+
+#XiaoZhan #??
+#YangMi #??
+
+#WeTV #WeTVAlwaysMore https://t…
+2022-02-04 00:47:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2811142789, "id": 1489445450902306819, "text": "RT @WeTVOfficial: #HappyChineseNewYear ?\n\nWhen spring comes, blessings follow ?\n\n#XiaoZhan #??\n#YangMi #??\n\n#WeTV #WeTVAlwaysMore https://t\u2026", "createdAt": 1643946442000} to topic: twitter-topic
+2022-02-04 00:47:27 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 243 Timestamp: 1643946447845 At time 38680071262200
+2022-02-04 00:47:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Parent after deeply, the wound alone,throw away the target, the
+https://t.co/th4VgsWbA4
+Fashion does lead again. It's like spring cleaning for
+ï»¿https://t.co/PJFRFtF9n8
+2022-02-04 00:47:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 503022252, "id": 1489445452776939521, "text": "Parent after deeply, the wound alone,throw away the target, the\nhttps://t.co/th4VgsWbA4\nFashion does lead again. It's like spring cleaning for\nï»¿https://t.co/PJFRFtF9n8", "createdAt": 1643946443000} to topic: twitter-topic
+2022-02-04 00:47:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 244 Timestamp: 1643946448340 At time 38680568735500
+2022-02-04 00:47:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @RachelCoyleOhio: Ohio's own @SenSherrodBrown just over here being the freaking best as usual
+2022-02-04 00:47:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 17755690, "id": 1489445453544538120, "text": "RT @RachelCoyleOhio: Ohio's own @SenSherrodBrown just over here being the freaking best as usual", "createdAt": 1643946443000} to topic: twitter-topic
+2022-02-04 00:47:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 231 Timestamp: 1643946448504 At time 38680726290900
+2022-02-04 00:47:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @DiscussingFilm: Patrick Wilson reveals that ‘INSIDIOUS 5’ begins filming in Spring. The film will be his directorial debut.
+
+(Source: h…
+2022-02-04 00:47:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1232662571410432004, "id": 1489445456035950594, "text": "RT @DiscussingFilm: Patrick Wilson reveals that \u2018INSIDIOUS 5\u2019 begins filming in Spring. The film will be his directorial debut.\n\n(Source: h\u2026", "createdAt": 1643946443000} to topic: twitter-topic
+2022-02-04 00:47:29 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 254 Timestamp: 1643946449066 At time 38681289928800
+2022-02-04 00:47:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ughmane: i feel like Spring Day gonna stay on the Korean Charts especially Mel0n forever, we smile.
+2022-02-04 00:47:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 993748768276164608, "id": 1489445459580317700, "text": "RT @ughmane: i feel like Spring Day gonna stay on the Korean Charts especially Mel0n forever, we smile.", "createdAt": 1643946444000} to topic: twitter-topic
+2022-02-04 00:47:29 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 245 Timestamp: 1643946449909 At time 38682132071700
+2022-02-04 00:47:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @rose_updatesth: ‘???????????????????????????????????????????? ?????????????????????????????? ????????????????? ????????????????????????…
+2022-02-04 00:47:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1251518593881141248, "id": 1489445463187419137, "text": "RT @rose_updatesth: \u2018???????????????????????????????????????????? ?????????????????????????????? ????????????????? ????????????????????????\u2026", "createdAt": 1643946445000} to topic: twitter-topic
+2022-02-04 00:47:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 246 Timestamp: 1643946450766 At time 38682987879300
+2022-02-04 00:47:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @XiaoZhan_OFC: ?220204 Photo?
+
+#XiaoZhan1005NewsPort
+#XiaoZhan #?? #SeanXiao 
+
+Li-Ning Lifestyle Weibo updated:
+
+Today is the solar term…
+2022-02-04 00:47:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4757261510, "id": 1489445463153516544, "text": "RT @XiaoZhan_OFC: ?220204 Photo?\n\n#XiaoZhan1005NewsPort\n#XiaoZhan #?? #SeanXiao \n\nLi-Ning Lifestyle Weibo updated:\n\nToday is the solar term\u2026", "createdAt": 1643946445000} to topic: twitter-topic
+2022-02-04 00:47:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 247 Timestamp: 1643946450789 At time 38683017783100
+2022-02-04 00:47:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @yamazakipan_cp: ?#???????? ?????????
+
+???100??? #??????????????? ???????
+
+?????
+?@yamazakipan_cp ?????
+?#??????? ?????????????? #??????…
+2022-02-04 00:47:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1302411759693701121, "id": 1489445466022739974, "text": "RT @yamazakipan_cp: ?#???????? ?????????\n\n???100??? #??????????????? ???????\n\n?????\n?@yamazakipan_cp ?????\n?#??????? ?????????????? #??????\u2026", "createdAt": 1643946446000} to topic: twitter-topic
+2022-02-04 00:47:31 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 232 Timestamp: 1643946451462 At time 38683685766400
+2022-02-04 00:47:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?????????SUNDRED??2???????????????????INDUSTRY-UP DAY Spring 2022??2?24??????????????????????????????????????????
+ #SUNDRED #????? #IndustryUp #???????? #???? #FutureBoard #IUD2022s
+2022-02-04 00:47:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 38481797, "id": 1489445466458955777, "text": "?????????SUNDRED??2???????????????????INDUSTRY-UP DAY Spring 2022??2?24??????????????????????????????????????????\n #SUNDRED #????? #IndustryUp #???????? #???? #FutureBoard #IUD2022s", "createdAt": 1643946446000} to topic: twitter-topic
+2022-02-04 00:47:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Cvsmix______: ?ALL LIKES CAN WIN SPRING HALO 2022?
+
+-Follow me w/?
+-Like + Retweet https://t.co/t7XfcAnTR4
+2022-02-04 00:47:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1379844351711305731, "id": 1489445466613768193, "text": "RT @Cvsmix______: ?ALL LIKES CAN WIN SPRING HALO 2022?\n\n-Follow me w/?\n-Like + Retweet https://t.co/t7XfcAnTR4", "createdAt": 1643946446000} to topic: twitter-topic
+2022-02-04 00:47:31 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 255 Timestamp: 1643946451591 At time 38683827595900
+2022-02-04 00:47:31 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 248 Timestamp: 1643946451591 At time 38683830114600
+2022-02-04 00:47:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:47:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1258527929597861889, "id": 1489445471894577152, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946447000} to topic: twitter-topic
+2022-02-04 00:47:32 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 256 Timestamp: 1643946452843 At time 38685073209500
+2022-02-04 00:47:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @Spring738916920 ????ZERO?????????
+
+Spring????????????????????????????????????
+2022-02-04 00:47:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 938739132611702784, "id": 1489445475329912832, "text": "@Spring738916920 ????ZERO?????????\n\nSpring????????????????????????????????????", "createdAt": 1643946448000} to topic: twitter-topic
+2022-02-04 00:47:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text There was like a MINUTE in spring 2019 where every woman in Brooklyn dressed like Grogu. This was real.
+2022-02-04 00:47:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 14655133, "id": 1489445475338100744, "text": "There was like a MINUTE in spring 2019 where every woman in Brooklyn dressed like Grogu. This was real.", "createdAt": 1643946448000} to topic: twitter-topic
+2022-02-04 00:47:33 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 257 Timestamp: 1643946453678 At time 38685896449300
+2022-02-04 00:47:33 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 233 Timestamp: 1643946453683 At time 38685902387100
+2022-02-04 00:47:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Chotechote99: #Aungmyaythazan township students' union (ABFSU) hung anti-coup banner 'May all civilians have electricity all 24 hours,…
+2022-02-04 00:47:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1470960566973853698, "id": 1489445479465291778, "text": "RT @Chotechote99: #Aungmyaythazan township students' union (ABFSU) hung anti-coup banner 'May all civilians have electricity all 24 hours,\u2026", "createdAt": 1643946449000} to topic: twitter-topic
+2022-02-04 00:47:34 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 234 Timestamp: 1643946454657 At time 38686878283900
+2022-02-04 00:47:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @love_errs: Waiting for Spring. Self portrait on #fuji400 #35mmfilm https://t.co/IivPh4f0oL
+2022-02-04 00:47:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 17969146, "id": 1489445482975875073, "text": "RT @love_errs: Waiting for Spring. Self portrait on #fuji400 #35mmfilm https://t.co/IivPh4f0oL", "createdAt": 1643946450000} to topic: twitter-topic
+2022-02-04 00:47:35 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 249 Timestamp: 1643946455486 At time 38687705746400
+2022-02-04 00:47:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:47:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1173205470607134720, "id": 1489445484683218949, "text": "RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946450000} to topic: twitter-topic
+2022-02-04 00:47:35 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 250 Timestamp: 1643946455905 At time 38688127049700
+2022-02-04 00:47:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:47:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1420609593017729031, "id": 1489445484968431617, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946450000} to topic: twitter-topic
+2022-02-04 00:47:35 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 258 Timestamp: 1643946455976 At time 38688202780000
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1236424242159288321, "id": 1489445495361650690, "text": "RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946453000} to topic: twitter-topic
+2022-02-04 00:47:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 251 Timestamp: 1643946458438 At time 38690666274400
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @iamstevencooper: We have 11,500 subs on YouTube so far. Our goal is 100K by Spring. 100K is the magic number for what we're building. O…
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1455666647201615873, "id": 1489445495781081088, "text": "RT @iamstevencooper: We have 11,500 subs on YouTube so far. Our goal is 100K by Spring. 100K is the magic number for what we're building. O\u2026", "createdAt": 1643946453000} to topic: twitter-topic
+2022-02-04 00:47:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 252 Timestamp: 1643946458541 At time 38690772915700
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1352765661894696960, "id": 1489445496632459264, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643946453000} to topic: twitter-topic
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Can we have a #web3 spring plz? 
+
+Barry do something ffs
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1434177294067712000, "id": 1489445496670277632, "text": "Can we have a #web3 spring plz? \n\nBarry do something ffs", "createdAt": 1643946453000} to topic: twitter-topic
+2022-02-04 00:47:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 253 Timestamp: 1643946458753 At time 38690977041100
+2022-02-04 00:47:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 254 Timestamp: 1643946458759 At time 38690977491600
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @enst_FFine: ???·???
+???? ???? ????
+2021 SPRING SHUFFLE Extra SS
+
+???? ? ??? ??? ? ?? ?????? ? ? ?HiMERU ???
+
+??2???? or ??+??
+??2??????…
+2022-02-04 00:47:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 837997977977290752, "id": 1489445496749838339, "text": "RT @enst_FFine: ???·???\n???? ???? ????\n2021 SPRING SHUFFLE Extra SS\n\n???? ? ??? ??? ? ?? ?????? ? ? ?HiMERU ???\n\n??2???? or ??+??\n??2??????\u2026", "createdAt": 1643946453000} to topic: twitter-topic
+2022-02-04 00:47:38 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 235 Timestamp: 1643946458775 At time 38691006107300
+2022-02-04 00:47:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:47:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1317585154928508929, "id": 1489445499568640005, "text": "RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946454000} to topic: twitter-topic
+2022-02-04 00:47:39 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 255 Timestamp: 1643946459453 At time 38691675740500
+2022-02-04 00:47:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @marlyskywalker @ilovekatebishop Oopsie… yeaaaa im doing a spring attachment course so part of it is we get to go camping for two weeks at the end of the semester sooooo I get to spend my 21st bday there ?
+2022-02-04 00:47:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1404984602255572992, "id": 1489445503905546240, "text": "@marlyskywalker @ilovekatebishop Oopsie\u2026 yeaaaa im doing a spring attachment course so part of it is we get to go camping for two weeks at the end of the semester sooooo I get to spend my 21st bday there ?", "createdAt": 1643946455000} to topic: twitter-topic
+2022-02-04 00:47:40 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 259 Timestamp: 1643946460506 At time 38692730240100
+2022-02-04 00:47:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 00:47:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1430158248322158594, "id": 1489445511841079296, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643946457000} to topic: twitter-topic
+2022-02-04 00:47:42 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 236 Timestamp: 1643946462406 At time 38694629956900
+2022-02-04 00:47:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ayerhsmagazine: John Galliano Spring 2004 https://t.co/PtvqPRqIbu
+2022-02-04 00:47:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 797973710095392768, "id": 1489445512822636545, "text": "RT @ayerhsmagazine: John Galliano Spring 2004 https://t.co/PtvqPRqIbu", "createdAt": 1643946457000} to topic: twitter-topic
+2022-02-04 00:47:42 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 260 Timestamp: 1643946462626 At time 38694848740500
+2022-02-04 00:47:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report…
+2022-02-04 00:47:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2238402254, "id": 1489445514894397443, "text": "RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report\u2026", "createdAt": 1643946457000} to topic: twitter-topic
+2022-02-04 00:47:43 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 256 Timestamp: 1643946463102 At time 38695328471400
+2022-02-04 00:47:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Consultant, Business Analyst (4.5-6 years) with skills Automated Testing, Angular 7, Mule, Spring, AIX, Python, Agile Software Development, Selenium for location Bangalore, India https://t.co/gIzTKcbifo
+2022-02-04 00:47:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 91301690, "id": 1489445519382429701, "text": "Consultant, Business Analyst (4.5-6 years) with skills Automated Testing, Angular 7, Mule, Spring, AIX, Python, Agile Software Development, Selenium for location Bangalore, India https://t.co/gIzTKcbifo", "createdAt": 1643946459000} to topic: twitter-topic
+2022-02-04 00:47:44 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 237 Timestamp: 1643946464222 At time 38696444396400
+2022-02-04 00:47:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @_sallytomato: My grandpa gets my grandma flowers every groundhogs day because spring is her fav and it’s his way of giving her spring a…
+2022-02-04 00:47:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4828062858, "id": 1489445519847997443, "text": "RT @_sallytomato: My grandpa gets my grandma flowers every groundhogs day because spring is her fav and it\u2019s his way of giving her spring a\u2026", "createdAt": 1643946459000} to topic: twitter-topic
+2022-02-04 00:47:44 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 257 Timestamp: 1643946464272 At time 38696489470800
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1122842305809903616, "id": 1489445523707011073, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643946460000} to topic: twitter-topic
+2022-02-04 00:47:45 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 258 Timestamp: 1643946465202 At time 38697424743700
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?? ???? ???? ???? Spring idol
+
+? ?? ?
+
+? ???80500?
+
+????????????????
+10????/42000???????????
+
+2/4?5???????????????PayPay?????????.????PayPay??????
+???????????~????????? https://t.co/Ax0HCKtoBy
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1234995110007300096, "id": 1489445523241127936, "text": "?? ???? ???? ???? Spring idol\n\n? ?? ?\n\n? ???80500?\n\n????????????????\n10????/42000???????????\n\n2/4?5???????????????PayPay?????????.????PayPay??????\n???????????~????????? https://t.co/Ax0HCKtoBy", "createdAt": 1643946459000} to topic: twitter-topic
+2022-02-04 00:47:45 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 261 Timestamp: 1643946465223 At time 38697439596100
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1088478615258447877, "id": 1489445524822544389, "text": "RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946460000} to topic: twitter-topic
+2022-02-04 00:47:45 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 259 Timestamp: 1643946465504 At time 38697734172800
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @earthXX98: L’Officiel Hommes Thailand ???????????????????????????????????, ???????????????? ????? TRINITY ?????????????????????????????…
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1452654923309477888, "id": 1489445526320087040, "text": "RT @earthXX98: L\u2019Officiel Hommes Thailand ???????????????????????????????????, ???????????????? ????? TRINITY ?????????????????????????????\u2026", "createdAt": 1643946460000} to topic: twitter-topic
+2022-02-04 00:47:45 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 260 Timestamp: 1643946465820 At time 38698044402800
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt’s “Spring Day” (2017) has surpassed 7.5 million unique listeners on Melon, joining “Cherry Blossom Ending” as the o…
+2022-02-04 00:47:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 917360888851476481, "id": 1489445526617858054, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643946460000} to topic: twitter-topic
+2022-02-04 00:47:45 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 261 Timestamp: 1643946465898 At time 38698120256700
+2022-02-04 00:47:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @uPtxMDPVQOhKyrQ: *??*
+
+????
+
+I found the 
+breath of spring
+ in the park.
+
+?????????
+
+?????
+????????
+
+??????
+
+????
+???????
+????…???
+
+*??…
+2022-02-04 00:47:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1477765442697838592, "id": 1489445529931362307, "text": "RT @uPtxMDPVQOhKyrQ: *??*\n\n????\n\nI found the \nbreath of spring\n in the park.\n\n?????????\n\n?????\n????????\n\n??????\n\n????\n???????\n????\u2026???\n\n*??\u2026", "createdAt": 1643946461000} to topic: twitter-topic
+2022-02-04 00:47:46 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 238 Timestamp: 1643946466682 At time 38698899574600
+2022-02-04 00:47:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text The unjust shaming of a little girl highlights the broad issue of institutional food waste School food has become abysmal, IMO. In the ‘50’s snd ‘60’s there were freshly prepared foods like chili, spring garden stew, cornbread, veggies, chocolate cake. https://t.co/Zhz5kmmOUQ
+2022-02-04 00:47:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 473210908, "id": 1489445536222498821, "text": "The unjust shaming of a little girl highlights the broad issue of institutional food waste School food has become abysmal, IMO. In the \u201850\u2019s snd \u201860\u2019s there were freshly prepared foods like chili, spring garden stew, cornbread, veggies, chocolate cake. https://t.co/Zhz5kmmOUQ", "createdAt": 1643946463000} to topic: twitter-topic
+2022-02-04 00:47:48 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 262 Timestamp: 1643946468232 At time 38700452078900
+2022-02-04 00:47:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text jus walked outside, it’s spring.
+2022-02-04 00:47:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 293260162, "id": 1489445537686462469, "text": "jus walked outside, it\u2019s spring.", "createdAt": 1643946463000} to topic: twitter-topic
+2022-02-04 00:47:48 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 262 Timestamp: 1643946468569 At time 38700798335500
+2022-02-04 00:47:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @EvilMopacATX: Yes, we GET it
+
+You moved to Austin from Wisconsin
+
+This weather is pretty much Spring there. You've told anyone who will…
+2022-02-04 00:47:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 983154954, "id": 1489445539301273600, "text": "RT @EvilMopacATX: Yes, we GET it\n\nYou moved to Austin from Wisconsin\n\nThis weather is pretty much Spring there. You've told anyone who will\u2026", "createdAt": 1643946463000} to topic: twitter-topic
+2022-02-04 00:47:48 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 239 Timestamp: 1643946468922 At time 38701140364300
+2022-02-04 00:47:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @PoornimaNimo Spring is in the air!
+Good morning https://t.co/69s6xcRNSI
+2022-02-04 00:47:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4909957220, "id": 1489445539577925633, "text": "@PoornimaNimo Spring is in the air!\nGood morning https://t.co/69s6xcRNSI", "createdAt": 1643946463000} to topic: twitter-topic
+2022-02-04 00:47:49 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 240 Timestamp: 1643946469114 At time 38701332836400
+2022-02-04 00:47:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:47:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1451249340102631424, "id": 1489445541633089542, "text": "RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946464000} to topic: twitter-topic
+2022-02-04 00:47:49 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 241 Timestamp: 1643946469494 At time 38701723189300
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @GLidya_: Song Hye-kyo, your beauty is just admiring..It's gotten more elegant.
+MICHAA, a women's suit, unveiled its 2022 Pre-Spring New…
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1422667759251378178, "id": 1489445544238141440, "text": "RT @GLidya_: Song Hye-kyo, your beauty is just admiring..It's gotten more elegant.\nMICHAA, a women's suit, unveiled its 2022 Pre-Spring New\u2026", "createdAt": 1643946464000} to topic: twitter-topic
+2022-02-04 00:47:50 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 242 Timestamp: 1643946470093 At time 38702324221200
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @finess3nce: it's such a beautiful book. she wrote it phonetically in the way Cudjo/Oluale spoke. Reminded me of the way some elders in…
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1455179479492538372, "id": 1489445544678367233, "text": "RT @finess3nce: it's such a beautiful book. she wrote it phonetically in the way Cudjo/Oluale spoke. Reminded me of the way some elders in\u2026", "createdAt": 1643946465000} to topic: twitter-topic
+2022-02-04 00:47:50 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 263 Timestamp: 1643946470227 At time 38702445249000
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ashishkjha: Recently saw patient for COVID round 2
+
+Had COVID last spring with long hospital stay
+
+Now admitted with reinfection. Unvac…
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 25762671, "id": 1489445545114587141, "text": "RT @ashishkjha: Recently saw patient for COVID round 2\n\nHad COVID last spring with long hospital stay\n\nNow admitted with reinfection. Unvac\u2026", "createdAt": 1643946465000} to topic: twitter-topic
+2022-02-04 00:47:50 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 243 Timestamp: 1643946470344 At time 38702568908100
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:47:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1455417678550618113, "id": 1489445547517702146, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946465000} to topic: twitter-topic
+2022-02-04 00:47:50 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 263 Timestamp: 1643946470873 At time 38703101419700
+2022-02-04 00:47:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow
+2022-02-04 00:47:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 538411943, "id": 1489445549539475461, "text": "RT @redlyricsbot: you can't help who you fall for, and you and i fell like an early spring snow", "createdAt": 1643946466000} to topic: twitter-topic
+2022-02-04 00:47:51 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 264 Timestamp: 1643946471402 At time 38703623759900
+2022-02-04 00:47:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @spbcsclub: ? ????????? ??????????? 7 ??????? ???????? ?????????? ? CS ??????? ???? "?????????????? ????? ??????????". ???? ?????? ?????…
+2022-02-04 00:47:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1337287994, "id": 1489445557588402178, "text": "RT @spbcsclub: ? ????????? ??????????? 7 ??????? ???????? ?????????? ? CS ??????? ???? \"?????????????? ????? ??????????\". ???? ?????? ?????\u2026", "createdAt": 1643946468000} to topic: twitter-topic
+2022-02-04 00:47:53 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 265 Timestamp: 1643946473281 At time 38705513659500
+2022-02-04 00:47:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text It does look quite yummy. Thanks for the simple recipe man.
+2022-02-04 00:47:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1452280970757955589, "id": 1489445558498611202, "text": "It does look quite yummy. Thanks for the simple recipe man.", "createdAt": 1643946468000} to topic: twitter-topic
+2022-02-04 00:47:53 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 244 Timestamp: 1643946473552 At time 38705784065300
+2022-02-04 00:47:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+????????????…
+2022-02-04 00:47:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1334324062999379969, "id": 1489445563053776900, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643946469000} to topic: twitter-topic
+2022-02-04 00:47:54 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 266 Timestamp: 1643946474580 At time 38706809672600
+2022-02-04 00:47:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SanditeAthletic: Sand Spring’s Mitchell Smith – Wrestler of the Month – Presented by Eric Davidson State Farm
+
+https://t.co/sZrmDRQWLY…
+2022-02-04 00:47:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1247625685268660224, "id": 1489445565511393280, "text": "RT @SanditeAthletic: Sand Spring\u2019s Mitchell Smith \u2013 Wrestler of the Month \u2013 Presented by Eric Davidson State Farm\n\nhttps://t.co/sZrmDRQWLY\u2026", "createdAt": 1643946470000} to topic: twitter-topic
+2022-02-04 00:47:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 245 Timestamp: 1643946475175 At time 38707403123200
+2022-02-04 00:47:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?
+2022-02-04 00:47:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1300790607611334656, "id": 1489445566304161793, "text": "?", "createdAt": 1643946470000} to topic: twitter-topic
+2022-02-04 00:47:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 264 Timestamp: 1643946475384 At time 38707612658800
+2022-02-04 00:47:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @XiaoZhan_OFC: ?220204 Photo?
+
+#XiaoZhan1005NewsPort
+#XiaoZhan #?? #SeanXiao 
+
+Li-Ning Lifestyle Weibo updated:
+
+Today is the solar term…
+2022-02-04 00:47:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1169974878394621952, "id": 1489445567059140610, "text": "RT @XiaoZhan_OFC: ?220204 Photo?\n\n#XiaoZhan1005NewsPort\n#XiaoZhan #?? #SeanXiao \n\nLi-Ning Lifestyle Weibo updated:\n\nToday is the solar term\u2026", "createdAt": 1643946470000} to topic: twitter-topic
+2022-02-04 00:47:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 267 Timestamp: 1643946475553 At time 38707771579900
+2022-02-04 00:47:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @kynarrah no there will not be. this halo is kindaa like the val & spring combined bc they are mainly focusing on the new school this year. i guess it does make sense for them to have a little bit of stress out of the way
+2022-02-04 00:47:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1362906894000664578, "id": 1489445569407991811, "text": "@kynarrah no there will not be. this halo is kindaa like the val & spring combined bc they are mainly focusing on the new school this year. i guess it does make sense for them to have a little bit of stress out of the way", "createdAt": 1643946470000} to topic: twitter-topic
+2022-02-04 00:47:56 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 268 Timestamp: 1643946476122 At time 38708344890600
+2022-02-04 00:47:56 [Twitter Stream consumer /  [1][Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Task twitter4j.StatusStreamBase$1@3af790bc rejected from java.util.concurrent.ThreadPoolExecutor@b9f2a92[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 780]
+2022-02-04 00:47:58 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-04 00:47:58 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 00:47:58 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 00:47:58 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 00:47:58 [SpringApplicationShutdownHook] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Closing KafkaTemplate
+2022-02-04 00:47:58 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-02-04 00:47:58 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 00:47:58 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 00:47:58 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 00:47:58 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
