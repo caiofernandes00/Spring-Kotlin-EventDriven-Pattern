@@ -8,6 +8,8 @@ services:
       - "./docker-logs:/workspace/src/main/resources/logs"
     depends_on:
       - "kafka-broker-1"
+      - "kafka-broker-2"
+      - "kafka-broker-3"
     environment:
       - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 -Xms128m -Xmx256m"
       - "LOGGING_LEVEL_COM_MICROSERVICES_DEMO=info"
