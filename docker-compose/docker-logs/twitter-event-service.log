@@ -1,0 +1,1546 @@
+2022-02-04 04:10:47 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt v0.0.1-SNAPSHOT using Java 11.0.14 on 05f3c093b1c1 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2022-02-04 04:10:47 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-04 04:10:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 04:10:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:10:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 04:10:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 04:10:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 04:10:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1088 ms
+2022-02-04 04:10:48 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventDrivenApplication': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.eventdriven.domain.port.in.TwitterStreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-04 04:10:48 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-04 04:10:48 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-04 04:10:48 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.eventdriven.EventDrivenApplication required a bean of type 'com.example.eventdriven.domain.port.in.TwitterStreamRunner' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.eventdriven.domain.port.in.TwitterStreamRunner' in your configuration.
+
+2022-02-04 04:15:38 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt v0.0.1-SNAPSHOT using Java 11.0.14 on 8dc253644e63 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2022-02-04 04:15:38 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-04 04:15:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 04:15:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:15:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 04:15:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 04:15:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 04:15:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1050 ms
+2022-02-04 04:15:39 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-04 04:15:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:15:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:15:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948139707
+2022-02-04 04:15:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:15:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 04:15:40 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 2.49 seconds (JVM running for 2.979)
+2022-02-04 04:15:40 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-04 04:15:40 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Creating 1 topic(s), attempt #0
+2022-02-04 04:15:40 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Create topic result [KafkaFuture{value=null,exception=null,done=false}]
+2022-02-04 04:15:40 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:15:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:15:48 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: twitter-topic
+2022-02-04 04:15:48 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:15:48 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:16:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-04 04:16:02 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.eventdriven.EventDrivenApplicationKt.main(EventDrivenApplication.kt:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88)
+Caused by: com.example.eventdriven.adapter.out.kafka.exception.KafkaClientException: Reached max number of retry for reading kafka topic(s)!!
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkMaxRetry(KafkaAdminClient.kt:115)
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkSchemaRegistry(KafkaAdminClient.kt:66)
+	at com.example.eventdriven.adapter.in.kafka.stream.KafkaStreamInitializer.init(KafkaStreamInitializer.kt:19)
+	at com.example.eventdriven.EventDrivenApplication.run(EventDrivenApplication.kt:22)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:769)
+	... 13 common frames omitted
+2022-02-04 04:16:04 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-04 04:16:04 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:16:04 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:16:04 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:16:04 [main] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Closing KafkaTemplate
+2022-02-04 04:16:38 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt v0.0.1-SNAPSHOT using Java 11.0.14 on 92bb871165a0 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2022-02-04 04:16:38 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-04 04:16:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 04:16:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:16:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 04:16:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 04:16:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 04:16:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1011 ms
+2022-02-04 04:16:39 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-04 04:16:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:16:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:16:39 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948199545
+2022-02-04 04:16:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:16:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 04:16:40 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 2.448 seconds (JVM running for 2.927)
+2022-02-04 04:16:40 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-04 04:16:40 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Creating 1 topic(s), attempt #0
+2022-02-04 04:16:40 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Create topic result [KafkaFuture{value=null,exception=null,done=false}]
+2022-02-04 04:16:40 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:16:45 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: twitter-topic
+2022-02-04 04:16:45 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:16:52 [main] INFO  c.e.e.a.i.k.s.KafkaStreamInitializer - Topics with name [twitter-topic] is ready for operations!
+2022-02-04 04:16:52 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-02-04 04:16:52 [main] INFO  c.e.e.a.i.t.s.EventStreamRunnerAdapter - Started filtering stream for keywords [Ljava.lang.String;@43b6cb1c
+2022-02-04 04:16:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-02-04 04:16:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-02-04 04:16:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @gracedli: POSTER VERSION IS HERE!! it's so large i am obsessed with it https://t.co/YteJJoMu75
+2022-02-04 04:16:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3397889745, "id": 1489452864640622599, "text": "RT @gracedli: POSTER VERSION IS HERE!! it's so large i am obsessed with it https://t.co/YteJJoMu75", "createdAt": 1643948210000} to topic: twitter-topic
+2022-02-04 04:16:53 [Twitter4J Async Dispatcher[0]] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = snappy
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2022-02-04 04:16:53 [Twitter4J Async Dispatcher[0]] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	schema.registry.url = [http://schema-registry:8081]
+	basic.auth.user.info = [hidden]
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2022-02-04 04:16:53 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:16:53 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:16:53 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948213869
+2022-02-04 04:16:53 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: dzBC8FAyT6qNWL0opqgp9A
+2022-02-04 04:16:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be?
+2022-02-04 04:16:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 804136622153498624, "id": 1489452865902940161, "text": "RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be\u2026", "createdAt": 1643948210000} to topic: twitter-topic
+2022-02-04 04:16:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @latina_sama: 2?4???????
+?????spring????????springan???????(??????????????????)?
+"spring"????????????????????????????????????????????????
+2022-02-04 04:16:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 913742552867659776, "id": 1489452866427240450, "text": "RT @latina_sama: 2?4???????\n?????spring????????springan???????(??????????????????)?\n\"spring\"???????????????????????????????????????????????\u2026", "createdAt": 1643948210000} to topic: twitter-topic
+2022-02-04 04:16:54 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 0 Timestamp: 1643948214236 At time 40400099055551
+2022-02-04 04:16:54 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 0 Timestamp: 1643948213902 At time 40400110800309
+2022-02-04 04:16:54 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 1 Timestamp: 1643948214239 At time 40400112206427
+2022-02-04 04:16:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @creamsoup__: ??? ??
+[Spring out]
+
+#??? #??? #??? https://t.co/49TJHjqVho
+2022-02-04 04:16:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1094168911631663104, "id": 1489452870134943745, "text": "RT @creamsoup__: ??? ??\n[Spring out]\n\n#??? #??? #??? https://t.co/49TJHjqVho", "createdAt": 1643948211000} to topic: twitter-topic
+2022-02-04 04:16:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 0 Timestamp: 1643948214992 At time 40400846618504
+2022-02-04 04:16:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @multi_versicon: Hello, you?ve found ??M U L T I V E R S I C O N ??!
+
+The crossroads of multiverse where the fabric of spacetime was war?
+2022-02-04 04:16:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1289909986684882944, "id": 1489452871251009536, "text": "RT @multi_versicon: Hello, you\u2019ve found ??M U L T I V E R S I C O N ??!\n\nThe crossroads of multiverse where the fabric of spacetime was war\u2026", "createdAt": 1643948211000} to topic: twitter-topic
+2022-02-04 04:16:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 1 Timestamp: 1643948215294 At time 40401125688987
+2022-02-04 04:16:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Spring Paradise??????????????????????????( U ?  ? ? )??
+@po_cha_09 @_017sk @3jumelo @__shoyupi @nsyt49116 @ryu____1112
+2022-02-04 04:16:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1348224493886455811, "id": 1489452879950004224, "text": "Spring Paradise??????????????????????????( U ?  ? ? )??\n@po_cha_09 @_017sk @3jumelo @__shoyupi @nsyt49116 @ryu____1112", "createdAt": 1643948213000} to topic: twitter-topic
+2022-02-04 04:16:57 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 2 Timestamp: 1643948217332 At time 40403162127138
+2022-02-04 04:16:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @BoobPunchTina2 @Pujemin @LrElias3 Why not? Eat a couple bunnies or idiot rapey type guys? study art and travel around when detection gets too close. ????? There are worse lives. #FrightClub  #Spring
+2022-02-04 04:16:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1238710606007603200, "id": 1489452881153564672, "text": "@BoobPunchTina2 @Pujemin @LrElias3 Why not? Eat a couple bunnies or idiot rapey type guys\u2026 study art and travel around when detection gets too close. ??\u200D?? There are worse lives. #FrightClub  #Spring", "createdAt": 1643948214000} to topic: twitter-topic
+2022-02-04 04:16:57 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 1 Timestamp: 1643948217635 At time 40403465287055
+2022-02-04 04:16:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @indik: "Some of you won't get to participate in our Hot Vax Spring, but that's a sacrifice I'm willing to make."
+
+Wow. Fuck alllll the?
+2022-02-04 04:16:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 471136400, "id": 1489452884177657860, "text": "RT @indik: \"Some of you won't get to participate in our Hot Vax Spring, but that's a sacrifice I'm willing to make.\"\n\nWow. Fuck alllll the\u2026", "createdAt": 1643948214000} to topic: twitter-topic
+2022-02-04 04:16:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 2 Timestamp: 1643948218367 At time 40404197043072
+2022-02-04 04:16:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text //me pregunto si Spring sigue en casa de golden
+2022-02-04 04:16:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1476741504987193346, "id": 1489452885993734144, "text": "//me pregunto si Spring sigue en casa de golden", "createdAt": 1643948215000} to topic: twitter-topic
+2022-02-04 04:16:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 2 Timestamp: 1643948218770 At time 40404600833904
+2022-02-04 04:16:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @STATIONHEAD: RM once said he was inspired to write Spring Day after witnessing _____ falling from the sky #BTS #BTSArmy @btschartdata
+2022-02-04 04:16:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 462962061, "id": 1489452889722396672, "text": "RT @STATIONHEAD: RM once said he was inspired to write Spring Day after witnessing _____ falling from the sky #BTS #BTSArmy @btschartdata", "createdAt": 1643948216000} to topic: twitter-topic
+2022-02-04 04:16:59 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 3 Timestamp: 1643948219672 At time 40405503628333
+2022-02-04 04:16:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report?
+2022-02-04 04:16:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1551871844, "id": 1489452891110887425, "text": "RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report\u2026", "createdAt": 1643948216000} to topic: twitter-topic
+2022-02-04 04:16:59 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 3 Timestamp: 1643948219981 At time 40405812105132
+2022-02-04 04:17:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @diorangxl: Gucci Spring 2017 Menswear https://t.co/70nDx14o0V
+2022-02-04 04:17:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1508277662, "id": 1489452893233369090, "text": "RT @diorangxl: Gucci Spring 2017 Menswear https://t.co/70nDx14o0V", "createdAt": 1643948217000} to topic: twitter-topic
+2022-02-04 04:17:00 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 3 Timestamp: 1643948220528 At time 40406357328750
+2022-02-04 04:17:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @sssssssssSnowMa: ??????????????????
+
+#????
+#SnowMan
+2022-02-04 04:17:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1326153122306121728, "id": 1489452898451079169, "text": "RT @sssssssssSnowMa: ??????????????????\n\n#????\n#SnowMan", "createdAt": 1643948218000} to topic: twitter-topic
+2022-02-04 04:17:01 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 4 Timestamp: 1643948221755 At time 40407583246943
+2022-02-04 04:17:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 04:17:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1326652034645331968, "id": 1489452900149764096, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643948218000} to topic: twitter-topic
+2022-02-04 04:17:02 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 5 Timestamp: 1643948222140 At time 40407968955491
+2022-02-04 04:17:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text as much as i love the insidious franchise... pls just let it go ??
+2022-02-04 04:17:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 246699021, "id": 1489452905576947718, "text": "as much as i love the insidious franchise... pls just let it go ??", "createdAt": 1643948220000} to topic: twitter-topic
+2022-02-04 04:17:03 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 4 Timestamp: 1643948223457 At time 40409285870146
+2022-02-04 04:17:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be?
+2022-02-04 04:17:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 533347011, "id": 1489452911121735681, "text": "RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be\u2026", "createdAt": 1643948221000} to topic: twitter-topic
+2022-02-04 04:17:04 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 6 Timestamp: 1643948224754 At time 40410583877022
+2022-02-04 04:17:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @japansources: Spring in Japan ? https://t.co/1chQxJDfxm
+2022-02-04 04:17:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3229656462, "id": 1489452911587299330, "text": "RT @japansources: Spring in Japan ? https://t.co/1chQxJDfxm", "createdAt": 1643948221000} to topic: twitter-topic
+2022-02-04 04:17:04 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 5 Timestamp: 1643948224873 At time 40410703110462
+2022-02-04 04:17:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text It?s Spring Tonight! Just for tonight tho. ?
+2022-02-04 04:17:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 14527106, "id": 1489452912703123462, "text": "It\u2019s Spring Tonight! Just for tonight tho. ?", "createdAt": 1643948221000} to topic: twitter-topic
+2022-02-04 04:17:05 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 7 Timestamp: 1643948225157 At time 40410986202788
+2022-02-04 04:17:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text i?m UPPPPPO
+2022-02-04 04:17:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3856786366, "id": 1489452918155751427, "text": "i\u2019m UPPPPPO", "createdAt": 1643948223000} to topic: twitter-topic
+2022-02-04 04:17:06 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 4 Timestamp: 1643948226468 At time 40412298204313
+2022-02-04 04:17:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @BDisgusting: ?Insidious 5? ? That Trailer Floating Around Is Fake But the Fifth Movie Is Filming This Spring https://t.co/aKKsf7rBm8
+2022-02-04 04:17:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1390082741006323712, "id": 1489452922060492800, "text": "RT @BDisgusting: \u2018Insidious 5\u2019 \u2013 That Trailer Floating Around Is Fake But the Fifth Movie Is Filming This Spring https://t.co/aKKsf7rBm8", "createdAt": 1643948223000} to topic: twitter-topic
+2022-02-04 04:17:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 6 Timestamp: 1643948227363 At time 40413191394807
+2022-02-04 04:17:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @TomRock_Newsday: If Giants do hire Kafka they will be surrounding Daniel Jones with Josh Allen?s old coordinator and Patrick Mahomes? o?
+2022-02-04 04:17:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 916398740503703552, "id": 1489452926938587138, "text": "RT @TomRock_Newsday: If Giants do hire Kafka they will be surrounding Daniel Jones with Josh Allen\u2019s old coordinator and Patrick Mahomes\u2019 o\u2026", "createdAt": 1643948225000} to topic: twitter-topic
+2022-02-04 04:17:08 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 8 Timestamp: 1643948228557 At time 40414385741808
+2022-02-04 04:17:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt?s ?Spring Day? (2017) has surpassed 7.5 million unique listeners on Melon, joining ?Cherry Blossom Ending? as the o?
+2022-02-04 04:17:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1287875791, "id": 1489452929933201408, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643948225000} to topic: twitter-topic
+2022-02-04 04:17:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 5 Timestamp: 1643948229241 At time 40415070176396
+2022-02-04 04:17:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @mattomento: ?NEW ARRIVAL!!
+2022?SPRING!!! 
+???????????????????
+???????????
+??????????????????
+??????????????????
+?????
+?????10%off!!
+?2?
+2022-02-04 04:17:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3061378914, "id": 1489452931208597508, "text": "RT @mattomento: ?NEW ARRIVAL!!\n2022?SPRING!!! \n???????????????????\n???????????\n??????????????????\n??????????????????\n?????\n?????10%off!!\n?2\u2026", "createdAt": 1643948226000} to topic: twitter-topic
+2022-02-04 04:17:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 9 Timestamp: 1643948229544 At time 40415372489685
+2022-02-04 04:17:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text with the way things are going health wise and school wise?I won?t be playing Arceus until spring break (both for work and for school)
+I refuse to exchange my animal crossing time for it cuz animal crossing is ?therapy?
+2022-02-04 04:17:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1065289662825197573, "id": 1489452932827332616, "text": "with the way things are going health wise and school wise\u2026I won\u2019t be playing Arceus until spring break (both for work and for school)\nI refuse to exchange my animal crossing time for it cuz animal crossing is ?therapy?", "createdAt": 1643948226000} to topic: twitter-topic
+2022-02-04 04:17:10 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 6 Timestamp: 1643948230018 At time 40415847122463
+2022-02-04 04:17:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text CASE will be interviewing for the next president elect and officially announce this Spring. Corey is one of the contenders. He was nominated by his peers to apply for the volunteer position and selected to interview for this upcoming position. #WISE
+2022-02-04 04:17:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 525590908, "id": 1489452933993295872, "text": "CASE will be interviewing for the next president elect and officially announce this Spring. Corey is one of the contenders. He was nominated by his peers to apply for the volunteer position and selected to interview for this upcoming position. #WISE", "createdAt": 1643948226000} to topic: twitter-topic
+2022-02-04 04:17:10 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 10 Timestamp: 1643948230241 At time 40416068392881
+2022-02-04 04:17:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @bestartpage: Spring in Amsterdam ? https://t.co/UxdUQuwD5U
+2022-02-04 04:17:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1408441076, "id": 1489452935738183688, "text": "RT @bestartpage: Spring in Amsterdam ? https://t.co/UxdUQuwD5U", "createdAt": 1643948227000} to topic: twitter-topic
+2022-02-04 04:17:10 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 7 Timestamp: 1643948230631 At time 40416459325468
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @eye_am_i: ????last spring . . 2022ver. #???? https://t.co/YptOlRUgpe
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3063017210, "id": 1489452937424166913, "text": "RT @eye_am_i: ????last spring . . 2022ver. #???? https://t.co/YptOlRUgpe", "createdAt": 1643948227000} to topic: twitter-topic
+2022-02-04 04:17:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 8 Timestamp: 1643948231042 At time 40416871521518
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+?????????????
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2798097805, "id": 1489452940087595011, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643948228000} to topic: twitter-topic
+2022-02-04 04:17:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 11 Timestamp: 1643948231665 At time 40417493805666
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @rose_updatesth: ????????????????????????????????????????????? ?????????????????????????????? ????????????????? ?????????????????????????
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1133424246216986624, "id": 1489452940805173250, "text": "RT @rose_updatesth: \u2018???????????????????????????????????????????? ?????????????????????????????? ????????????????? ????????????????????????\u2026", "createdAt": 1643948228000} to topic: twitter-topic
+2022-02-04 04:17:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 9 Timestamp: 1643948231830 At time 40417659738672
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ErikSolheim: Hero of India ??!
+Manipur Man Spent 18 Years Growing a 300 Acre Forest
+
+The task at hand was tough. So he renounced his jo?
+2022-02-04 04:17:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1249406558301089793, "id": 1489452940947783684, "text": "RT @ErikSolheim: Hero of India ??!\nManipur Man Spent 18 Years Growing a 300 Acre Forest\n\nThe task at hand was tough. So he renounced his jo\u2026", "createdAt": 1643948228000} to topic: twitter-topic
+2022-02-04 04:17:11 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 12 Timestamp: 1643948231869 At time 40417698535675
+2022-02-04 04:17:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Currently getting my shein cart ready for the spring
+2022-02-04 04:17:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 384463557, "id": 1489452942017052675, "text": "Currently getting my shein cart ready for the spring", "createdAt": 1643948228000} to topic: twitter-topic
+2022-02-04 04:17:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 7 Timestamp: 1643948232128 At time 40417956685034
+2022-02-04 04:17:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?? zooc_official Instagram Update about Tzuyu?s video 
+
+https://t.co/3TCoQrScjZ?
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#?? #??? #TZUYU #?????? #??
+#TZUYUxZOOC
+2022-02-04 04:17:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 27426371, "id": 1489452943896055811, "text": "?? zooc_official Instagram Update about Tzuyu\u2019s video \n\nhttps://t.co/3TCoQrScjZ\u2026\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#?? #??? #TZUYU #?????? #??\n#TZUYUxZOOC", "createdAt": 1643948229000} to topic: twitter-topic
+2022-02-04 04:17:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 10 Timestamp: 1643948232632 At time 40418460766186
+2022-02-04 04:17:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @minmyatnaing13: "May people have electricity all 24 hours, never back to 2001-2"
+
+A banner was hung by activists in #Dawei today in hon?
+2022-02-04 04:17:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1357316559979577345, "id": 1489452949336371201, "text": "RT @minmyatnaing13: \"May people have electricity all 24 hours, never back to 2001-2\"\n\nA banner was hung by activists in #Dawei today in hon\u2026", "createdAt": 1643948230000} to topic: twitter-topic
+2022-02-04 04:17:13 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 13 Timestamp: 1643948233862 At time 40419690859941
+2022-02-04 04:17:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text It?s going to take us months to find a house. Everything is so expensive and I don?t like anything enough to *actually* spend all my money on it. ? Hopefully we?ll find something when things pick up in spring.
+2022-02-04 04:17:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1388397231594639365, "id": 1489452953165606914, "text": "It\u2019s going to take us months to find a house. Everything is so expensive and I don\u2019t like anything enough to *actually* spend all my money on it. ? Hopefully we\u2019ll find something when things pick up in spring.", "createdAt": 1643948231000} to topic: twitter-topic
+2022-02-04 04:17:14 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 14 Timestamp: 1643948234811 At time 40420639605071
+2022-02-04 04:17:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @love_errs: Waiting for Spring. Self portrait on #fuji400 #35mmfilm https://t.co/IivPh4f0oL
+2022-02-04 04:17:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 199263799, "id": 1489452954310656003, "text": "RT @love_errs: Waiting for Spring. Self portrait on #fuji400 #35mmfilm https://t.co/IivPh4f0oL", "createdAt": 1643948231000} to topic: twitter-topic
+2022-02-04 04:17:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 11 Timestamp: 1643948235072 At time 40420900530284
+2022-02-04 04:17:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Who had Octopus Lady on their guessing card? Show of hands. ? 
+
+Anyone? Anyone? Bueller? 
+
+#SPRING ?? ??? #FrightClub
+2022-02-04 04:17:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1048247345090088960, "id": 1489452956227448833, "text": "Who had Octopus Lady on their guessing card? Show of hands. ? \n\nAnyone? Anyone? Bueller? \n\n#SPRING ?? ??? #FrightClub", "createdAt": 1643948232000} to topic: twitter-topic
+2022-02-04 04:17:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 8 Timestamp: 1643948235521 At time 40421349537991
+2022-02-04 04:17:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @RenegadeFilm_ Yes!!! I love the comparisons you draw to Lynch and Kafka! You also have a great podcast voice. One think that confused be is the very ending. I found myself saying ?you can?t take it with you?, but then she actually did. It was an optimistic ending, but isn?t the house still?
+2022-02-04 04:17:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 856231882870095873, "id": 1489452956370063361, "text": "@RenegadeFilm_ Yes!!! I love the comparisons you draw to Lynch and Kafka! You also have a great podcast voice. One think that confused be is the very ending. I found myself saying \u201Cyou can\u2019t take it with you\u201D, but then she actually did. It was an optimistic ending, but isn\u2019t the house still\u2026", "createdAt": 1643948232000} to topic: twitter-topic
+2022-02-04 04:17:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 12 Timestamp: 1643948235583 At time 40421411176269
+2022-02-04 04:17:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ??????
+
+?????????
+
+Gina 2022 Spring ???
+
+???????(Snow Man)????? 
+?????????
+?https://t.co/D1vPFLkdv9 
+
+#?????#SnowMan ?#?????
+2022-02-04 04:17:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1261483586550509570, "id": 1489452961436958720, "text": "??????\n\n?????????\n\nGina 2022 Spring ???\n\n???????(Snow Man)????? \n?????????\n?https://t.co/D1vPFLkdv9 \n\n#?????#SnowMan ?#?????", "createdAt": 1643948233000} to topic: twitter-topic
+2022-02-04 04:17:16 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 13 Timestamp: 1643948236768 At time 40422596111481
+2022-02-04 04:17:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @DogeKingEN In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! !Check this @DogeKingEN
+2022-02-04 04:17:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1381831920682627076, "id": 1489452966838898690, "text": "@DogeKingEN In the Spring Festival of 2022, Shen Teng personally bought this coin, and now it is the biggest dogeking in China! Simply Buying the dogeking to mine dogecoin. dogecoin will be sent to your address every hour! !Check this @DogeKingEN", "createdAt": 1643948234000} to topic: twitter-topic
+2022-02-04 04:17:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 9 Timestamp: 1643948238081 At time 40423909369460
+2022-02-04 04:17:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text d(=^???^=)b
+2022-02-04 04:17:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 852361867154513920, "id": 1489452968965332995, "text": "d(=^???^=)b", "createdAt": 1643948235000} to topic: twitter-topic
+2022-02-04 04:17:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 14 Timestamp: 1643948238585 At time 40424413631434
+2022-02-04 04:17:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @xfxIndia: Lining Weibo Update:
+"On the day of the beginning of spring, reconcile the colors of spring.
+The spokesperson Xiao Zhan?uses?
+2022-02-04 04:17:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1072674310018527232, "id": 1489452970207023105, "text": "RT @xfxIndia: Lining Weibo Update:\n\"On the day of the beginning of spring, reconcile the colors of spring.\nThe spokesperson Xiao Zhan?uses\u2026", "createdAt": 1643948235000} to topic: twitter-topic
+2022-02-04 04:17:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 15 Timestamp: 1643948238865 At time 40424698151469
+2022-02-04 04:17:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @venetianviolet: ermanno scervino spring 2018 https://t.co/J6z8yCQckU
+2022-02-04 04:17:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1089743123171946496, "id": 1489452972845244421, "text": "RT @venetianviolet: ermanno scervino spring 2018 https://t.co/J6z8yCQckU", "createdAt": 1643948236000} to topic: twitter-topic
+2022-02-04 04:17:19 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 15 Timestamp: 1643948239476 At time 40425305157657
+2022-02-04 04:17:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @BTS_INFO7: INFO ||?
+
+?Spring Day? de @BTS_twt ha superado los 7,5 millones de oyentes ?nicos en Melon, se une a ?Cherry Blossom Ending??
+2022-02-04 04:17:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1246158838627209219, "id": 1489452973218582528, "text": "RT @BTS_INFO7: INFO ||?\n\n\u201CSpring Day\u201D de @BTS_twt ha superado los 7,5 millones de oyentes ?nicos en Melon, se une a \u201CCherry Blossom Ending\u201D\u2026", "createdAt": 1643948236000} to topic: twitter-topic
+2022-02-04 04:17:19 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 16 Timestamp: 1643948239570 At time 40425400260616
+2022-02-04 04:17:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @liddle_ktina: Here?s to hoping we get some baseball this spring. Hot reporting from the front lines (my couch) ??
+2022-02-04 04:17:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 939708186688442368, "id": 1489452979090595847, "text": "RT @liddle_ktina: Here\u2019s to hoping we get some baseball this spring. Hot reporting from the front lines (my couch) ??", "createdAt": 1643948237000} to topic: twitter-topic
+2022-02-04 04:17:20 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 16 Timestamp: 1643948240989 At time 40426817673489
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @7_netshopping: ?#???? ????????
+
+??????????????
+
+?Gina 2022 Spring ????????????Snow Man???????
+? https://t.co/PQKl56O9nQ
+
+@Gina__officia?
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1290620958433140736, "id": 1489452979560542209, "text": "RT @7_netshopping: ?#???? ????????\n\n??????????????\n\n?Gina 2022 Spring ????????????Snow Man???????\n? https://t.co/PQKl56O9nQ\n\n@Gina__officia\u2026", "createdAt": 1643948237000} to topic: twitter-topic
+2022-02-04 04:17:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 10 Timestamp: 1643948241094 At time 40426921738103
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @plentitudes: Call for submissions: 5 weeks left to submit your pieces for our Spring 2022 issue. We welcome submissions of short storie?
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1314855077740453888, "id": 1489452979807739907, "text": "RT @plentitudes: Call for submissions: 5 weeks left to submit your pieces for our Spring 2022 issue. We welcome submissions of short storie\u2026", "createdAt": 1643948237000} to topic: twitter-topic
+2022-02-04 04:17:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 17 Timestamp: 1643948241133 At time 40426961620601
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @goma2006: ???????Nissy????????????????????????????????????????????????Naptime.???????????????Nissy???
+#Nissy 
+#naptime_tokyo https://t.?
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1115500655622414336, "id": 1489452980327763973, "text": "RT @goma2006: ???????Nissy????????????????????????????????????????????????Naptime.???????????????Nissy???\n#Nissy \n#naptime_tokyo https://t.\u2026", "createdAt": 1643948237000} to topic: twitter-topic
+2022-02-04 04:17:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 11 Timestamp: 1643948241285 At time 40427113945796
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SouthGAPatriot: @kennethmallor16 @13wmaznews Bring on Spring! ??? https://t.co/ysO584oKMy
+2022-02-04 04:17:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 830136684276830213, "id": 1489452981942693892, "text": "RT @SouthGAPatriot: @kennethmallor16 @13wmaznews Bring on Spring! ??? https://t.co/ysO584oKMy", "createdAt": 1643948238000} to topic: twitter-topic
+2022-02-04 04:17:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 18 Timestamp: 1643948241652 At time 40427479668879
+2022-02-04 04:17:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @11aadilhussain: February 3, 1922
+The Diaries Of Franz Kafka, 1914 -1923 https://t.co/qpPmhJjvrT
+2022-02-04 04:17:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1313772458906804224, "id": 1489452991665291264, "text": "RT @11aadilhussain: February 3, 1922\nThe Diaries Of Franz Kafka, 1914 -1923 https://t.co/qpPmhJjvrT", "createdAt": 1643948240000} to topic: twitter-topic
+2022-02-04 04:17:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 17 Timestamp: 1643948243951 At time 40429779529073
+2022-02-04 04:17:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt?s ?Spring Day? (2017) has surpassed 7.5 million unique listeners on Melon, joining ?Cherry Blossom Ending? as the o?
+2022-02-04 04:17:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1161214913580130304, "id": 1489452992226942976, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643948240000} to topic: twitter-topic
+2022-02-04 04:17:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 18 Timestamp: 1643948244111 At time 40429939284778
+2022-02-04 04:17:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @OuterCards @Broncos_Chris It?s tough to be frank. This one hurt the most to lose..during 2020 spring of Covid I got a private meet and signing? https://t.co/gochsrlooL
+2022-02-04 04:17:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1159001825711779842, "id": 1489452995737575424, "text": "@OuterCards @Broncos_Chris It\u2019s tough to be frank. This one hurt the most to lose..during 2020 spring of Covid I got a private meet and signing\u2026 https://t.co/gochsrlooL", "createdAt": 1643948241000} to topic: twitter-topic
+2022-02-04 04:17:25 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 19 Timestamp: 1643948245084 At time 40430912103406
+2022-02-04 04:17:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ying_tzuyu_: ZOOC's 22SS Spring Collection with TZUYU ?
+
+??https://t.co/eqr4QSBAB4
+
+#TWICE #?? #TZUYU #?? #??? https://t.co/N93qY3QQSq
+2022-02-04 04:17:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 27426371, "id": 1489452999004934150, "text": "RT @ying_tzuyu_: ZOOC's 22SS Spring Collection with TZUYU ?\n\n??https://t.co/eqr4QSBAB4\n\n#TWICE #?? #TZUYU #?? #??? https://t.co/N93qY3QQSq", "createdAt": 1643948242000} to topic: twitter-topic
+2022-02-04 04:17:25 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 19 Timestamp: 1643948245716 At time 40431544628240
+2022-02-04 04:17:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NewsNull: Coronavirus cases in L.A. County schools down 70% since start of spring?semester https://t.co/1faWNXYw4i
+2022-02-04 04:17:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 132808558, "id": 1489453001274269698, "text": "RT @NewsNull: Coronavirus cases in L.A. County schools down 70% since start of spring?semester https://t.co/1faWNXYw4i", "createdAt": 1643948242000} to topic: twitter-topic
+2022-02-04 04:17:26 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 20 Timestamp: 1643948246269 At time 40432096923706
+2022-02-04 04:17:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 04:17:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1482206325409222657, "id": 1489453003417726977, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643948243000} to topic: twitter-topic
+2022-02-04 04:17:26 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 21 Timestamp: 1643948246767 At time 40432595341030
+2022-02-04 04:17:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+?????????????
+2022-02-04 04:17:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1428721264978399235, "id": 1489453005342920704, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643948243000} to topic: twitter-topic
+2022-02-04 04:17:27 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 22 Timestamp: 1643948247221 At time 40433048944163
+2022-02-04 04:17:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+?????????????
+2022-02-04 04:17:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 774292967112581120, "id": 1489453005485211648, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643948243000} to topic: twitter-topic
+2022-02-04 04:17:27 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 20 Timestamp: 1643948247270 At time 40433098361501
+2022-02-04 04:17:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @XiaoZhan_OFC: ?220204 Photo?
+
+#XiaoZhan1005NewsPort
+#XiaoZhan #?? #SeanXiao 
+
+Li-Ning Lifestyle Weibo updated:
+
+Today is the solar term?
+2022-02-04 04:17:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1237219052122079232, "id": 1489453007590678531, "text": "RT @XiaoZhan_OFC: ?220204 Photo?\n\n#XiaoZhan1005NewsPort\n#XiaoZhan #?? #SeanXiao \n\nLi-Ning Lifestyle Weibo updated:\n\nToday is the solar term\u2026", "createdAt": 1643948244000} to topic: twitter-topic
+2022-02-04 04:17:27 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 21 Timestamp: 1643948247753 At time 40433580376025
+2022-02-04 04:17:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @sophialovelkp: ?? zooc_official Instagram Update about Tzuyu?s video 
+
+https://t.co/3TCoQrScjZ?
+
+"ZOOC's 22SS Spring Collection with TZ?
+2022-02-04 04:17:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1361657634361802760, "id": 1489453008832561152, "text": "RT @sophialovelkp: ?? zooc_official Instagram Update about Tzuyu\u2019s video \n\nhttps://t.co/3TCoQrScjZ\u2026\n\n\"ZOOC's 22SS Spring Collection with TZ\u2026", "createdAt": 1643948244000} to topic: twitter-topic
+2022-02-04 04:17:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @camelliakyoto: ?KIMONO SPRING SALE?
+With a large selection of old kimono, obi and jackets that we no longer need, we've set up a new on?
+2022-02-04 04:17:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1462967037416800259, "id": 1489453010753552388, "text": "RT @camelliakyoto: ?KIMONO SPRING SALE?\nWith a large selection of old kimono, obi and jackets that we no longer need, we've set up a new on\u2026", "createdAt": 1643948245000} to topic: twitter-topic
+2022-02-04 04:17:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 23 Timestamp: 1643948248509 At time 40434338661161
+2022-02-04 04:17:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 22 Timestamp: 1643948248511 At time 40434340914975
+2022-02-04 04:17:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @dragonfly_37: ?????
+I smile spring!? https://t.co/x33vMTtohd
+2022-02-04 04:17:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 80528717, "id": 1489453016164061185, "text": "RT @dragonfly_37: ?????\nI smile spring!? https://t.co/x33vMTtohd", "createdAt": 1643948246000} to topic: twitter-topic
+2022-02-04 04:17:29 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 24 Timestamp: 1643948249804 At time 40435631585034
+2022-02-04 04:17:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Ma?ana voy a comer Spring Rolls ? y Kemosion ?
+2022-02-04 04:17:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 332394699, "id": 1489453018206642177, "text": "Ma?ana voy a comer Spring Rolls ? y Kemosion ?", "createdAt": 1643948246000} to topic: twitter-topic
+2022-02-04 04:17:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 12 Timestamp: 1643948250292 At time 40436120660193
+2022-02-04 04:17:32 [Twitter Stream consumer /  [1][Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Task twitter4j.StatusStreamBase$1@5295bc5 rejected from java.util.concurrent.ThreadPoolExecutor@3aab635f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 61]
+2022-02-04 04:17:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-04 04:17:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:17:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:17:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:17:33 [SpringApplicationShutdownHook] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Closing KafkaTemplate
+2022-02-04 04:17:33 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-02-04 04:17:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:17:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:17:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:17:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2022-02-04 04:17:41 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt v0.0.1-SNAPSHOT using Java 11.0.14 on cd0dfe55d65a with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2022-02-04 04:17:41 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-04 04:17:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 04:17:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:17:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 04:17:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 04:17:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 04:17:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1106 ms
+2022-02-04 04:17:42 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-04 04:17:42 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:17:42 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:17:42 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948262564
+2022-02-04 04:17:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:17:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 04:17:43 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 2.474 seconds (JVM running for 2.995)
+2022-02-04 04:17:43 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-04 04:17:43 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Creating 1 topic(s), attempt #0
+2022-02-04 04:17:43 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Create topic result [KafkaFuture{value=null,exception=null,done=false}]
+2022-02-04 04:17:43 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:17:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:17:49 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:17:51 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:17:51 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:17:55 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:17:55 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:17:55 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:18:03 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:18:03 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:18:03 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:18:03 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-04 04:18:03 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.eventdriven.EventDrivenApplicationKt.main(EventDrivenApplication.kt:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88)
+Caused by: com.example.eventdriven.adapter.out.kafka.exception.KafkaClientException: Reached max number of retry for reading kafka topic(s)!!
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkMaxRetry(KafkaAdminClient.kt:115)
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.kt:52)
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.createTopics(KafkaAdminClient.kt:40)
+	at com.example.eventdriven.adapter.in.kafka.stream.KafkaStreamInitializer.init(KafkaStreamInitializer.kt:18)
+	at com.example.eventdriven.EventDrivenApplication.run(EventDrivenApplication.kt:20)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:769)
+	... 13 common frames omitted
+2022-02-04 04:18:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-04 04:18:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:18:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:18:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:18:03 [main] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Closing KafkaTemplate
+2022-02-04 04:19:46 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt v0.0.1-SNAPSHOT using Java 11.0.14 on 8f1fecdda2ba with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2022-02-04 04:19:46 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-04 04:19:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 04:19:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:19:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 04:19:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 04:19:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 04:19:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 964 ms
+2022-02-04 04:19:47 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-04 04:19:48 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:19:48 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:19:48 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948388077
+2022-02-04 04:19:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:19:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 04:19:48 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 2.423 seconds (JVM running for 2.956)
+2022-02-04 04:19:48 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-04 04:19:48 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Creating 1 topic(s), attempt #0
+2022-02-04 04:19:48 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Create topic result [KafkaFuture{value=null,exception=null,done=false}]
+2022-02-04 04:19:48 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:19:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (kafka-broker-1/172.19.0.4:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -3 (kafka-broker-3/172.19.0.5:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:53 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -2 (kafka-broker-2/172.19.0.6:9092) could not be established. Broker may not be available.
+2022-02-04 04:19:55 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:19:55 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:19:59 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:19:59 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:19:59 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:20:07 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:20:07 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:20:07 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:20:07 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-04 04:20:07 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.eventdriven.EventDrivenApplicationKt.main(EventDrivenApplication.kt:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88)
+Caused by: com.example.eventdriven.adapter.out.kafka.exception.KafkaClientException: Reached max number of retry for reading kafka topic(s)!!
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkMaxRetry(KafkaAdminClient.kt:115)
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.kt:52)
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.createTopics(KafkaAdminClient.kt:40)
+	at com.example.eventdriven.adapter.in.kafka.stream.KafkaStreamInitializer.init(KafkaStreamInitializer.kt:18)
+	at com.example.eventdriven.EventDrivenApplication.run(EventDrivenApplication.kt:20)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:769)
+	... 13 common frames omitted
+2022-02-04 04:20:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-04 04:20:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:20:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:20:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:20:07 [main] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Closing KafkaTemplate
+2022-02-04 04:22:11 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt v0.0.1-SNAPSHOT using Java 11.0.14 on 10eff9b0f91b with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2022-02-04 04:22:11 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-04 04:22:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 04:22:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:22:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 04:22:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 04:22:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 04:22:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1255 ms
+2022-02-04 04:22:13 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-04 04:22:13 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:22:13 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:22:13 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948533565
+2022-02-04 04:22:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:22:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 04:22:14 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 3.039 seconds (JVM running for 3.636)
+2022-02-04 04:22:14 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-04 04:22:14 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Creating 1 topic(s), attempt #0
+2022-02-04 04:22:14 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Create topic result [KafkaFuture{value=null,exception=null,done=false}]
+2022-02-04 04:22:14 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:22:14 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:22:14 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:22:16 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:22:16 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:22:16 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:22:20 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:22:20 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:22:20 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:22:28 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:22:28 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:22:28 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:22:28 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-04 04:22:28 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.example.eventdriven.EventDrivenApplicationKt.main(EventDrivenApplication.kt:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88)
+Caused by: com.example.eventdriven.adapter.out.kafka.exception.KafkaClientException: Reached max number of retry for reading kafka topic(s)!!
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkMaxRetry(KafkaAdminClient.kt:115)
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.checkTopicsCreated(KafkaAdminClient.kt:52)
+	at com.example.eventdriven.adapter.out.kafka.client.KafkaAdminClient.createTopics(KafkaAdminClient.kt:40)
+	at com.example.eventdriven.adapter.in.kafka.stream.KafkaStreamInitializer.init(KafkaStreamInitializer.kt:18)
+	at com.example.eventdriven.EventDrivenApplication.run(EventDrivenApplication.kt:20)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:769)
+	... 13 common frames omitted
+2022-02-04 04:22:28 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-04 04:22:28 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:22:28 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:22:28 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:22:28 [main] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Closing KafkaTemplate
+2022-02-04 04:25:41 [main] INFO  c.e.e.EventDrivenApplicationKt - Starting EventDrivenApplicationKt v0.0.1-SNAPSHOT using Java 11.0.14 on 76bbd2e793b4 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2022-02-04 04:25:41 [main] INFO  c.e.e.EventDrivenApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-04 04:25:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-02-04 04:25:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:25:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-04 04:25:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-04 04:25:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-04 04:25:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1546 ms
+2022-02-04 04:25:43 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-02-04 04:25:43 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:25:43 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:25:43 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948743156
+2022-02-04 04:25:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-04 04:25:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-04 04:25:43 [main] INFO  c.e.e.EventDrivenApplicationKt - Started EventDrivenApplicationKt in 3.39 seconds (JVM running for 4.066)
+2022-02-04 04:25:43 [main] INFO  c.e.e.EventDrivenApplication - App starts...
+2022-02-04 04:25:44 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Creating 1 topic(s), attempt #0
+2022-02-04 04:25:44 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Create topic result [KafkaFuture{value=null,exception=null,done=false}]
+2022-02-04 04:25:44 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:25:44 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:25:46 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2022-02-04 04:25:46 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: twitter-topic
+2022-02-04 04:25:46 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: _schemas
+2022-02-04 04:25:46 [main] INFO  c.e.e.a.o.k.client.KafkaAdminClient - Topic: __confluent.support.metrics
+2022-02-04 04:25:48 [main] INFO  c.e.e.a.i.k.s.KafkaStreamInitializer - Topics with name [twitter-topic] is ready for operations!
+2022-02-04 04:25:48 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-02-04 04:25:48 [main] INFO  c.e.e.a.i.t.s.EventStreamRunnerAdapter - Started filtering stream for keywords [Ljava.lang.String;@61993d18
+2022-02-04 04:25:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-02-04 04:25:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-02-04 04:25:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Porto01383381: air??????????????
+
+Spring is in the air. ?????
+Love is in the air. ????
+
+The plan is up in the air. ?????
+
+The show will?
+2022-02-04 04:25:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1389519930098286598, "id": 1489455120026771464, "text": "RT @Porto01383381: air??????????????\n\nSpring is in the air. ?????\nLove is in the air. ????\n\nThe plan is up in the air. ?????\n\nThe show will\u2026", "createdAt": 1643948748000} to topic: twitter-topic
+2022-02-04 04:25:51 [Twitter4J Async Dispatcher[0]] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 1638400
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = snappy
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.LongSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 60000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class io.confluent.kafka.serializers.KafkaAvroSerializer
+
+2022-02-04 04:25:51 [Twitter4J Async Dispatcher[0]] INFO  i.c.k.s.KafkaAvroSerializerConfig - KafkaAvroSerializerConfig values: 
+	bearer.auth.token = [hidden]
+	schema.registry.url = [http://schema-registry:8081]
+	basic.auth.user.info = [hidden]
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2022-02-04 04:25:51 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.0.0
+2022-02-04 04:25:51 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8cb0a5e9d3441962
+2022-02-04 04:25:51 [Twitter4J Async Dispatcher[0]] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1643948751502
+2022-02-04 04:25:51 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 4-rCVkJwQkSQ3S_zUkQJ4w
+2022-02-04 04:25:51 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 0 Timestamp: 1643948751523 At time 40937653517300
+2022-02-04 04:25:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @wenella_subs: /1 Feb 4 #ZhuYilong Studio: It is Lichun! Let us receive good luck and the spring moments that come with the sunlight. Co?
+2022-02-04 04:25:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1255782648330416128, "id": 1489455129237483520, "text": "RT @wenella_subs: /1 Feb 4 #ZhuYilong Studio: It is Lichun! Let us receive good luck and the spring moments that come with the sunlight. Co\u2026", "createdAt": 1643948750000} to topic: twitter-topic
+2022-02-04 04:25:53 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 1 Timestamp: 1643948753611 At time 40939442798559
+2022-02-04 04:25:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @diorangxl: Gucci Spring 2017 Menswear https://t.co/70nDx14o0V
+2022-02-04 04:25:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 916957420793950208, "id": 1489455128994549761, "text": "RT @diorangxl: Gucci Spring 2017 Menswear https://t.co/70nDx14o0V", "createdAt": 1643948750000} to topic: twitter-topic
+2022-02-04 04:25:53 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 0 Timestamp: 1643948753644 At time 40939497426021
+2022-02-04 04:25:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Spring onions are derived from genus Allium, they have milder tastes than most onions. There close relatives are garlic and Chinese onions #ImpactingGrassrootFarmers https://t.co/j9TtT0N5ZB
+2022-02-04 04:25:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1480984824462594052, "id": 1489455132953780227, "text": "Spring onions are derived from genus Allium, they have milder tastes than most onions. There close relatives are garlic and Chinese onions #ImpactingGrassrootFarmers https://t.co/j9TtT0N5ZB", "createdAt": 1643948751000} to topic: twitter-topic
+2022-02-04 04:25:54 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 2 Timestamp: 1643948754671 At time 40940501230502
+2022-02-04 04:25:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @7_netshopping: ?#???? ????????
+
+??????????????
+
+?Gina 2022 Spring ????????????Snow Man???????
+? https://t.co/PQKl56O9nQ
+
+@Gina__officia?
+2022-02-04 04:25:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1370692860983480320, "id": 1489455134597795840, "text": "RT @7_netshopping: ?#???? ????????\n\n??????????????\n\n?Gina 2022 Spring ????????????Snow Man???????\n? https://t.co/PQKl56O9nQ\n\n@Gina__officia\u2026", "createdAt": 1643948751000} to topic: twitter-topic
+2022-02-04 04:25:54 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 1 Timestamp: 1643948754887 At time 40940716313116
+2022-02-04 04:25:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @wenella_subs: /2 Feb 4 #ZhuYilong Studio: It is Lichun! Let us receive good luck and the spring moments that come with the sunlight. Co?
+2022-02-04 04:25:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1255782648330416128, "id": 1489455135143170052, "text": "RT @wenella_subs: /2 Feb 4 #ZhuYilong Studio: It is Lichun! Let us receive good luck and the spring moments that come with the sunlight. Co\u2026", "createdAt": 1643948751000} to topic: twitter-topic
+2022-02-04 04:25:55 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 3 Timestamp: 1643948755006 At time 40940835658802
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @UCTA901: 2?1??????????????????
+https://t.co/fvC3uFavOE
+???????
+#??????? #??? #urasoe #?????? #???? #???? #??????????? #????????? #??????
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 241393468, "id": 1489455139425374209, "text": "RT @UCTA901: 2?1??????????????????\nhttps://t.co/fvC3uFavOE\n???????\n#??????? #??? #urasoe #?????? #???? #???? #??????????? #????????? #?????\u2026", "createdAt": 1643948752000} to topic: twitter-topic
+2022-02-04 04:25:56 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 4 Timestamp: 1643948756036 At time 40941865428203
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Jo said: ?The snake plant will have a dormant period in winter, hence why it can be left to almost hibernate during this time.?This is great for plant owners who tend to neglect their houseplants.The plant should start growing again in spring when the
+
+https://t.co/LMfHvRvUBu https://t.co/oWH8tU7b79
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1407284065930145793, "id": 1489455141610831879, "text": "Jo said: \u201CThe snake plant will have a dormant period in winter, hence why it can be left to almost hibernate during this time.\u201DThis is great for plant owners who tend to neglect their houseplants.The plant should start growing again in spring when the\n\nhttps://t.co/LMfHvRvUBu https://t.co/oWH8tU7b79", "createdAt": 1643948753000} to topic: twitter-topic
+2022-02-04 04:25:56 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 0 Timestamp: 1643948756691 At time 40942540701394
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @multi_versicon: Hello, you?ve found ??M U L T I V E R S I C O N ??!
+
+The crossroads of multiverse where the fabric of spacetime was war?
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1414098724117049353, "id": 1489455142931877888, "text": "RT @multi_versicon: Hello, you\u2019ve found ??M U L T I V E R S I C O N ??!\n\nThe crossroads of multiverse where the fabric of spacetime was war\u2026", "createdAt": 1643948753000} to topic: twitter-topic
+2022-02-04 04:25:56 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 2 Timestamp: 1643948756896 At time 40942726579616
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @Bhumika_drdz Our beloved summer.
+Home town cha cha cha
+All of us are dead
+One spring night
+Hospital playlist
+Love struck in the city
+2022-02-04 04:25:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1272109154908246020, "id": 1489455143242596355, "text": "@Bhumika_drdz Our beloved summer.\nHome town cha cha cha\nAll of us are dead\nOne spring night\nHospital playlist\nLove struck in the city", "createdAt": 1643948753000} to topic: twitter-topic
+2022-02-04 04:25:56 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 5 Timestamp: 1643948756945 At time 40942774049491
+2022-02-04 04:25:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+?????????????
+2022-02-04 04:25:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 995588916303380480, "id": 1489455149479510021, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643948755000} to topic: twitter-topic
+2022-02-04 04:25:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 6 Timestamp: 1643948758428 At time 40944257443001
+2022-02-04 04:25:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @onewaywithchu: The editors captions for this?
+?[a small hot spring]
+[I don?t understand the conversation. A meaningless conversation be?
+2022-02-04 04:25:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 843111372, "id": 1489455151526014978, "text": "RT @onewaywithchu: The editors captions for this?\n?[a small hot spring]\n[I don\u2019t understand the conversation. A meaningless conversation be\u2026", "createdAt": 1643948755000} to topic: twitter-topic
+2022-02-04 04:25:58 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 3 Timestamp: 1643948758920 At time 40944749022464
+2022-02-04 04:25:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @HoiAn86112656: @NgYen_06 @BTS_twt 5. Spring day
+
+#Butter #BestMusicVideo #iHeartAwards @BTS_twt
+2022-02-04 04:25:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1398968847751806979, "id": 1489455153073688580, "text": "RT @HoiAn86112656: @NgYen_06 @BTS_twt 5. Spring day\n\n#Butter #BestMusicVideo #iHeartAwards @BTS_twt", "createdAt": 1643948755000} to topic: twitter-topic
+2022-02-04 04:25:59 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 4 Timestamp: 1643948759292 At time 40945120707615
+2022-02-04 04:26:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @7_netshopping: ?#???? ????????
+
+??????????????
+
+?Gina 2022 Spring ????????????Snow Man???????
+? https://t.co/PQKl56O9nQ
+
+@Gina__officia?
+2022-02-04 04:26:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 4323233418, "id": 1489455162439905280, "text": "RT @7_netshopping: ?#???? ????????\n\n??????????????\n\n?Gina 2022 Spring ????????????Snow Man???????\n? https://t.co/PQKl56O9nQ\n\n@Gina__officia\u2026", "createdAt": 1643948758000} to topic: twitter-topic
+2022-02-04 04:26:01 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 7 Timestamp: 1643948761524 At time 40947352609833
+2022-02-04 04:26:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text From #SAINTMxxxxxx available at The R(Osaka), the 2nd Drop items of the 2022 spring/summer collection will be for sale from 2/5 (Sat) 10:00 AM through online order and store at the same time!
+Now in stock is "Jacket Type 1/Sweat Type 3"
+
+https://t.co/APY1f4WLAj
+2022-02-04 04:26:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 350760031, "id": 1489455171281297408, "text": "From #SAINTMxxxxxx available at The R(Osaka), the 2nd Drop items of the 2022 spring/summer collection will be for sale from 2/5 (Sat) 10:00 AM through online order and store at the same time!\nNow in stock is \"Jacket Type 1/Sweat Type 3\"\n\nhttps://t.co/APY1f4WLAj", "createdAt": 1643948760000} to topic: twitter-topic
+2022-02-04 04:26:03 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 8 Timestamp: 1643948763777 At time 40949605896975
+2022-02-04 04:26:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text 3/7??
+Gina 2022 Spring ???
+??? ???? Snow Man
+
+??????
+??????????????
+
+???????
+https://t.co/8aV8O4W6Jo
+?Amazon
+https://t.co/OQ8ZsiT7i4
+
+#????
+#???
+#SnowMan
+#Gina
+2022-02-04 04:26:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1227362692341493761, "id": 1489455172430434305, "text": "3/7??\nGina 2022 Spring ???\n??? ???? Snow Man\n\n??????\n????????????\u203C?\n\n???????\nhttps://t.co/8aV8O4W6Jo\n?Amazon\nhttps://t.co/OQ8ZsiT7i4\n\n#????\n#???\n#SnowMan\n#Gina", "createdAt": 1643948760000} to topic: twitter-topic
+2022-02-04 04:26:03 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 1 Timestamp: 1643948763950 At time 40949778484612
+2022-02-04 04:26:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 04:26:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1415706737781317632, "id": 1489455172967231488, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643948760000} to topic: twitter-topic
+2022-02-04 04:26:04 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 9 Timestamp: 1643948764042 At time 40949870552125
+2022-02-04 04:26:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text I really enjoy spring weather in winter even if it happens briefly
+2022-02-04 04:26:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3368241279, "id": 1489455183969013760, "text": "I really enjoy spring weather in winter even if it happens briefly", "createdAt": 1643948763000} to topic: twitter-topic
+2022-02-04 04:26:06 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 10 Timestamp: 1643948766668 At time 40952496161198
+2022-02-04 04:26:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @jonlevyBU: Path 2 acknowledges that there will be 1 million dead from #COVID19 in the US by this spring, that our health care workers a?
+2022-02-04 04:26:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 192825973, "id": 1489455184908468227, "text": "RT @jonlevyBU: Path 2 acknowledges that there will be 1 million dead from #COVID19 in the US by this spring, that our health care workers a\u2026", "createdAt": 1643948763000} to topic: twitter-topic
+2022-02-04 04:26:06 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 5 Timestamp: 1643948766899 At time 40952728376281
+2022-02-04 04:26:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Hudibrastic: Cop: Passage, funeral, spring, autumn, ?
+
+Suspect: What the hell are you doing?
+
+Cop: I?m reading you your rites.
+2022-02-04 04:26:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2859306247, "id": 1489455185667579905, "text": "RT @Hudibrastic: Cop: Passage, funeral, spring, autumn, \u2026\n\nSuspect: What the hell are you doing?\n\nCop: I\u2019m reading you your rites.", "createdAt": 1643948763000} to topic: twitter-topic
+2022-02-04 04:26:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 6 Timestamp: 1643948767071 At time 40952899848309
+2022-02-04 04:26:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text implement Tuvalu Spring SMTP Balanced PCI generating Ergonomic Avon SSL withdrawal Fresh
+2022-02-04 04:26:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 631904019, "id": 1489455188557516802, "text": "implement Tuvalu Spring SMTP Balanced PCI generating Ergonomic Avon SSL withdrawal Fresh", "createdAt": 1643948764000} to topic: twitter-topic
+2022-02-04 04:26:07 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 2 Timestamp: 1643948767775 At time 40953603492223
+2022-02-04 04:26:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text ?4th Feb & 5th Feb Codes:
+
+?YearOfTheTiger
+?TradeOnGate
+?CryptoNeverSleeps
+
+?Claim : https://t.co/QdCGhORwHf
+?Details : https://t.co/h1o1Lta8yo
+
+ #Gateio #Crypto #Airdrop #Giveaway
+2022-02-04 04:26:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1437717268259950597, "id": 1489455190210387969, "text": "?4th Feb & 5th Feb Codes:\n\n?YearOfTheTiger\n?TradeOnGate\n?CryptoNeverSleeps\n\n?Claim : https://t.co/QdCGhORwHf\n?Details : https://t.co/h1o1Lta8yo\n\n #Gateio #Crypto #Airdrop #Giveaway", "createdAt": 1643948764000} to topic: twitter-topic
+2022-02-04 04:26:08 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 11 Timestamp: 1643948768223 At time 40954051685084
+2022-02-04 04:26:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @zlj517: Today is the Spring Festival of the year of the Tiger. I sincerely wish you a happy Chinese New year, happiness and health! htt?
+2022-02-04 04:26:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1382150786684162051, "id": 1489455192621780996, "text": "RT @zlj517: Today is the Spring Festival of the year of the Tiger. I sincerely wish you a happy Chinese New year, happiness and health! htt\u2026", "createdAt": 1643948765000} to topic: twitter-topic
+2022-02-04 04:26:08 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 3 Timestamp: 1643948768718 At time 40954546740751
+2022-02-04 04:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @multi_versicon: Hello, you?ve found ??M U L T I V E R S I C O N ??!
+
+The crossroads of multiverse where the fabric of spacetime was war?
+2022-02-04 04:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1487275529434632195, "id": 1489455195155152899, "text": "RT @multi_versicon: Hello, you\u2019ve found ??M U L T I V E R S I C O N ??!\n\nThe crossroads of multiverse where the fabric of spacetime was war\u2026", "createdAt": 1643948765000} to topic: twitter-topic
+2022-02-04 04:26:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 7 Timestamp: 1643948769313 At time 40955141272608
+2022-02-04 04:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @hyuneurl: hyunjin - spring ? 
+(with a little addition) 
+@Stray_Kids https://t.co/VRPGBOcFEe
+2022-02-04 04:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2956265276, "id": 1489455195146838020, "text": "RT @hyuneurl: hyunjin - spring ? \n(with a little addition) \n@Stray_Kids https://t.co/VRPGBOcFEe", "createdAt": 1643948765000} to topic: twitter-topic
+2022-02-04 04:26:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 4 Timestamp: 1643948769327 At time 40955154912183
+2022-02-04 04:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Earthjustice: When bison thrive, so does everything else on the prairie. As they forage for grass, they manipulate the landscape so fun?
+2022-02-04 04:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1393239530866675722, "id": 1489455196992413697, "text": "RT @Earthjustice: When bison thrive, so does everything else on the prairie. As they forage for grass, they manipulate the landscape so fun\u2026", "createdAt": 1643948766000} to topic: twitter-topic
+2022-02-04 04:26:09 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 12 Timestamp: 1643948769843 At time 40955671048612
+2022-02-04 04:26:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text I hope I have enough lunchbox for the spring
+2022-02-04 04:26:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1372671142222196738, "id": 1489455200335060994, "text": "I hope I have enough lunchbox for the spring", "createdAt": 1643948767000} to topic: twitter-topic
+2022-02-04 04:26:10 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 13 Timestamp: 1643948770563 At time 40956391896641
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @ItsRake: Imagine it 
+
+Spring 2023 you're running thru the warzone map with your friends. The intervention, acr and ump are back
+
+Ricoch?
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2937629713, "id": 1489455207830499328, "text": "RT @ItsRake: Imagine it \n\nSpring 2023 you're running thru the warzone map with your friends. The intervention, acr and ump are back\n\nRicoch\u2026", "createdAt": 1643948768000} to topic: twitter-topic
+2022-02-04 04:26:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 14 Timestamp: 1643948772360 At time 40958192201247
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report?
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1274511783709904898, "id": 1489455209520660481, "text": "RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report\u2026", "createdAt": 1643948769000} to topic: twitter-topic
+2022-02-04 04:26:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 15 Timestamp: 1643948772742 At time 40958570147374
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @BTSarmy4ever94: "Spring Day" is the 1st song from @BTS_twt to surpass 7.5M cumulative Unique Listeners on MelOn. In addition, it is the?
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1284939412506324994, "id": 1489455209541779457, "text": "RT @BTSarmy4ever94: \"Spring Day\" is the 1st song from @BTS_twt to surpass 7.5M cumulative Unique Listeners on MelOn. In addition, it is the\u2026", "createdAt": 1643948769000} to topic: twitter-topic
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @1_immi: 24 Solar Terms: ?? - l? ch?n
+
+Start of Spring https://t.co/wjXLTWmN3a
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1175859132194312193, "id": 1489455209621377028, "text": "RT @1_immi: 24 Solar Terms: ?? - l? ch?n\n\nStart of Spring https://t.co/wjXLTWmN3a", "createdAt": 1643948769000} to topic: twitter-topic
+2022-02-04 04:26:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 16 Timestamp: 1643948772765 At time 40958595194436
+2022-02-04 04:26:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 17 Timestamp: 1643948772772 At time 40958599525589
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @abIondedlife: franz kafka books be like what if there was a guy and he was in a situation
+2022-02-04 04:26:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 91194969, "id": 1489455210300907521, "text": "RT @abIondedlife: franz kafka books be like what if there was a guy and he was in a situation", "createdAt": 1643948769000} to topic: twitter-topic
+2022-02-04 04:26:12 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 18 Timestamp: 1643948772939 At time 40958767473891
+2022-02-04 04:26:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text But reality crept in, you said we're too different? you laughed at my dreams and rolled your eyes at my jokes? ?
+2022-02-04 04:26:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 287716594, "id": 1489455218442002434, "text": "But reality crept in, you said we're too different\u2026 you laughed at my dreams and rolled your eyes at my jokes\u2026 ?", "createdAt": 1643948771000} to topic: twitter-topic
+2022-02-04 04:26:14 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 8 Timestamp: 1643948774891 At time 40960719464157
+2022-02-04 04:26:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @gogoarmys_: Provando que o seu lugar no topo ? intoc?vel, ?Spring Day? (2017) do @BTS_twt ultrapassou 7,5 milh?es de ouvintes ?nicos no?
+2022-02-04 04:26:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 885614592495411201, "id": 1489455218823766019, "text": "RT @gogoarmys_: Provando que o seu lugar no topo ? intoc?vel, \u201CSpring Day\u201D (2017) do @BTS_twt ultrapassou 7,5 milh?es de ouvintes ?nicos no\u2026", "createdAt": 1643948771000} to topic: twitter-topic
+2022-02-04 04:26:14 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 9 Timestamp: 1643948774971 At time 40960800124380
+2022-02-04 04:26:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @KU_URA_Office: According to the Japanese lunar calendar, today (2/4) is Risshun (??), the beginning of spring. While most of Japan is s?
+2022-02-04 04:26:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1914654997, "id": 1489455219498897411, "text": "RT @KU_URA_Office: According to the Japanese lunar calendar, today (2/4) is Risshun (??), the beginning of spring. While most of Japan is s\u2026", "createdAt": 1643948771000} to topic: twitter-topic
+2022-02-04 04:26:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 10 Timestamp: 1643948775137 At time 40960965797222
+2022-02-04 04:26:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @TNT_OFFICIAL19: TRINITY ?????????????????????????????? Onitsuka Tiger ?????????????????? L?Official Hommes Thailand ???? Spring 2022 ???
+2022-02-04 04:26:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1426503555943256069, "id": 1489455219696041985, "text": "RT @TNT_OFFICIAL19: TRINITY ?????????????????????????????? Onitsuka Tiger ?????????????????? L\u2019Official Hommes Thailand ???? Spring 2022 ??\u2026", "createdAt": 1643948771000} to topic: twitter-topic
+2022-02-04 04:26:15 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 19 Timestamp: 1643948775168 At time 40960996633787
+2022-02-04 04:26:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @lisasardini: First sign of Spring in my garden. Chaenomeles Japonica https://t.co/UThBFB3hY1
+2022-02-04 04:26:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1130688711820079106, "id": 1489455223244353537, "text": "RT @lisasardini: First sign of Spring in my garden. Chaenomeles Japonica https://t.co/UThBFB3hY1", "createdAt": 1643948772000} to topic: twitter-topic
+2022-02-04 04:26:16 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 20 Timestamp: 1643948776038 At time 40961868443937
+2022-02-04 04:26:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report?
+2022-02-04 04:26:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2732248963, "id": 1489455223521398788, "text": "RT @OlgaNYC1211: Why is anyone surprised by the US warning of a Russian false flag op as pretext? In 2014 Russian state media pushed report\u2026", "createdAt": 1643948772000} to topic: twitter-topic
+2022-02-04 04:26:16 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 5 Timestamp: 1643948776111 At time 40961939407999
+2022-02-04 04:26:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NgYen_06: [ Topic ] B?i h?t title? 
+B?n ch?n:
+
+1. Fire / Dope
+2. DNA / Mic Drop
+3. Dynamite / Boy with luv
+4. Fake Love / Idol
+5. Life?
+2022-02-04 04:26:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1307212947756736514, "id": 1489455230261481474, "text": "RT @NgYen_06: [ Topic ] B?i h?t title? \nB?n ch?n:\n\n1. Fire / Dope\n2. DNA / Mic Drop\n3. Dynamite / Boy with luv\n4. Fake Love / Idol\n5. Life\u2026", "createdAt": 1643948774000} to topic: twitter-topic
+2022-02-04 04:26:17 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 21 Timestamp: 1643948777697 At time 40963525518808
+2022-02-04 04:26:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @msballind: Halftime 
+@centennialgbb leads Spring Valley 37-23 !! https://t.co/7x0abyqZyE
+2022-02-04 04:26:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3961992853, "id": 1489455230445973504, "text": "RT @msballind: Halftime \n@centennialgbb leads Spring Valley 37-23 !! https://t.co/7x0abyqZyE", "createdAt": 1643948774000} to topic: twitter-topic
+2022-02-04 04:26:17 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 11 Timestamp: 1643948777732 At time 40963559722335
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be?
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 152181438, "id": 1489455232786776064, "text": "RT @kylegriffin1: Biden admin: Medicare, which covers roughly 60 million Americans, will provide free over-the-counter rapid COVID tests be\u2026", "createdAt": 1643948774000} to topic: twitter-topic
+2022-02-04 04:26:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 6 Timestamp: 1643948778300 At time 40964127777748
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @monte_prstaff: ?ABeam Consulting SPRING CAMP 2022?
+
+???????????6???
+??????????????????????
+
+#montedio https://t.co/OFOlOlt3C6
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1241666190394552320, "id": 1489455233071677440, "text": "RT @monte_prstaff: ?ABeam Consulting SPRING CAMP 2022?\n\n???????????6???\n??????????????????????\n\n#montedio https://t.co/OFOlOlt3C6", "createdAt": 1643948774000} to topic: twitter-topic
+2022-02-04 04:26:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 22 Timestamp: 1643948778372 At time 40964200775295
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @rickyyyrrr Te recomiendo Tokio blues o Kafka on the shore, los dos de murakami, son libros GOOOD; y tambi?n si tienes tiempo pongase a hacer ejercicio pe ?
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1444004253765447684, "id": 1489455233830903812, "text": "@rickyyyrrr Te recomiendo Tokio blues o Kafka on the shore, los dos de murakami, son libros GOOOD; y tambi?n si tienes tiempo pongase a hacer ejercicio pe ?", "createdAt": 1643948775000} to topic: twitter-topic
+2022-02-04 04:26:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 12 Timestamp: 1643948778575 At time 40964402708090
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @NissyStaff: ??????????????????????Naptime.?
+
+"2022 SPRING/SUMMER COLLECTION"?????????
+
+????:2/14(?)12:00?2/21(?)23:59??
+
+?????????????
+2022-02-04 04:26:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3013347458, "id": 1489455235609538560, "text": "RT @NissyStaff: ??????????????????????Naptime.?\n\n\"2022 SPRING/SUMMER COLLECTION\"?????????\n\n????:2/14(?)12:00?2/21(?)23:59??\n\n????????????\u2026", "createdAt": 1643948775000} to topic: twitter-topic
+2022-02-04 04:26:18 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 13 Timestamp: 1643948778960 At time 40964789913318
+2022-02-04 04:26:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text After the long rains, the price of onions hike and farmers who harvest after these periods make good profit margins. Spring onions are easy to plant and Hardy thus can attract the best returns at such a time.
+ #ImpactingGrassrootFarmers
+2022-02-04 04:26:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1271554540492505088, "id": 1489455238910251009, "text": "After the long rains, the price of onions hike and farmers who harvest after these periods make good profit margins. Spring onions are easy to plant and Hardy thus can attract the best returns at such a time.\n #ImpactingGrassrootFarmers", "createdAt": 1643948776000} to topic: twitter-topic
+2022-02-04 04:26:19 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 7 Timestamp: 1643948779796 At time 40965624637858
+2022-02-04 04:26:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @Durotrigesdig: ????Upcoming Online Iron Age Lecture Alert ????
+
+??????
+
+Royal Geographical Society @RGS_IBG 
+
+Fighting Julius Caesar: a?
+2022-02-04 04:26:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1145879930779160576, "id": 1489455240160100354, "text": "RT @Durotrigesdig: ????Upcoming Online Iron Age Lecture Alert ????\n\n??????\n\nRoyal Geographical Society @RGS_IBG \n\nFighting Julius Caesar: a\u2026", "createdAt": 1643948776000} to topic: twitter-topic
+2022-02-04 04:26:20 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 23 Timestamp: 1643948780049 At time 40965876655526
+2022-02-04 04:26:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Spring onions may be cooked or used as salad or salsas. They can also be used as soup in seafood dishes #ImpactingGrassrootFarmers
+2022-02-04 04:26:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1480984824462594052, "id": 1489455246124400640, "text": "Spring onions may be cooked or used as salad or salsas. They can also be used as soup in seafood dishes #ImpactingGrassrootFarmers", "createdAt": 1643948778000} to topic: twitter-topic
+2022-02-04 04:26:21 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 24 Timestamp: 1643948781525 At time 40967352514449
+2022-02-04 04:26:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @wenella_subs: /1 Feb 4 #ZhuYilong Studio: It is Lichun! Let us receive good luck and the spring moments that come with the sunlight. Co?
+2022-02-04 04:26:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1136636374700908544, "id": 1489455249425256452, "text": "RT @wenella_subs: /1 Feb 4 #ZhuYilong Studio: It is Lichun! Let us receive good luck and the spring moments that come with the sunlight. Co\u2026", "createdAt": 1643948778000} to topic: twitter-topic
+2022-02-04 04:26:22 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 14 Timestamp: 1643948782269 At time 40968098187479
+2022-02-04 04:26:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @valerieinvegas: Halftime score: Centennial 37 - Spring Valley 23 
+
+Leading scorers: Bulldogs - Boyd 12
+
+Leader for Grizzlies- Childress?
+2022-02-04 04:26:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3961992853, "id": 1489455250503192576, "text": "RT @valerieinvegas: Halftime score: Centennial 37 - Spring Valley 23 \n\nLeading scorers: Bulldogs - Boyd 12\n\nLeader for Grizzlies- Childress\u2026", "createdAt": 1643948779000} to topic: twitter-topic
+2022-02-04 04:26:22 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 15 Timestamp: 1643948782522 At time 40968351182334
+2022-02-04 04:26:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SubjectKpop: Tzuyu x ZOOC
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw
+2022-02-04 04:26:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 818058290957426688, "id": 1489455255096291328, "text": "RT @SubjectKpop: Tzuyu x ZOOC\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#TWICE #???? @JYPETWICE https://t.co/ZnNz2KeIJw", "createdAt": 1643948780000} to topic: twitter-topic
+2022-02-04 04:26:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 25 Timestamp: 1643948783617 At time 40969444829912
+2022-02-04 04:26:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @kucukprenst: franz kafka milena'ya mektuplar kitab?nda diyor ki; ?yard?m et bana, s?yleyebildiklerimden daha fazlas?n? anla...? tam ola?
+2022-02-04 04:26:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 778657570370256897, "id": 1489455255565836288, "text": "RT @kucukprenst: franz kafka milena'ya mektuplar kitab?nda diyor ki; \u201Dyard?m et bana, s?yleyebildiklerimden daha fazlas?n? anla...\u201D tam ola\u2026", "createdAt": 1643948780000} to topic: twitter-topic
+2022-02-04 04:26:23 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 16 Timestamp: 1643948783742 At time 40969569584352
+2022-02-04 04:26:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text I need spring break asap
+2022-02-04 04:26:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1497268448, "id": 1489455257012871171, "text": "I need spring break asap", "createdAt": 1643948780000} to topic: twitter-topic
+2022-02-04 04:26:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 8 Timestamp: 1643948784071 At time 40969900862762
+2022-02-04 04:26:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @SFABETAS: ? ? SPRING SHIRT SALE !!! ? ?
+
+Click the Link In Our Bio !!!
+
+Make sure to use the Bro Code
+
+#SLB #SFASU #MGC #??? https://t.?
+2022-02-04 04:26:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 2339516048, "id": 1489455259235852288, "text": "RT @SFABETAS: ? ? SPRING SHIRT SALE !!! ? ?\n\nClick the Link In Our Bio !!!\n\nMake sure to use the Bro Code\n\n#SLB #SFASU #MGC #??? https://t.\u2026", "createdAt": 1643948781000} to topic: twitter-topic
+2022-02-04 04:26:24 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 26 Timestamp: 1643948784605 At time 40970433301434
+2022-02-04 04:26:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text Interesting: 'Poor Richard' predicts there will be an early spring this year - https://t.co/gKE6oNEmw1
+
+#FOX43 #PA #Pennsylvania
+
+Read More Here:
+https://t.co/tduLwQ2dU6
+2022-02-04 04:26:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 92304777, "id": 1489455260720582658, "text": "Interesting: 'Poor Richard' predicts there will be an early spring this year - https://t.co/gKE6oNEmw1\n\n#FOX43 #PA #Pennsylvania\n\nRead More Here:\nhttps://t.co/tduLwQ2dU6", "createdAt": 1643948781000} to topic: twitter-topic
+2022-02-04 04:26:25 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 27 Timestamp: 1643948785003 At time 40970831800126
+2022-02-04 04:26:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text hay wala naq pera
+2022-02-04 04:26:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1351652841492889600, "id": 1489455268190896128, "text": "hay wala naq pera", "createdAt": 1643948783000} to topic: twitter-topic
+2022-02-04 04:26:26 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 9 Timestamp: 1643948786770 At time 40972598346103
+2022-02-04 04:26:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @allfor_tzuyu: Tzuyu Cut ? | zooc_official Instagram Update
+
+?? https://t.co/dlKa5X8emv
+
+"ZOOC's 22SS Spring Collection with TZUYU ?"
+
+#?
+2022-02-04 04:26:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1079995982874533890, "id": 1489455269268508675, "text": "RT @allfor_tzuyu: Tzuyu Cut ? | zooc_official Instagram Update\n\n?? https://t.co/dlKa5X8emv\n\n\"ZOOC's 22SS Spring Collection with TZUYU ?\"\n\n#\u2026", "createdAt": 1643948783000} to topic: twitter-topic
+2022-02-04 04:26:27 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 28 Timestamp: 1643948786993 At time 40972820499074
+2022-02-04 04:26:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @march0905: Excelso hilo de @linda_dimitrov , aqu? aplica el bonito dicho: en M?xico, Kafka es costumbrista. El que entendi? es porque n?
+2022-02-04 04:26:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3090313952, "id": 1489455274696056836, "text": "RT @march0905: Excelso hilo de @linda_dimitrov , aqu? aplica el bonito dicho: en M?xico, Kafka es costumbrista. El que entendi? es porque n\u2026", "createdAt": 1643948784000} to topic: twitter-topic
+2022-02-04 04:26:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 29 Timestamp: 1643948788346 At time 40974174682027
+2022-02-04 04:26:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text @DaEntertainah85 I agree they will work well together.Yes I?m hating on DJ and I?m unnecessarily hating on hyping up Kafka?s power. I just have PTSD from ?DJ needs? threads. I?m gonna stop hating until draft day.
+2022-02-04 04:26:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1358783809756495880, "id": 1489455275157426176, "text": "@DaEntertainah85 I agree they will work well together.Yes I\u2019m hating on DJ and I\u2019m unnecessarily hating on hyping up Kafka\u2019s power. I just have PTSD from \u201CDJ needs\u201D threads. I\u2019m gonna stop hating until draft day.", "createdAt": 1643948784000} to topic: twitter-topic
+2022-02-04 04:26:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 30 Timestamp: 1643948788411 At time 40974239517473
+2022-02-04 04:26:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @valerieinvegas: Spring Valley girls vs Centennial - 3rd quarter action @LadyGrizzlies18 @centennialgbb  https://t.co/kdnkTLLJmW
+2022-02-04 04:26:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 3961992853, "id": 1489455276612734976, "text": "RT @valerieinvegas: Spring Valley girls vs Centennial - 3rd quarter action @LadyGrizzlies18 @centennialgbb  https://t.co/kdnkTLLJmW", "createdAt": 1643948785000} to topic: twitter-topic
+2022-02-04 04:26:28 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 0, Offset: 17 Timestamp: 1643948788790 At time 40974618806476
+2022-02-04 04:26:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt?s ?Spring Day? (2017) has surpassed 7.5 million unique listeners on Melon, joining ?Cherry Blossom Ending? as the o?
+2022-02-04 04:26:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1107674724, "id": 1489455281281064960, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643948786000} to topic: twitter-topic
+2022-02-04 04:26:29 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 1, Offset: 31 Timestamp: 1643948789851 At time 40975678859657
+2022-02-04 04:26:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @multi_versicon: Hello, you?ve found ??M U L T I V E R S I C O N ??!
+
+The crossroads of multiverse where the fabric of spacetime was war?
+2022-02-04 04:26:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 1487242610062540802, "id": 1489455283466571777, "text": "RT @multi_versicon: Hello, you\u2019ve found ??M U L T I V E R S I C O N ??!\n\nThe crossroads of multiverse where the fabric of spacetime was war\u2026", "createdAt": 1643948786000} to topic: twitter-topic
+2022-02-04 04:26:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 10 Timestamp: 1643948790400 At time 40976228482028
+2022-02-04 04:26:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.i.t.l.TwitterEventStatusListener - Twitter status with text RT @charts_k: .@BTS_twt?s ?Spring Day? (2017) has surpassed 7.5 million unique listeners on Melon, joining ?Cherry Blossom Ending? as the o?
+2022-02-04 04:26:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Sending message: {"userId": 984265768794820609, "id": 1489455283940335617, "text": "RT @charts_k: .@BTS_twt\u2019s \u201CSpring Day\u201D (2017) has surpassed 7.5 million unique listeners on Melon, joining \u201CCherry Blossom Ending\u201D as the o\u2026", "createdAt": 1643948787000} to topic: twitter-topic
+2022-02-04 04:26:30 [kafka-producer-network-thread | producer-1] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Received new metadata. Topic: twitter-topic, Partition: 2, Offset: 11 Timestamp: 1643948790504 At time 40976332230958
+2022-02-04 04:26:31 [Twitter Stream consumer /  [1][Receiving stream]] INFO  twitter4j.TwitterStreamImpl - Task twitter4j.StatusStreamBase$1@ff54eb4 rejected from java.util.concurrent.ThreadPoolExecutor@444e0738[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 62]
+2022-02-04 04:26:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2022-02-04 04:26:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:26:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:26:33 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:26:33 [SpringApplicationShutdownHook] INFO  c.e.e.a.o.k.p.KafkaMessageProducerAdapter - Closing KafkaTemplate
+2022-02-04 04:26:33 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-02-04 04:26:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2022-02-04 04:26:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-02-04 04:26:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2022-02-04 04:26:33 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
