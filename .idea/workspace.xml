@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cea12a37-5fa1-4e64-ab72-5cc7ce34c5f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client-twitter-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/configserver/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/configserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/configserver/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/kotlin/com/example/configserver/ConfigserverApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/kotlin/com/example/configserver/ConfigserverApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-logs/twitter-event-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-logs/twitter-event-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-service/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +76,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/com/example/eventdriven/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern" />
       <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\src\main\kotlin\com\example\eventdriven\domain" />
       <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\src\main\kotlin\com\example\eventdriven\domain\config" />
       <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\src\main\kotlin\com\example\eventdriven\domain\" />
       <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern" />
+      <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\config-server" />
       <recent name="C:\Users\caiow\Documents\Spring-Kotlin-EventDriven-Pattern\src\main\resources" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">

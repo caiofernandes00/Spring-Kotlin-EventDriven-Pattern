@@ -5,4 +5,5 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: file://${PROJECT_HOME}/config-server-repository
+    fail-fast: true
