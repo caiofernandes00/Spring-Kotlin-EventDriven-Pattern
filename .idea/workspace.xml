@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cea12a37-5fa1-4e64-ab72-5cc7ce34c5f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client-twitter-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config-server/configserver/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/configserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/configserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/configserver/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
