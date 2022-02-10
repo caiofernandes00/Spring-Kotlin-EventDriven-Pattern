@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eventdriven
+  profiles:
+    active: eventdriven
+  cloud:
+    config: twitter-service,config-client
+    uri: http://localhost:8888

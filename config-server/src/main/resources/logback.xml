@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="DEV_HOME" value="./src/main/resources/logs"/>
+    <property name="APP_NAME" value="config-server"/>
+
+    <include url="https://github.com/caiofernandes00/Spring-Kotlin-EventDriven-Pattern/tree/main/shared-files/logback-common.xml"/>
+</configuration>

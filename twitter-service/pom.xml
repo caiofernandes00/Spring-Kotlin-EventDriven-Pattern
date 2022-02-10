@@ -20,6 +20,7 @@
         <twitter4j.version>4.0.7</twitter4j.version>
         <avro.version>1.11.0</avro.version>
         <kafka-avro.version>5.3.0</kafka-avro.version>
+        <spring-cloud-starter.version>3.1.0</spring-cloud-starter.version>
     </properties>
 
     <repositories>
@@ -50,6 +51,11 @@
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter</artifactId>
+            <version>${spring-cloud-starter.version}</version>
         </dependency>
 
         <!--KOTLIN SCOPE-->
