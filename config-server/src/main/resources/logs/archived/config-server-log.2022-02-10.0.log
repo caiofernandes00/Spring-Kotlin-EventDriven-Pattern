@@ -1,0 +1,15 @@
+2022-02-10 00:02:09 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\caiow\AppData\Local\Temp\config-repo-688463308832540268\.git\objects\pack\pack-ff27b22a7a23d851434bfc6f1a5cfd16e0e2ae64.idx
+2022-02-10 00:18:08 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-02-10 00:18:09 [main] INFO  c.e.c.ConfigServerApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-10 00:18:10 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3c061693-7d39-3f2d-94d2-f5aeb3a623fe
+2022-02-10 00:18:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-02-10 00:18:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-02-10 00:18:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 00:18:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-10 00:18:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 00:18:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1578 ms
+2022-02-10 00:18:12 [main] DEBUG o.s.c.c.s.s.GitCredentialsProviderFactory - Constructing UsernamePasswordCredentialsProvider for URI https://github.com/caiofernandes00/Spring-Cloud-Server-Repository
+2022-02-10 00:18:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-02-10 00:18:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-02-10 00:18:15 [main] INFO  c.e.c.ConfigServerApplicationKt - Started ConfigServerApplicationKt in 7.22 seconds (JVM running for 7.979)
+2022-02-10 00:29:57 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\caiow\AppData\Local\Temp\config-repo-1160622833173088166\.git\objects\pack\pack-ff27b22a7a23d851434bfc6f1a5cfd16e0e2ae64.idx

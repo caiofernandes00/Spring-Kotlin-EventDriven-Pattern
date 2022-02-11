@@ -5,5 +5,13 @@ spring:
     config:
       server:
         git:
-          uri: file://${PROJECT_HOME}/shared-files
+          uri: https://github.com/caiofernandes00/Spring-Cloud-Server-Repository
+          default-label: main
+          username: caiofernandes00
+          password: '{cipher}d8f6c51e0875427c9586c426dcb827d242922b6ad872ca2d70aa7c99d09c9b6a855592df520c5d66d67858952d34f40c8be4d592903cdd2fadb8abde4b46bffc'
+          clone-on-start: true
     fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: '{cipher}c0d85293cb01a46b3b629a12e5620f4e9d00d4ede8bdf248cf5b83e23f4536501e4b34a8d56b7a34fcee17aa01d05330'

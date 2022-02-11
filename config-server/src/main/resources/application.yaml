@@ -5,3 +5,7 @@ logging:
   level:
     ROOT: INFO
     org.springframework.cloud.config: DEBUG
+
+spring:
+  profiles:
+    active: local

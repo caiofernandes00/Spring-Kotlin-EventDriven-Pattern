@@ -18,6 +18,7 @@
         <java.version>11</java.version>
         <kotlin.version>1.6.10</kotlin.version>
         <spring-cloud-server.version>3.1.0</spring-cloud-server.version>
+        <spring-cloud-bootstrap.version>3.1.0</spring-cloud-bootstrap.version>
         <spring-cloud-dependencies.version>2021.0.0</spring-cloud-dependencies.version>
     </properties>
 
@@ -38,10 +39,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-dependencies</artifactId>
-            <version>${spring-cloud-dependencies.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>${spring-cloud-bootstrap.version}</version>
         </dependency>
 
         <!--KOTLIN SCOPE-->
