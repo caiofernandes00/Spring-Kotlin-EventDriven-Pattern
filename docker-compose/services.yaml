@@ -1,7 +1,7 @@
 version: '3.7'
 services:
-  app:
-    image: ${GROUP_ID}.${ARTIFACT_ID}:${SERVICE_VERSION:-latest}
+  twitter-service:
+    image: ${TWITTER_SERVICE_GROUP_ID}.${TWITTER_SERVICE_ARTIFACT_ID}:${TWITTER_SERVICE_VERSION:-latest}
     ports:
       - "5005:5005"
     volumes:
@@ -18,5 +18,19 @@ services:
       - "KAFKA-CONFIG_BOOTSTRAP-SERVERS=kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092"
       - "KAFKA-CONFIG_SCHEMA-REGISTRY-URL=http://schema-registry:8081"
       - "TWITTER-TO-KAFKA-SERVICE_ENABLE-MOCK-TWEETS=false"
+      - "SPRING_CLOUD_CONFIG=http://config-server:8888"
+      - "ENCRYPT_KEY=${ENCRYPT_KEY}"
+    networks:
+      - ${GLOBAL_NETWORK:-services}
+
+  config-server:
+    image: ${CONFIG_SERVER_GROUP_ID}.${CONFIG_SERVER_ARTIFACT_ID}:${CONFIG_SERVER_VERSION:-latest}
+    ports:
+      - "5006:5006"
+    volumes:
+      - "./docker-logs:/workspace/src/main/resources/logs"
+    environment:
+      - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006 -Xms128m -Xmx256m"
+      - "ENCRYPT_KEY=${ENCRYPT_KEY}"
     networks:
       - ${GLOBAL_NETWORK:-services}
